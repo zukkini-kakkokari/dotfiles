@@ -1,0 +1,3 @@
+#!/usr/bin/env nu
+$env.DISPLAY = ":0"     # env var needed for cron
+feh --bg-fill --randomize ~/wakuwaku/tr/bg

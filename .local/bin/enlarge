@@ -1,0 +1,6 @@
+#!/usr/bin/bash                                                 
+OLDDPI=$(xrdb -query | awk '/Xft.dpi/ {print $2}')
+xrdb -merge <(echo "Xft.dpi: 140")
+$* & disown
+sleep 3
+xrdb -merge <(echo "Xft.dpi: $OLDDPI")

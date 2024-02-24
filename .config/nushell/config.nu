@@ -766,6 +766,8 @@ if (tty) == "/dev/tty1" {
     exec startx
 }
 
+source ~/.zoxide.nu
+
 # aliases
 alias pacman = sudo pacman
 alias n = date now
