@@ -775,3 +775,5 @@ alias bacon = bacon clippy
 alias trans = trans :ru
 alias docker-check-ip = docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
 
+alias "config leftwm" = hx ~/.config/leftwm/config.ron
+

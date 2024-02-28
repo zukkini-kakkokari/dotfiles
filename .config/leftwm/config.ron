@@ -40,6 +40,8 @@
     ],
     window_rules: [
         (window_class: "nannou", spawn_floating: true),
+        (window_class: "flappy", spawn_floating: true),
+        (window_class: "dungeoncrawl", spawn_floating: true),
     ],
     disable_current_tag_swap: true,
     disable_tile_drag: false,
