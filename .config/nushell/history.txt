@@ -1,0 +1,313 @@
+ls
+sudo pacman -S zoxide
+ls
+cron
+newlook
+pamixer -m
+sudo pacman -S cronie
+z wakuwaku/projects/notes/
+ls
+hx arch-installation.txt
+helix arch-installation.txt
+ls
+z notes
+ls
+hx archie.sh
+pacman -S redshift
+sudo pacman -S yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide
+sudo pacman -S vim terminus-font noto-fonts noto-fonts-cjk firefox pamixer git stow open-ssh cronie<\n> nushell helix alacritty wezterm ttf-iosevka-nerd trash-cli bat redshift sxiv feh picom<\n> yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide mpv transmission-cli<\n> zathura zathura-pdf-mupdf fcitx5-im fcitx5-m17n<\n>
+sudo pacman -S vim terminus-font noto-fonts noto-fonts-cjk firefox pamixer git stow openssh cronie<\n> nushell helix alacritty wezterm ttf-iosevka-nerd trash-cli bat redshift sxiv feh picom<\n> yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide mpv transmission-cli<\n> zathura zathura-pdf-mupdf fcitx5-im fcitx5-m17n<\n>
+n
+yazi
+pamixer 
+pamixer --get-volume
+pamixer -i 10
+helix archie.sh
+z notes
+ls
+hx arch-installation.txt
+ls
+hx .local/share/applications/torrent.desktop
+helixx .local/share/applications/torrent.desktop
+helix .local/share/applications/torrent.desktop
+handlr
+z notes
+hx archie.sh
+paru -S xdg-utils-handlr
+handlr set .torrent torrent.desktop
+handlr set x-scheme-handler/magnet torrent.desktop
+handlr list
+paru -S tremc-git
+tremc
+yazi
+tremc
+nano
+hx /etc/fstab
+sudo systemctl enable --now cronie<\n>
+cron -e
+crontab -e
+config env
+hx .config/nushell/config.nu
+helix .config/nushell/config.nu
+crontab -e
+hx
+ls
+ls -a
+helix .bashrc
+crontab -e
+hx .config/nushell/env.nu
+crontab -e
+newlook
+helix archie.sh
+fcitx5-configtool
+ls
+hx archie.sh
+helix arch-installation.txt
+ls
+l
+z 
+z .config/
+ls
+yazi
+z notes
+helix arch-installation.txt
+helix archie.sh
+git add .
+git commit -m 'update archie'
+git config --global zukkini.kakkokari@gmail.com
+git config --global user.email zukkini.kakkokari@gmail.com
+git config --global user.name "Zukkini Kakkokari"
+git commit -m "update archie"
+git push
+n
+z
+tremc
+helix /etc/fstab
+yazi
+yaiz
+yazi
+yazi
+tremc
+z notes
+ls
+helix arch-installation.txt
+ls
+trash arch-installation.txt
+ls
+helix archie.sh
+mv archie.sh arch-installation.sh
+ls
+hx arch-installation.sh
+helix arch-installation.sh
+trash-list
+trash-restore arch-installation.txt
+ls
+hx arch-installation.txt
+helix arch-installation.txt
+helix arch-installation.sh
+trash arch-installation.txt
+ls
+helix arch-installation.sh
+git commit -m
+git add .
+git commit -m 'updated arch-installation'
+git push
+hx rust-settings.toml
+z
+sudo pacman -R rust
+rustup show
+rustup default nightly
+sudo pacman -S clang mold sccache
+rustup component add rust-analyzer
+z wakuwaku/
+ls
+z tr/
+ls
+yazi
+du
+ls
+yazi
+z
+yazi
+z tutor-nannou/
+cargo clean
+z
+z wakuwaku/projects/
+ls
+z tutor-nannou/
+cargo clean
+z
+z tutor-nannou/
+ls
+cargo build
+cargo clean
+cargo build
+cargo clean
+z
+trash tutor-nannou/
+ls
+z .config/
+ls
+z
+z .cargo/
+ls
+helix rust-settings.toml
+ls
+git add .
+git status
+bat coding
+yazi
+z
+yazi
+n
+z notes
+ls
+hx coding
+hx
+z notes
+ls
+newlook
+ls
+n
+hx coding
+yazi
+z
+yazi
+zathura
+yazi
+tremc
+yazi
+z nots
+z notes
+handlr set .pdf zathura.desktop
+hx .config/yazi/yazi.toml
+handlr set .pdf org.pwmt.zathura.desktop
+pamixer -m
+ls
+hx config.toml
+yazi
+z
+yazi
+pamixer -u
+hx arch-installation.sh
+pacman -S go gopls
+z
+ls
+mkdir fulltime-go
+z fulltime-go/
+ls
+go init
+go mod
+go mod init
+go mod init fulltime/go
+ls
+z fulltime-go/
+ls
+go run .
+shutdown now
+ls
+trash go fulltime-go/
+ls
+z notes
+..
+ls
+yazi
+z dungeoncrawl/
+ls
+z notes
+ls
+trash coding
+ls
+z
+ls
+hx .xinitrc
+x-reload 
+ls
+z notes
+ls
+hx drawing_quest.txt
+pacman -R helix
+config env
+paru -S helix-git
+vim .config/nushell/env.nu
+z
+z .local/
+ls
+mkdir src
+z src/
+bottom
+git clone https://github.com/helix-editor/helix.git
+sudo pacman -S bottom
+btm
+z notes
+pacman -S bottom
+ls
+z helix/
+vim arch-installation.sh
+z
+vim .xinitrc
+cargo install --path helix-term --locked
+z .config/nushell/env.nu
+vim .config/nushell/env.nu
+rustup show
+z
+rustup show
+z .local/src/
+ls
+z helix/
+ls
+hx rust-toolchain.toml
+vim rust-toolchain.toml
+trash rust-toolchain.toml
+cargo install --path helix-term --locked
+ls
+hx
+ls
+helix
+z .cargo/
+ls
+z bin/
+ls
+z
+vim .config/nushell/env.nu
+hx
+vim .config/nushell/config.nu
+hx
+btm
+n
+pacman -S dua-cli<\n>
+dua
+z notes
+hx arch-installation.sh
+hx
+z
+z .profile
+z
+ls -a
+z .cache/
+dua
+z
+dua
+n
+tremc
+yazi
+hx .xinitrc
+n
+yazi
+tremc
+ls
+z dotfiles/
+yaiz
+yazi
+stow .
+yazi
+ls
+hx src/map.rs
+hx
+z projects
+ls
+z dungeoncrawl/
+ls
+hx src/map.rs
+z dotfiles/
+git status

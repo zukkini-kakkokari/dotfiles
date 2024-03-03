@@ -97,7 +97,7 @@ $env.NU_PLUGIN_DIRS = [
     ($nu.default-config-dir | path join 'plugins') # add <nushell-config-dir>/plugins
 ]
 
-$env.EDITOR = "hx"
+$env.EDITOR = "helix"
 $env.HELIX_RUNTIME = "~/.local/src/helix/runtime"
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
