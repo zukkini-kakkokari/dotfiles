@@ -347,3 +347,84 @@ hx
 config nu
 z dotfiles/
 git status
+git add .
+git commit -m 'a'
+git push
+git commit
+ls
+pamixer -m
+pamixer -u
+bacon
+z src/
+touch player.rs
+ls
+n
+bacon
+touch map_builder.rs
+trans
+n
+bacon
+z
+z dungeoncrawl
+mkdir resources
+z resources/
+ls
+wget https://raw.githubusercontent.com/thebracket/HandsOnRust/main/BasicDungeonCrawler/dungeon_crawl_graphics/resources/dungeonfont.png
+http https://raw.githubusercontent.com/thebracket/HandsOnRust/main/BasicDungeonCrawler/dungeon_crawl_graphics/resources/dungeonfont.png
+pacman -S wget
+wget https://raw.githubusercontent.com/thebracket/HandsOnRust/main/BasicDungeonCrawler/dungeon_crawl_graphics/resources/dungeonfont.png
+ls
+yazi
+z notes
+wget
+hx arch-installation.sh
+zi
+git add .
+git commit
+git commit -m ''
+git commit -m 'a'
+git push
+z dungeoncrawl
+yazi
+n
+trans
+n
+tremc
+n
+pamixer -i 10
+n
+yazi
+n
+ls
+z notes
+ls
+hx plan.txt
+hx drawing_quest.txt
+n
+ls
+hx plan.txt
+ls
+..
+ls
+z zero2prod/
+ls
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+z
+cargo build
+hx .cargo/config.toml
+z notes
+ls
+hx arch-installation.sh
+hx plan.txt
+z
+ls
+n
+yazi
+tremc
+ls
+yazi
+z dotfiles/
+git status
