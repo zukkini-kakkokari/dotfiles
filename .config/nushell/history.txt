@@ -311,3 +311,39 @@ ls
 hx src/map.rs
 z dotfiles/
 git status
+git add .
+git commit -m 'updated'
+git push
+z dungeoncrawl
+bacon
+z notes
+hx arch-installation.sh
+hx rust-settings.toml
+z notes
+git status
+git add .
+git commit -m 'updated'
+git push
+git status
+cargo install --locked bacon
+btm
+bacon
+cargo build
+n
+trans
+pacman -S translation-cli
+pacman -S trans
+pacman -S translate-shell
+trans :ru
+z notes
+hx arch-installation.sh
+git add .
+git commit -m 'a'
+git push
+trans
+config nu
+hx ~/.config/nushell/env.nu
+hx
+config nu
+z dotfiles/
+git status
