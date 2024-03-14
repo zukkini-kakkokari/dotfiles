@@ -774,6 +774,7 @@ alias n = date now
 alias bacon = bacon clippy
 alias trans = trans :ru
 alias docker-check-ip = docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
+alias cal = cal --week-start mo
 
 alias "config leftwm" = hx ~/.config/leftwm/config.ron
 

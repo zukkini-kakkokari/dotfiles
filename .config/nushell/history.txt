@@ -428,3 +428,1407 @@ ls
 yazi
 z dotfiles/
 git status
+git add .
+git commit -m 'a'
+git push
+z
+yazi
+..
+z zero2prod/
+ls
+cargo build
+z notes
+hx drawing_quest.txt
+z
+bacon
+ls
+bat Cargo.lock
+hx Cargo.lock
+n
+mkdir --help
+^mkdir --help
+mkdir tests
+ls
+z tests/
+touch health_check.rs
+bacon
+zz
+z
+cargo new --lib tee
+z tee/
+hx Cargo.toml
+ls
+z src/
+ls
+hx lib.rs
+cargo test
+hx main.rs
+cargo build
+cargo run
+cargo test
+..
+hx Cargo.toml
+z
+trash tee/
+z zero2prod/
+..
+ls
+z src/
+cargo new lib.rs
+ls
+cargo new lib.rs
+touch lib.rs
+baocn
+bacon
+cargo build
+..
+hx Cargo.lock
+z notes
+hx plan.txt
+n
+bacon
+cargo t
+baocn
+btm
+n
+bacon
+cargo t
+trans
+n
+trans
+n
+bacon
+cargo t
+hx src/main.rs
+n
+yazi
+ping 1.1.1.1
+networkctl 
+n
+lsusb -v
+lspci -k
+ip link
+ls
+n
+z notes
+ls
+hx drawing_quest.txt
+ls
+hx plan.txt
+ls
+n
+trans
+ls
+n
+yazi
+z notes
+ls
+hx drawing_quest.txt
+z notes
+hx plan.txt
+yazi
+n
+n
+ls
+yazi
+..
+z dungeoncrawl/
+ls
+z dungeoncrawl/
+z
+z dungeoncrawl/
+bacon
+..
+z src/
+touch camera.rs
+n
+hx plan.txt
+8n
+n
+bacon
+hx src/main.rs
+yazi
+z zero2prod/
+ls
+..
+ls
+pamixer -m
+ping 1.1.1.1
+pamixer -u
+n
+z zero2prod/
+..
+n
+nn
+n
+tremc
+neofetch
+pacman -S neofetch
+neofetch
+btm
+trans
+n
+yazi
+n
+bacon
+cargo build
+n
+trans
+n
+hx src/main.rs
+..
+z dungeoncrawl/
+ls
+bacon
+..
+z dungeoncrawl/
+ls
+bacon
+yazi
+bacon
+yazi
+n
+z bg
+z wakuwaku/tr/bg/
+yazi
+trans
+pacman -S chromium
+z notes
+hx arch-installation.sh
+git add .
+git commit -m 'a'
+git push
+z
+ls
+n
+neofetch
+n
+cargo build
+bacon
+z src/
+ls
+trash player.rs
+z notes
+hx arch-installation.sh
+git add .
+git commit -m 'a<\n>'
+git push
+git status
+z
+n
+z notes
+hx arch-installation.sh
+z
+z notes
+z wakuwaku/
+ls
+z tr/
+ls
+git clone git@github.com:zukkini-kakkokari/dotfiles.git
+z dotfiles/
+ls
+ls -a
+..
+ls
+mv dotfiles/ dotfiles_old
+ls
+z
+ls
+z dotfiles/
+ls
+..
+zi 
+ls
+yazi
+z notes
+ls
+n
+hx arch-installation.sh
+ls
+git add .
+git commit -m 'a'
+git push
+yazi
+paru -S  FlyingCarpet
+paru -S flyingcarpet-cli
+flyingcarpet-cli 
+flyingcarpet-cli --peer android arch-installation.sh
+flyingcarpet-cli -send arch-installation.sh
+flyingcarpet-cli -peer android -send arch-installation.sh
+paru -R flyingcarpet-cli
+paru -S flying-carpet-bin
+flyincarpet
+flying-carpet 
+pacman -S libwebkit2gtk
+pacman -S libwebkitgtk 
+pacman -S webkit2gtk
+flying-carpet 
+flying-carpet --help
+sudo flying-carpet 
+pacman -S libsoup2.4* libjavascriptcoregtk* libgdk-pixbuf2.0* librust-pango-sys-dev libgdk3.0* librust-atk-dev librust-atk-sys-dev librust-gdk* libwebkit2gtk* librsvg2-dev
+pacman -S libsoup2.4 libjavascriptcoregtk libgdk-pixbuf2.0 librust-pango-sys-dev libgdk3.0 librust-atk-dev librust-atk-sys-dev librust-gdk libwebkit2gtk librsvg2-dev
+pacman -S libsoup
+sudo flying-carpet 
+pacman -S libjavascriptcoregtk
+pacman -S libgdk-pixbuf
+pacman -S libgdkpixbuf
+paru -R flying-carpet-bin
+pacman -Runs libsoup
+pacman -R libwebkit2gtk
+pacman -Runs webkit2gtk
+n
+lslbk
+lsblk
+blkid
+lsbk
+lsblk
+x-reload 
+lsblk
+x-reload 
+lsblk
+x-reload 
+lsblk
+hx src/main.rs
+z zero2prod/
+ls
+..
+yazi
+z notes
+l
+ls
+git status
+yazi
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+trans
+hx drawing_quest.txt
+pacman -S docker
+docker
+sudo usermod -aG docker zukkini 
+systemctl enable --now docker.socket # for desktop use socket, for server - service
+sudo docker pull postgres
+docker
+docker ps
+sudo usermod -aG docker zukkini 
+docker ps
+sudo docker ps
+docker ps
+x-reload
+hx docker.sh
+hx src/lib.rs
+ps | grep docker
+docker ps
+ps | grep docker
+yazi
+n
+z zero2prod/
+..
+ls
+mkdir scripts
+z scripts/
+ls
+hx init_db.sh
+chmod +x init_db.sh
+ls
+ls -a
+ls -l
+./init_db.sh
+docker ps
+cargo install --version="~0.7" sqlx-cli --no-default-features \
+cargo install --version="~0.7" sqlx-cli --no-default-features 
+cargo install --version="~0.7" sqlx-cli --no-default-features --features rustls,postgres
+sqlx --help
+man sqlx
+pacman -S man
+man sqlx
+sqlx --help
+sqlx database --help
+psql
+z notes
+hx postgres.sh
+ls
+pacman -S postgresql
+initdb -D /var/lib/postgres/data
+sudo --help
+sudo -u postgres initdb -D /var/lib/postgres/data
+systemctl enable --now postgresql.service
+sudo -u postgres createuser --interactive
+psql
+dua
+!g
+crontab -e
+hx init_db.sh
+ls
+ls -l
+^ls -l
+config nu
+n
+x-reload
+yazi
+hx init_db.sh
+z dungeoncrawl/
+n
+z dungeoncrawl/
+bacon
+touch components.rs
+ls
+bacon
+touch spawner.rs
+bacon
+ls
+date
+calender
+l
+date
+z Downloads/
+ls
+hx log.txt
+n
+hx log.txt
+hx main.rs
+z zero2prod/
+..
+bacon
+.
+z zero2prod/
+yazi
+yazi
+hx src/lib.rs
+ls
+z scripts/
+n
+hx notes
+z notes
+hx plan.txt
+neofetch
+n
+hx init_db.sh
+./init_db.sh
+docker ps
+docker stop postgres
+docker stop sad_northcutt
+docker rm sad_northcutt
+docker ps --all
+docker rm ferstive_jemison
+docker rm festive_jemison
+docker ps --al
+docker ps --all
+./init_db.sh
+docker ps
+hx init_db.sh
+ps | grep postgres
+systemctl disable postgresql.service
+ps | grep postgres
+psql
+btm
+sudo btm
+ps | grep postgres
+ls
+./init_db.sh
+hx init_db.sh
+ls
+..
+ls
+z scripts/
+..
+ls
+sqlx migrate add create_subscriptions_table
+ls
+z migrations/
+ls
+hx 20240306201821_create_subscriptions_table.sql
+..
+hx scripts/init_db.sh
+ls
+hx migrations/20240306201821_create_subscriptions_table.sql
+sqlx migrate run
+$env.DATABASE_URL=postgres://postgres:password@127.0.0.1:5432/newsletter
+$env.DATABASE_URL="postgres://postgres:password@127.0.0.1:5432/newsletter"
+$env.DATABASE_URL = "postgres://postgres:password@127.0.0.1:5432/newsletter"
+sqlx migrate run
+ls
+z migrations/
+ls
+hx 20240306201821_create_subscriptions_table.sql
+..
+ls
+ls -a
+hx scripts/init_db.sh
+SKIP_DOCKER=true 
+$env.SKIP_DOCKER = true scripts/init_db.sh
+$env.SKIP_DOCKER = true
+./scripts/init_db.sh
+SKIP_DOCKER=true ./scripts/init_db.sh
+docker ps
+hx scripts/init_db.sh
+psql newsletter
+docker ps
+docker exec -it happy_khayyam psql
+hx scripts/init_db.sh
+docker exec -it happy_khayyam psql -u postgres
+psql --hel
+docker exec -it happy_khayyam psql -U postgres
+docker exec -it happy_khayyam psql -U postgres -d newsletter
+docker exec -it happy_khayyam psql -d newsletter
+docker exec -it happy_khayyam psql -U postgres -d newsletter
+hx docker.sh
+n
+hx plan.txt
+bacon
+..
+cargo build
+n
+hx Cargo.toml
+shutdown now
+sudo pacman -Syu
+calendar
+pacman -S calendar
+cal
+cal --help
+cal
+cal --week-start monday
+cal --help
+cal
+cal --week-start
+cal --week-start "monday"
+cal --week-start mo
+ls
+yazi
+z dungeoncrawl/
+ls
+..
+z dungeoncrawl/
+n
+cal --week-start mo
+config nu
+cal
+n
+z notes
+hx plan.txt
+bacon
+mkdir systems
+ls
+z systems/
+ls
+touch mod.rs
+bacon
+x-reload
+ls
+touch player_input.rs
+ls
+trans
+n
+btm
+n
+ping 1.1.1.1
+yazi
+n
+tremc
+btm
+tremc
+pamixer -m
+pamixer -u
+n
+tremc
+z zero2prod/
+ls
+..
+z zero2prod/
+..
+z src/
+ls
+touch configuration.rs
+mkdir routes
+z routes/
+ls
+zz
+touch mod.rs
+touch health_check.rs
+touch subcriptions.rs
+..
+ls
+touch startup.rs
+ls
+tree
+pacman -S tree
+tree
+z notes
+ls
+hx arch-installation.sh
+tree
+ls
+git add .
+git commit -m 'a'
+git push
+z zero2prod/
+..
+ls
+z src/
+ls
+tree
+ls --help
+ls -f
+ls
+ls --help
+ls subdir
+ls -subdir
+ls -d
+ls -D
+ls -few
+ls -l
+ls -m
+tree
+n
+bacon
+cargo build
+cargo t
+n
+hx src/main.rs
+n
+ls
+z dungeoncrawl/
+ls
+..
+ls
+yazi
+..
+ls
+z zero2prod/src/
+...
+ls
+z dungeoncrawl/
+n
+tremc
+n
+yazi
+n
+z notes
+ls
+hx plan.txt
+trans
+hx drawing_quest.txt
+n
+bacon
+z src/systems/
+ls
+touch map_render.rs
+hx plan.txt
+n
+trans
+^trans
+hx plan.txt
+n
+hx src/main.rs
+n
+yazi
+z zero2prod
+ls
+bacon
+..
+z zero2prod
+n
+yazi
+ls
+hx plan.txt
+git add .
+git commit -m 'a'a
+git push
+hx plan.txt
+git add .
+git commit m a
+hx plan.txt
+n
+bacon
+tree
+ls
+z src/
+tree
+bacon
+touch configuration.yaml
+bacon
+mv configuration.yaml ..
+bacon
+..
+ls
+n
+docker ps
+docker ps --al
+docker ps --all
+ls
+bacon
+./scripts/init_db.sh
+docker ps
+docker ps --al
+docker ps -a
+n
+bacon
+touch .env
+hx .env
+bacon
+ls
+ls -a
+hx .env
+ls
+cargo build
+cargo t
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+hx src/lib.rs
+yai
+yazi
+x-reload
+yazi
+n
+hx drawing_quest.txt
+n
+z notes
+ls
+hx plan.txt
+hx drawing_quest.txt
+git add .
+git commit -m 'a'
+git push
+n
+yazi
+z dungeoncrawl/
+..
+ls
+bacon
+z dungeoncrawl/
+hx src/main.rs
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+ls
+n
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+n
+hx plan.txt
+ls
+yazi
+z dungeoncrawl/
+..
+z dungeoncrawl/
+bacon
+ls
+z systems/
+ls
+touch entity_render.rs
+ls
+80 * 50
+n
+btm
+n
+hx src/main.rs
+hx plan.txt
+btm
+z notes
+ls
+z dungeoncrawl/
+ls
+..
+yazi
+ls
+z dungeoncrawl/
+hx plan.txt
+n
+bacon
+ls
+z systems/
+ls
+touch collisions.rs
+baocn
+trans
+n
+bacon
+ls
+touch random_move.rs
+bacon
+trans
+n
+..
+touch turn_state.rs
+bacon
+z systems/
+ls
+touch end_turn.rs
+ls
+trans
+n
+z
+z bg
+yazi
+hx .fehbg
+bacon
+touch movement.rs
+n
+hx src/main.rs
+n
+yazi
+z zero2prod
+ls
+z notes
+ls
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+ls
+hx plan.txt
+n
+z zero2prod
+docker ps
+docker ps -a
+ls
+bacon
+./scripts/init_db.sh
+bacon
+cargo b
+trans
+n
+pamixer -m
+pamixer -u
+n
+ls
+n
+kalker
+pacman -S kalker
+paru -S kalker
+kalker
+paru -R kalker
+paru -R kalker-bin
+cargo install kalker
+bm
+btm
+n
+bacon
+ls
+z migrations/
+ls
+..
+hx scripts/init_db.sh
+trans
+n
+hx src/main.rs
+kalker
+n
+yazi
+n
+tremc
+z torrent
+z wakuwaku/torrent/
+z
+yazi
+tremc
+n
+tremc
+n
+tremc
+n
+tremc
+z notes
+hx plan.txt
+n
+z dungeoncrawl/
+ls
+z
+yazi
+..
+ls
+z dungeoncrawl/
+ls
+bacon
+..
+z dungeoncrawl/
+ls
+n
+pamixer -m
+pamixer -u
+n
+trans
+n
+hx src/main.rs
+n
+yazi
+z zero2prod
+bacon
+..
+z zero2prod/
+ls
+z notes
+hx plan.txt
+n
+yazi
+tremc
+btm
+tremc
+yazi
+n
+trans
+curl 
+curl http://127.0.0.1:8000/health_check -v
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+ping 1.1.1.1
+hx plan.txt
+bat plan.txt
+n
+bacon
+cargo build
+trans
+n
+curl http://127.0.0.1:8000/health_check -v
+curl http://127.0.0.1:8000/health_check
+curl http://127.0.0.1:8000/health_check -v
+bacon
+cargo b
+n
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+trans
+curl --help
+curl --help all
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+bacon
+cargo b
+trans
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+n
+pamixer -u
+pamixer -m
+pamixer -u
+n
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+ls
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+trans
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+n
+trans
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+yazi
+z zero2prod/
+..
+z zero2prod/
+..
+cargo run
+lsn
+n
+z notes
+ls
+hx plan.txt
+yazi
+n
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+yazi
+..
+z dungeoncrawl/
+hx src/configuration.rs
+..
+z dungeoncrawl/
+ls
+bacon
+z resources/
+wget https://raw.githubusercontent.com/thebracket/HandsOnRust/main/HealthSimpleMelee/combat/resources/terminal8x8.png
+ls
+=yazi
+yazi
+..
+z
+yazi
+z notes
+hx plan.txt
+bacon
+z systems/
+z src/systems/
+..
+z systems
+..
+z systems/
+z system
+ls
+touch hud.rs
+n
+bacon
+touch tooltips.rs
+hx src/main.rs
+z
+tremc
+ls
+yazi
+..
+z zero2prod/
+ls
+yazi
+tremc
+n
+bacon
+cargo b
+z zero2prod/
+..
+cargo b
+docker ps
+./scripts/init_db.sh
+cargo b
+bacon
+cargo b
+trans
+n
+trans
+n
+yazi
+n
+hx src/main.rs
+neofetch
+pacman -Syu
+z dungeoncrawl/
+z
+yazi
+z dungeoncrawl/
+..
+z dungeoncrawl/
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+pamixer -m
+pamixer -u
+z notes
+hx plan.txt
+z dungeoncrawl/
+..
+trans
+bacon
+z systems/
+l
+ls
+trash collisions.rs
+n
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+bacon
+touch combat.rs
+trans
+yazi
+hx drawing_quest.txt
+ls
+n
+hx .fehbg
+btm
+neofetch
+bt
+btm
+neofetch
+n
+hx src/main.rs
+z
+yazi
+z zero2prod/
+ls
+..
+bacon
+..
+z zero2prod/
+ls
+..
+z migrations/
+baocn
+bacon
+..
+n
+yazi
+n
+z notes
+hx plan.txt
+n
+hx plan.txt
+n
+tremc
+hx plan.txt
+n
+trans
+n
+z
+n
+z ntoes
+z notes
+hx plan.txt
+git add .
+git commit -m 'a<\n>'
+git push
+n
+hx plan.txt
+n
+hx src/main.rs
+yazi
+..
+z dungeoncrawl/
+bacon
+..
+z dungeoncrawl/
+n
+ls
+n
+yazi
+tremc
+tremc
+yazi
+n
+tremc
+n
+trans
+trans --help
+trans -p
+n
+z notes
+hx plan
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+kalker 
+n
+hx plan.txt
+n
+n
+z plan.txt
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+trans
+hx plan.txt
+pamixer -m
+pamixer -u
+z notes
+hx plan.txt
+2to3 
+trans
+n
+bacon
+z systems
+ls
+touch chasing.rs
+hx plan.txt
+hx drawing_quest.txt
+n
+hx src/main.rs
+n
+ls
+yazi
+..
+z zero2prod/
+bacon
+z zero2prod/
+..
+n
+hx plan.txt
+hx drawing_quest.txt
+n
+yazi
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+ls
+hx plan.txt
+n
+bacon
+n
+hx src/main.rs
+hx plan.txt
+n
+z notes
+hx plan.txt
+git add .
+git oommit -m 'a'
+git commit -m 'a'
+git push
+hx plan.txt
+n
+z zero2prod/
+..
+ls
+n
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+hx plan.txt
+n
+yazi
+n
+hx src/main.rs
+yazi
+btm
+n
+tremc
+z torrent
+ls
+yazi
+tremc
+yazi
+tremc
+ls
+n
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+tremc
+yazi
+n
+yazi
+ls
+z zero2prod/
+..
+tremc
+trans
+n
+hx src/main.rs
+n
+tremc
+n
+yazi
+z zero2prod/
+..
+trans
+n
+tremc
+n
+trans
+n
+pamixer -m
+pamixer -u
+n
+ls
+git clone https://github.com/tokio-rs/tracing
+z tracing/
+ls
+git checkout v0.1.x
+z tracing-subscriber/
+ls
+hx src/filter/layer_filters/mod.rs
+z
+ls
+trash tracing/
+ls
+n
+ls
+yazi
+tremc
+n
+yazi
+hx
+tremc
+yazi
+tremc
+n
+tremc
+n
+tremc
+n
+tremc
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+z
+n
+pamixer -m
+pamixer -u
+yazi
+z notes
+hx plan.txt
+n
+z zero2prod/
+..
+trans
+z zero2prod/
+..
+docker ps
+./scripts/init_db.sh
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+n
+bacon
+cargo b
+hx plan.txt
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+yazi
+n
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+btm
+cargo install -help
+brm
+cargo install cargo-udeps
+btm
+udeps
+bacon
+n
+cargo udeps
+cargo r
+hx src/main.rs
+n
+yazi
+..
+z dungeoncrawl/
+ls
+n
+z notes
+hx plan.txt
+n
+z
+tremc
+n
+n
+yazi
+tremc
+hx
+n
+tremc
+n
+hx ~/.xinitrc
+..
+z dungeoncrawl/
+trans
+n
+trans
+z
+yazi
+tremc
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+z
+yazi
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+trans
+n
+trans
+n
+bacon
+hx src/main.rs
+z
+yazi
+n
+yazi
+..
+z zero2prod/
+ls
+n
+z notes
+z zero2prod/
+hx plan.txt
+bacon
+..
+z src/
+ls
+touch telemetry.rs
+bacon
+z
+z zero2prod/
+ls
+trans
+hx plan.txt
+n
+bacon
+cargo b
+trans
+kalker
+n
+yazi
+n
+hx plan.txt
+n
+trans
+n
+hx plan.txt
+cargo install bunyan
+bunyan
+bacon
+TEST_LOG=true cargo t
+cargo t
+TEST_LOG=true cargo t | bunyan
+TEST_LOG=true cargo t
+TEST_LOG=true cargo t | bunyan
+TEST_LOG=true cargo t health_check_works | bunyan
+TEST_LOG=true cargo t | bunyan
+TEST_LOG=true cargo t health_check_works | bunyan
+n
+trans
+n
+hx src/main.rs
+n
+trans
+n
+z
+yazi
+z dungeoncrawl/
+ls
+..
+trans
+hx .config/mpv/input.conf
+z dotfiles/
