@@ -1832,3 +1832,192 @@ ls
 trans
 hx .config/mpv/input.conf
 z dotfiles/
+git add .
+git commit -m 'updated mpv config'
+git push
+n
+yazi
+tremc
+n
+tremc
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+bacon
+z dungeoncrawl/
+trans
+n
+z
+hx .config/helix/languages.toml
+n
+bacon
+z systems
+ls
+touch fov.rs
+trans
+n
+hx src/main.rs
+n
+yazi
+z zero2prod/
+..
+z zero2prod/
+n
+yazi
+n
+yazi
+n
+trans
+tremc
+n
+tremc
+bacon
+cargo b
+..
+./scripts/init_db.sh
+cargo b
+bacon
+cargo b
+trans
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+bacon
+cargo r | bunyan 
+trans
+pamixer -m
+pamixer -u
+trans
+bacon
+ls
+touch Dockerfile
+docker ps
+n
+trans
+trans lean
+docker build --tag zero2prod --file Dockerfile .
+sqlx prepare --help
+n
+ls
+ls -a
+cat .env
+hx .gitignore
+ls
+ls -a
+ls
+sqlx prepare --help
+sqlx prepare --workspace
+cargo sqlx prepare --workspace
+ls
+yazi
+hx .sqlx/query-1cf42c355e41674b90d32e0ca0372287865dadf8ece41b8bac0de460e6c8fb4b.json
+ls
+git add .
+git status
+git commit -m 'mvp'
+git push
+n
+docker buildx build --tag zero2prod --file Dockerfile .
+docker buildx --help
+docker buildx
+pacman -S docker-buildx
+docker buildx --help
+z notes
+docker buildx build --tag zero2prod --file Dockerfile .
+ls
+kalker
+docker run zero2prod
+n
+hx docker.sh
+z
+docker buildx build --tag zero2prod --file Dockerfile .
+hx .cargo/config.toml
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+docker run zero2prod
+docker ps
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+docker run -p 8000:8000 zero2prod
+n
+hx src/main.rs
+yazi
+trem
+tremc
+n
+yazi
+z dungeoncrawl/
+..
+bacon
+z dungeoncrawl/
+tremc
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+trans
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+git add .
+git commit -m 'a'
+git pus
+git push
+hx plan.txt
+trans
+pamixer -m
+pamixer -u
+n
+yazi
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+z
+z Downloads/
+hx map_render.rs
+ls
+trash map_render.rs
+ls
+n
+trans
+n
+trans
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+bacon
+mkdir map_builder
+z map_builder/
+touch mod.rs
+bacon
+ls
+..
+trash map_builder.rs
+ls
+trans
+n
+hx src/main.rs
+n
+z
+n
+yazi
+tremc
+n
+hx .config/mpv/input.conf
+z dotfiles/
+ls
