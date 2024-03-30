@@ -3309,3 +3309,15 @@ trash mygoproject/
 ls
 z dotfiles/
 ls
+git add .
+git commit -m 'a' 
+git push
+..
+ls
+pamixer --get-volume
+pamixer -i 10
+mkdir http
+z http/
+n
+z dotfiles/
+git status
