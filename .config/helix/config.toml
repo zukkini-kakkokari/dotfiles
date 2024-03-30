@@ -2,7 +2,7 @@ theme = "ayu_evolve"
 
 [editor]
 shell = ["nu", "-c"]
-indent-heuristic = "simple"
+# indent-heuristic = "simple"
 
 
 [keys.normal]

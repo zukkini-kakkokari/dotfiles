@@ -2021,3 +2021,1291 @@ n
 hx .config/mpv/input.conf
 z dotfiles/
 ls
+git add .
+git commit -m 'mpv config'
+git push
+..
+yazi
+n
+yazi
+n
+tremc
+n
+yazi
+z zero2prod/
+..
+bacon
+z zero2prod/
+z notes
+hx plan.txt
+git add 
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+bacon
+ls
+..
+ls
+z src/
+ls
+..
+bacon
+ls
+mkdir configuration
+z configuration/
+touch base.yaml local.yaml production.yaml
+ls
+z zero2prod/
+..
+bacon
+ls
+..
+ls
+trash configuration.yaml
+ls
+x-reload 
+bacon
+z
+docker buildx build --tag zero2prod --file Dockerfile .
+yazi
+n
+kalker
+curl -v http:://127.0.0.1/health_check
+curl -v http:://127.0.0.1:8000/health_check
+n
+curl -v http:://127.0.0.1:8000/health_check
+curl -i -X POST -d 'email=thomas_mann@hotmail.com&name=Tom' http://127.0.0.1:8000/subscriptions
+curl -v http:://127.0.0.1:8000/health_check
+curl -v http://127.0.0.1:8000/health_check
+n
+docker run -p 8000:8000 zero2prod
+bacon
+l
+sls
+ls
+docker buildx build --tag zero2prod --file Dockerfile .
+curl -v http://127.0.0.1:8000/health_check
+curl --request POST --data 'name=le%20guin&email=ursula_le_guin%40gmail.com' 127.0.0.1:8000/subscriptions --verbose
+docker run -p 8000:8000 zero2prod
+docker images zero2prod
+docker ps
+docker ps -a
+docker system prune -a 
+docker system prune -a --volumes
+docker system prune --help
+docker rmi --help
+docker system prune
+docker ps
+docker ps -a
+docker ps
+docker --help
+docker ps
+docker stop brave_pare
+docker ps
+docker system prune
+docker ps -a
+z notex
+z notes
+hx docker.sh
+z zero2prod/
+docker buildx build --tag zero2prod --file Dockerfile .
+..
+docker buildx build --tag zero2prod --file Dockerfile .
+trans
+curl --request POST --data 'name=le%20guin&email=ursula_le_guin%40gmail.com' 127.0.0.1:8000/subscriptions --verbose
+docker run -p 8000:8000 zero2prod
+docker ps
+docker ps -a
+docker images zero2prod
+docker images rust:latest
+rustup show
+rustup list
+rustup show --list
+rustup --help
+docker images rust:latest
+docker images zero2prod
+rg
+rg env
+env::var
+rg env::var
+hx .env
+rg .env
+hx scripts/init_db.sh
+hx .dockerignore
+trans
+hx .cargo/config.toml
+docker images zero2prod
+docker buildx build --tag zero2prod --file Dockerfile .
+n
+n
+docker images zero2prod
+docker images rust:latest
+docker run zero2prod
+docker images zero2prod
+docker images rust:latest
+docker buildx build --tag zero2prod --file Dockerfile .
+docker images zero2prod
+docker buildx build --tag zero2prod --file Dockerfile .
+docker images zero2prod
+hx .cargo/config.toml
+hx src/main.rs
+n
+trans
+n
+yazi
+z dungeoncrawl/
+..
+z dungeoncrawl/
+n
+x-reload 
+ls
+yazi
+n
+bacon
+z map_builder/
+ls
+touch empty.rs
+trans
+n
+bacon
+z notes
+n
+hx plan.txt
+n
+touch rooms.rs
+baocn
+bacon
+touch automata.rs
+trans
+n
+hx src/main.rs
+n
+z
+yazi
+x-reload 
+n
+z zero2prod/
+..
+z
+yazi
+z zero2prod/
+..
+bacon
+z zero2prod/
+..
+ls
+n
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+z
+yazi
+n
+z notes
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+hx plan.txt
+hx src/main.rs
+n
+tremc
+yazi
+z notes
+hx plan.txt
+yazi
+tremc
+80 * 50
+20 % 44
+20 mod 20
+20 div 203
+lsblk
+z
+ls
+mkdir usb
+lsblk
+sudo mount /dev/sdd1 usb/
+ls
+z usb/
+ls
+z ..
+..
+z
+ls
+lsblk
+l
+ls
+z usb/
+ls
+ls -a
+..
+cp .ssh/ usb/
+cp -r .ssh usb/
+sudo yazi
+sudo cp -r .ssh usb/
+yazi
+ls
+z usb/
+ls
+z .ssh/
+ls
+sudo rm known_hosts known_hosts.old
+ls
+cat id_ed25519
+cat id_ed25519.pub
+..
+z wakuwaku/tr/backup/
+ls
+hx arch-installation.sh
+sudo yazi
+ls
+z usb/
+dua
+z backup/
+ls
+yazi
+ls
+..
+ls
+ls -a
+z .ssh/
+ls
+z
+ls
+lsblk
+ls
+z usb/
+ls
+ls -a
+..
+dua
+lsblk
+sudo umount /dev/sdd1
+ls
+lsblk
+ls
+sudo mount /dev/sdd1 usb/
+lsblk
+sudo mount /dev/sdd1 usb/
+lsblk
+sudo mount /dev/sdd1 usb/
+dmesg
+sudo dmesg
+pacman -S udisk2
+lsblk
+n
+pacman -S  udisks2
+lslbk
+lsblk
+x-reload 
+udiskctl mount -b /dev/sdd1
+udisksctl mount -b /dev/sdd1
+z /run/media/zukkini/Smartbuy
+ls
+ls -a
+dua
+rm .ssh/ backup/
+rm -rf .ssh/ backup/
+ls
+ls- a
+ls -a
+ls
+cp .ssh /run/media/zukkini/Smartbuy/
+cp -r .ssh /run/media/zukkini/Smartbuy/
+ls
+ls -a
+z .ssh/
+ls
+rm known_hosts known_hosts.old
+ls -a
+..
+z wakuwaku/tr/
+ls
+cp -r backup/ /run/media/zukkini/Smartbuy/
+pacman -S xcp
+paru -S xcp
+xcp
+ls
+rm -rf backup/
+ls
+ls -a
+xcp -r backup/ /run/media/zukkini/Smartbuy/
+yazi
+ls
+yazi
+z notes
+ls
+hx plan.txt
+hx arch-installation.sh
+ls
+ls
+udisksctl --help
+udisksctl unmount -b /dev/sdd1
+z
+udisksctl power-off -b /dev/sdd1
+lsblk
+udisksctl mount -b /dev/sdd1
+z /run/media/zukkini/Smartbuy/
+ls
+z .ssh/
+ls -a
+cat id_ed25519
+cat id_ed25519.pub
+..
+dua
+z
+udisksctl unmount -b /dev/sdd1
+udisksctl power-off -b /dev/sdd1
+lsblk
+z notes
+pacman -S udisk2
+pacman -S udisks2
+hx arch-installation.sh
+n
+pamixer --get-volume
+z
+yazi
+pamixer --get-volume
+yazi
+tremc
+n
+z notes
+ls
+git add .
+git commit -m 'a'
+git push
+z
+xcp --help
+z notes
+ls
+z
+yazi
+z zero2prod/
+..
+z zero2prod/
+..
+ls
+yazi
+yazi
+n
+trans
+n
+z notes
+hx plan.txt
+n
+hx plan.txt
+n
+hx todo
+cargo b
+hx todo
+n
+hx src/main.rs
+pamixer -m
+n
+pamixer -u
+n
+tremc
+btm
+n
+ls
+n
+ls
+yazi
+n
+yazi
+n
+yazi
+z ze
+z
+z z
+z
+z z
+trans
+n
+trans
+n
+hx src/main.rs
+n
+yazi
+n
+trans
+n
+trans
+n
+x-reload 
+n
+pamixer -m
+pamixer -u
+n
+trans
+n
+trans
+n
+yazi
+n
+pacman -S nim
+nim -v
+nim
+n
+nim -v
+mkdir learnim
+z learnim/
+ls
+touch helloworld.nim
+hx helloworld.nim
+x-reload 
+hx todo
+z le
+ls
+nim c helloworld.nim
+ls
+./helloworld
+nim c -r helloworld.nim
+hx --help
+hx --health
+n
+z learnim/
+hx --health
+hx --health nim
+hx ~/.config/helix/config.toml
+hx ~/.config/helix/languages.toml
+nimble
+nimble --help
+nimble install nimlangserver
+pacman -Runs nim
+curl https://nim-lang.org/choosenim/init.sh -sSf | sh
+config env
+nim
+config env
+nim
+nim -v
+z learnim/
+ls
+nim -c helloworld.nim
+nim c helloworld.nim
+hx --health nim
+..
+ls
+ls -a
+yazi
+choosenim 
+choosenim show
+choosenim update stable
+choosenim version
+choosenim versions
+choosenim show
+n
+nimble install nimlangserver
+hx --health nim
+z learnim/
+hx helloworld.nim
+ls
+btm
+hx helloworld.nim
+ls
+hx --health nim
+nimpretty 
+nimpretty helloworld.nim
+hx helloworld.nim
+n
+lx
+ls
+nim c -r --verbosity:0 helloworld.nim
+exit
+z learnim/
+nim c -r --verbosity:0 helloworld.nim
+nim c -r --verbosity:2 helloworld.nim
+nim c -r --verbosity:0 helloworld.nim
+ls
+nim c -r --verbosity:0 helloworld.nim
+trans
+n
+yazi
+tremc
+yazi
+trash usb
+ls
+yazi
+tremc
+yazi
+tremc
+n
+tremc
+n
+tremc
+nim c -r --verbosity:0 helloworld.nim
+nim c -r helloworld.nim
+nim c -r --verbosity:0 helloworld.nim
+nim c -r --verbosity:2 helloworld.nim
+nim c -r --verbosity:0 helloworld.nim
+nim c -r --verbosity:2 helloworld.nim
+nim c -r --verbosity:0 helloworld.nim
+n
+nim c -r --verbosity:0 helloworld.nim
+touch second.nim
+nim c -r --verbosity:0 helloworld.nim
+nim c -r --verbosity:0 second.nim
+touch people.txt
+nim c -r --verbosity:0 second.nim
+n
+tremc
+yazi
+x-reload 
+yazi
+tremc
+n
+trans
+n
+trans
+n
+trans
+nim c -r --verbosity:0 second.nim
+n
+hx helloworld.nim
+ls
+ls
+z note
+ls
+n
+tremc
+trans
+hx plan.txt
+n
+tremc
+n
+tremc
+n
+z learnim/
+ls
+z le
+nim c -r --verbosity:0 second.nim
+ls
+nim c -r --verbosity:0 second.nim
+ls
+nim c -r --verbosity:0 second.nim
+ls
+nim c -r --verbosity:0 second.nim
+ls
+nim c -r --verbosity:0 second.nim
+ls
+n
+pamixer m
+pamixer -m
+pamixer -u
+nim c -r --verbosity:0 second.nim
+nim c -r --verbosity:2 second.nim
+nim c -r --verbosity:0 second.nim
+nim c -r --verbosity:2 second.nim
+nim c -r --verbosity:0 second.nim
+trans
+n
+pamixer -m
+pamixer -u
+n
+nim c -r --verbosity:0 second.nim
+n
+tremc
+z notes
+hx plan.txt
+yazi
+n
+nim c -r --verbosity:0 second.nim
+nim c -r --verbosity:2 second.nim
+nim c -r --verbosity:0 second.nim
+nimpretty second.nim
+nim c -r --verbosity:0 second.nim
+nimpretty second.nim
+nim c -r --verbosity:0 second.nim
+hx second.nim
+nim c -r second.nim
+nim c -r --verbosity:0 second.nim
+trans
+n
+nnn
+n
+n\n]
+n
+nim c -r --verbosity:0 second.nim
+kalker
+n
+yazi
+n
+nim c -r --verbosity:0 second.nim
+z note
+nim c -r --verbosity:0 second.nim
+z le
+nim c -r --verbosity:0 second.nim
+hx plan.txt
+trans
+n
+nim c -r second.nim
+nim c -r --threads:on second.nim
+nim c -r second.nim
+nim c -r --threads:on second.nim
+nim c -r second.nim
+nim c -r --threads:on second.nim
+nim c -r second.nim
+n
+nim c -r second.nim
+n
+pamixer -m
+pamixer -u
+n
+yazi
+n
+nim c -r second.nim
+trans
+n
+trans
+n
+ls
+n
+ls
+trans
+n
+z no
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+ls
+z
+yazi
+n
+z note
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+yazi
+n
+nim -v
+n
+yazi
+n
+trans
+n
+trans
+n
+trans
+n
+z learnim/
+ls
+nim c -r second.nim
+n
+yazi
+n
+pamixer -m
+pamixer -u
+n
+nim secret
+n
+yazi
+n
+z no
+hx plan.txt
+n
+ping 1.1.1.1
+n
+n
+ls
+n
+ls
+n
+yazi
+n
+pamixer -m
+n
+pamixer -u
+n
+ls
+nim c -r second.nim
+hx second.nim
+n
+yazi
+n
+newlook
+trnas
+ls
+z le
+nim c -r second.nim
+trans
+n
+nim c -r second.nim
+trans
+n
+tremc
+n
+kalker
+pacman -S moe
+paru -S moe
+nimble install moe@#head
+moe
+z le
+moe second.nim
+n
+nimble --help
+nimble uninstall moe
+nimble uninstall -i moe
+nimble uninstall moe
+n
+trans
+n
+trans
+n
+trans
+n
+yazi
+n
+trans
+n
+hx second.nim
+..
+ls
+trash learnim/
+ls
+z no
+ls
+hx plan.txt
+n
+z
+ping 1.1.1.1
+yazi
+tremc
+z torrent
+ls
+z `Tomo-chan wa Onnanoko! (BD 1920x1080 x265-10Bit Flac)/`
+touch 4
+yazi
+n
+z notes
+ls
+hx plan.txt
+hx git-cheatsheets.sh
+git restore .
+hx plan.txt
+n
+tremc
+yazi
+n
+z le
+..
+ze lea
+z lea
+ls
+mkdir learnim
+z learnim/
+ls
+z le
+nim c  -r hey.nim
+n
+tremc
+n
+z no
+n
+hx plan.txt
+trans
+n
+hx plan.txt
+n
+z
+yazi
+tremc
+btm
+n
+z no
+hx plan.txt
+trans
+n
+pamixer -m
+pamixer -u
+n
+trans
+n
+trans
+n
+z le
+z
+yazi
+tremc
+n
+z no
+hx plan.txt
+n
+trans
+n
+yazi
+n
+z
+yazi
+n
+hx hey.nim
+z le
+ls
+z
+z no
+ls
+hx plan.txt
+n
+ls
+z no
+ls
+z
+ls
+trash learnim/
+z do
+ls
+z down
+ls
+trash `Dominik Picheta - Nim in Action-Manning Publications (2017).pdf`
+ls
+yazi
+ls
+z zero
+ls
+z ze
+ls
+n
+ls
+hx plan.txt
+n
+hx src/main.rs
+rustup --help
+rustup update
+n
+ls
+z
+z no
+ls
+hx plan.txt
+git restore .
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+z
+ls
+trash-list
+trash learnim
+trash-restore learnim
+ls
+z learnim/
+ls
+hx todo
+z le
+nim r hey.nim
+n
+hx hey.nim
+z
+ls
+n
+yazi
+n
+z no
+n
+yazi
+n
+ls
+n
+z zer
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+hx todo
+n
+yazi
+n
+z no
+ls
+n
+hx plan.txt
+n
+z zer
+ls
+n
+yazi
+z du
+n
+z no
+hx plan.txt
+hx src/main.rs
+n
+z du
+yaiz
+yazi
+n
+bacon
+cargo b
+cargo clean
+cargo build
+sccache --help
+sccache --show-stats
+z
+yazi
+z du
+cargo b
+cargo clean
+cargo b
+rustup update
+cargo clean
+cargo build
+z
+z /home/zukkini/.cargo/registry/src/
+trash index.crates.io-6f17d22bba15001f
+z
+z du
+cargo c
+cargo clean
+cargo b
+hx plan.txt
+z
+n
+pamixer -m
+n
+pamixer -u
+z bg
+yazi
+hx .fehbg
+n
+yazui
+n
+yazi
+n
+ping 1.1.1.1
+n
+pamixer -m
+pamixer -u
+n
+yazi
+n
+yazi
+n
+yazi
+n
+trans
+bacon
+z map_builder
+ls
+touch drunkard.rs
+z
+yazi
+n
+ls
+n
+trans
+n
+bacon
+touch prefab.rs
+trans
+n
+journalctl --since=today
+yazi
+z du
+n
+trans
+n
+yazi
+n
+trans
+n
+z no
+hx plan.txt
+n
+hx src/main.rs
+hx plan.txt
+n
+ping 1.1.1.1
+trans
+n
+yazi
+n
+z no
+go --version
+go -v
+go
+go version
+yazi
+z Downloads/l
+z Downloads/
+ls
+mkdir lets-go
+mv code.zip lets-go/
+z lets-go/
+ls
+unzip code.zip
+pacman -S unzip
+unzip code.zip
+ls
+trash code.zip
+kalker
+n
+hx plan.txt
+pamixer -m
+pamixer -u
+yazi
+trans
+n
+hx
+ls
+hx
+mkdir tools
+z tools/
+ls
+touch main.go
+z tools/
+go run main.go
+ls
+go mod init tools
+ls
+cat go.mod
+bat go.mod
+go run
+go run .
+hx --health go
+dlv
+hx --health zig
+trans
+z no
+hx plan.txt
+n
+hx --health go
+hx plan.txt
+n
+m
+n
+trans
+n
+z
+yzi
+yazi
+tremc
+btm
+tremc
+yazi
+tremc
+n
+tremc
+n
+hx main.go
+..
+ls
+trash tools/
+ls
+mkdir basicfeatures
+z basicfeatures/
+ls
+go mod init basicfeatures
+ls
+cat go.mod
+bat go.mod
+touch main.go
+go run .
+z ba
+go run .
+trans
+n
+tremc
+n
+go run .
+z no
+hx plan.txt
+go run .
+kalker
+ls
+hx plan.txt
+n
+kalker
+hx plan.txt
+n
+go run .
+n
+yazi
+tremc
+n
+go run .
+tremc
+go run .
+n
+go run .
+pamixer -d 20
+pamixer -i 10
+pamixer --get-volume
+trans
+n
+yazi
+n
+few
+btm
+z bg
+yazi
+btm
+hx .fehbg
+n
+go run .
+hx main.go
+ls
+..
+ls
+trash basicfeatures/
+mkdir mygoproject
+z mygoproject/
+touch main.go
+ls
+..
+ls
+z mygoproject/
+ls
+go run main.go
+touch foo.go
+ls
+go run foo.go
+trash foo.go
+ls
+go run main.go
+touch util.go
+ls
+go run main.go
+go build -o myapp
+go mod help
+go help
+go help modules
+go mod init
+ls
+go mod init mygoproject
+ls
+bat go.mod
+hx go.mod
+go build -o myapp
+ls
+./myapp
+ls
+go run .
+ls
+touch types.go
+n
+tremc
+yazi
+newlook
+n
+tremc
+n
+go run .
+n
+mkdir types
+ls
+n
+z types/
+touch user.go
+..
+ls
+trash types.go
+n
+z not
+hx plan.txt
+n
+hx main.go
+z
+n
+yazi
+x-reload 
+tremc
+n
+n
+z no
+n
+tremc
+n
+tremc
+n
+yazi
+n
+hx plan.txt
+n
+rans
+trans
+n
+pamixer -m
+pamixer -u
+n
+btm
+n
+yazi
+l
+ls
+rm -rf go/
+sudo rm -rf go/
+ls
+yazi
+n
+z no
+trans
+n
+ping 1.1.1.1
+n
+hx plan.txt
+n
+yazi
+n
+trans
+n
+trans
+ls
+node -v
+pacman -S nodejs
+pacman -Syu
+neofetch
+x-reload 
+pacman -S nodejs npm
+npm -v
+node -v
+curl -fsSL https://bun.sh/install | bash
+wezterm
+bun
+config env
+bun
+ls
+bun
+ls
+ls -a
+yazi
+hx .config/yazi/yazi.toml
+yazi
+n
+ls
+bun
+config env
+bun
+bun -v
+bun
+node
+bun
+bun upgrade
+z pro
+ls
+..
+ls
+z old/
+ls
+z cr8s/
+ls
+..
+ls
+z
+ls
+trash mygoproject/
+ls
+z dotfiles/
+ls
