@@ -3321,3 +3321,893 @@ z http/
 n
 z dotfiles/
 git status
+git add .
+git commit -m 'a'
+git push
+..
+trans
+n
+z no
+hx plan.txt
+n
+trans
+n
+trans
+n
+z
+yazi
+n
+z not
+hxp
+n
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+n
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+z
+yazi
+n
+z
+ls
+git clone https://github.com/academind/htmx-course-resources.git
+n
+z htmx-course-resources/
+ls
+bat README.md
+ls
+z lecture-attachments/
+ls
+z 02-essentials/
+ls
+z app.js
+ls
+..
+ls
+yazi
+n
+ls
+z 02-essentials/
+ls
+unzip 01-starting-project.zip
+ls
+z 01-starting-project/
+ls
+..
+ls
+yazi
+..
+ls
+z 01-starting-project/
+ls
+bun i
+bun start
+npm start
+bun start
+ls
+n
+z no
+hx plan.txt
+n
+trans
+pacman -S zig
+zig -v
+zig version
+zig version
+z
+pacman -S zls
+zls version
+zls --version
+n
+hx --health zig
+ls
+mkdir ziggie
+z ziggie/
+ls
+zig init
+zig init-exe
+ls
+hx build.zig
+z ziggie/
+ls
+zig build run
+zig build test
+zig build run
+n
+ls
+yazi
+n
+hx src/main.zig
+ls
+hx src/main.zig
+newlook
+zig build run
+zig build test
+zig build run
+n
+trans
+n
+ldd
+ldd --help
+ls
+zig build
+ls
+ls zig-out/
+ls
+ls zig-out/bin/ziggie
+ls
+./zig-out/bin/ziggie
+ldd ./zig-out/bin/ziggie
+trasn
+trans
+n
+z not
+hx plan.txt
+n
+ls
+z htmx-course-resources/
+ls
+z 01
+ls
+bat bun.lockb
+ls
+bat package.json
+ls
+hx public/main.css
+ls
+hx app.js
+hx --health js
+hx --health javascript
+hx --health typescript
+bun install --help
+bun install -g typescript-language-server typescript
+sudo bun install -g typescript-language-server typescript
+hx --health typescript
+tsc
+tsserver
+ls
+yazi
+ls /usr/lib/node_modules/npm
+ls /usr/lib/node_modules/npm/bin
+ls /usr/lib/node_modules/npm/
+/
+grep tsserver
+z
+ls /usr/lib/node_modules/npm/node_modules/
+typescript-language-server
+npm list -g
+ls /usr/local/lib/node_modules
+npm root -g
+ls /usr/lib/node_modules
+ls /usr/lib/node_modules/npm/bin/
+ls /usr/lib/node_modules/npm/
+npm install -g typescript-language-server typescript
+bun root -g
+npm config get prefix
+ls /usr
+ls /usr/bin
+bun --help
+bun install -g typescript-language-server typescript
+sudo bun install -g typescript-language-server typescript
+tsc
+bun --help
+yazi
+ls
+bun add -g typescript-language-server typescript
+sudo bun add -g typescript-language-server typescript
+tsc
+ls
+yazi
+ls
+trash ~
+ls
+..
+~
+ls
+l
+ls
+ls -a
+ls
+sudo install -g typescript-language-server typescript
+sudo npm install -g typescript-language-server typescript
+typescript
+tsc
+hx --health
+hx --health typescript
+hx --health javascript
+ls
+z htmx-course-resources/
+ls
+z 01-starting-project/
+ls
+ls -a
+yazi
+ls
+rm -rf ~
+ls
+paru -S biome
+paru
+sudo paru
+sudo npm install -g @biomejs/biome
+biome
+ls
+hx .config/helix/languages.toml
+hx app.js
+ls
+npm uninstall
+sudo npm uninstall -g @biomejs/biome
+ls
+sudo npm install -g prettier
+prettier
+hx .config/helix/languages.toml
+hx app.js
+n
+ls
+z 01
+ls
+bun start
+ls
+z data
+ls
+..
+z public/
+ls
+bat main.css
+z no
+hx plan.txt
+n
+ls
+wget https://unpkg.com/htmx.org@1.9.11/dist/htmx.min.js
+ls
+..
+z public/
+bun start
+..
+n
+bun start
+n
+z
+yazi
+n
+z
+ls
+z http/
+ls
+touch simple-server.js simple-client.js
+ls
+hx simple-client.js
+..
+ls
+z .local/src/
+ls
+z helix/
+ls
+hx --version
+pacman -S helix
+ls
+git pull
+hx --version
+cargo install --path helix-term --locked
+ls
+rustup default stable
+ls
+cargo install --path helix-term --locked
+z
+ls
+hx .cargo/config.toml
+z .local/src/helix/
+ls
+rustup show
+cargo install --path helix-term --locked
+hx --version
+z
+ls
+hx http/
+z http/
+ls
+pamixer -m
+pamixer -u
+n
+z 'wakuwaku/tr/genki/Excel Saga [DVDRip 720p]/'
+ls
+z
+z excel
+ls
+yazi
+z not
+hx plan.txt
+z http/
+z http/
+z http
+ls
+node simple-server.js
+node simple-client.js
+n
+node simple-server.js
+node simple-client.js
+hx plan.txt
+node simple-client.js
+node simple-server.js
+node simple-client.js
+trans
+n
+hx simple-server.js
+..
+ls
+z 01
+ls
+z 01
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+bun start
+ls
+yazi
+bun start
+hx app.js
+ls
+..
+ls
+trash 01-starting-project/
+ls
+z lecture-attachments/
+ls
+z 02-essentials/
+ls
+unzip 07-practice-start.zip
+ls
+yazi
+z ht
+ls
+z 07
+ls
+z 07-practice-start/
+ls
+bun i
+..
+z 07-practice-start/
+ls
+bun start
+ls
+ls public/
+n
+yazi
+hx plan.txt
+git add .
+git commit -m 'a'
+n
+hx plan.txt
+n
+z
+yazi
+n
+hx app.js
+ls
+z no
+n
+hx plan.txt
+n
+hx plan.txt
+n
+hx plan.txt
+n
+ldd "$(command -v sshd)"
+lld
+ldd
+n
+z
+yazi
+n
+z no
+hx app.js
+z
+z http/
+pacman -S postman
+paru -S postman-bin
+z
+ls
+git clone https://aur.archlinux.org/yay.git
+ls
+z yay/
+makepkg -si
+yay
+..
+ls
+trash yay/
+yay -S postman
+n
+hx plan.txt
+git restore .
+hx plan.txt
+git add .
+git commit -m 'a'
+git push
+hx plan.txt
+n
+z excel
+ls
+z http/
+ls
+hx plan.txt
+n
+hx plan.txt
+n
+hx plan.txt
+n
+node simple-server.js
+hx plan.txt
+x-reload 
+hx
+hx plan.txt
+n
+hx plan.txt
+n
+hx plan.txt
+n
+touch net-sender.js
+ls
+z http/
+ls
+bun start
+z http
+ls
+node net-sender.js
+n
+node simple-server.js
+trans
+ls
+n
+ls
+n
+ls
+n
+ls
+n
+l
+ls
+n
+ls
+n
+ls
+ns
+ls
+n
+trasn
+trans
+ls
+yazi
+genki-look 
+z
+z Downloads/
+ls
+n
+ls
+mv `Excel Saga 02 (DVD 960x720 x264 AAC).mp4_snapshot_05.22.240.jpg` excel-chan.jpg
+mv excel-chan.jpg genki.jpg
+ls
+..
+hx .local/bin/genki-look
+genki-look 
+ls
+genki-look 
+ls
+hx Downloads/
+z Downloads/
+ls
+n
+..
+genki-look 
+hx .local/bin/genki-look
+crontab -e
+crontab -l
+hx .xinitrc
+genki-look 
+n
+z Downloads/
+ls
+yazi
+n
+ls
+n
+hx net-sender.js
+ls
+z
+ls
+z ziggie/
+ls
+z zi
+ls
+z
+z no
+n
+hx plan.txt
+n
+neofetch
+n
+hx src/main.zig
+zig --version
+zig version
+zls
+pacman -Runs zls zig
+zig
+zls
+hx --health zig
+zig
+hx src/main.zig
+n
+z
+ls
+z Downloads/
+ls
+yazi
+z
+z .local/src/
+ls
+tar -xf zig-0.12.0-dev.3496+a2df84d0f.tar.xz
+ls
+trash zig-0.12.0-dev.3496+a2df84d0f.tar.xz
+ls
+z zig-0.12.0-dev.3496+a2df84d0f/
+ls
+z src/
+ls
+..
+zig
+ls
+bat README.md
+ls
+yazi
+ls
+n
+bat README.md
+ls
+yaazi
+yazi
+grep zig
+rg zig
+find zig
+find . -type -executable -pring
+grep -i zig
+find . -name 'zig'
+^find . -name 'zig'
+yaazi
+yazi
+z lib/std/
+ls
+ls
+n
+ls
+./zig
+ls
+z system/
+ls
+..
+ls
+..
+ls
+trash zig-0.12.0-dev.3496+a2df84d0f/
+z
+z Downloads/
+ls
+trash zig-0.12.0-dev.3496+a2df84d0f.tar.xz
+ls
+yazi
+z
+z .local/src/
+tar -xf zig-linux-x86_64-0.12.0-dev.3496+a2df84d0f.tar.xz
+ls
+trash zig-linux-x86_64-0.12.0-dev.3496+a2df84d0f.tar.xz
+ls
+z zig-linux-x86_64-0.12.0-dev.3496+a2df84d0f/
+ls
+yazi
+bat README.md
+ls
+config env
+ls
+zig
+zig version
+z .local/src/
+ls
+gdu
+dua
+z
+ls
+zig
+ls
+yazi
+z .local/src/zig-linux-x86_64-0.12.0-dev.3496+a2df84d0f/
+ls
+chmod +x zls
+ls
+z
+zls
+zig version
+zls version
+zls --version
+zig version
+ls
+z ziggie/
+ls
+hx --health zig
+hx src/main.zig
+ls
+zig build run
+z
+ls
+git clone https://ziglings.org
+ls
+z ziglings.org/
+ls
+zig build
+hx exercises/001_hello.zig
+n
+z
+ls
+n
+ls
+hx plan.txt
+ls
+n
+n
+yazi
+z
+z excel
+yazi
+n
+z
+trash ziggie/
+ls
+hx plan.txt
+z excel
+n
+z no
+hx
+ls
+touch rust-route.txt
+n
+yaz
+yazi
+n
+yazi
+n
+z excele
+z excel
+n
+yazi
+tremc
+z torrent
+yazi
+ls
+z dow
+ls
+trash 'King K. N. - C Programming A Modern Approach Second Edition [2008, PDF, ENG] [rutracker-5991221].torrent'
+ls
+trash `K. N. King - C Programming_ A Modern Approach, 2nd Edition (2009, W. W. Norton & Company) - libgen.li.pdf`
+ls
+trash 'Путешественник Гокудо Gokudou-kun Manyuuki (Сугисима Кунихиса) [TV] [26 из 26] [RUS(int), JAP+Sub] [1999, приключения, комедия, [rutracker-994473].torrent'
+ls
+trash zls
+ls
+n
+z torrent
+yazi
+z no
+n
+hx plan.txt
+git ad.. 
+git add .
+git commit -m 'a'
+git push
+n
+trans
+clang -w
+clang --version
+gcc --version
+n
+cc --version
+n
+yazi
+n
+ls
+n
+z
+yazi
+n
+yazi
+n
+hx .xinitrc
+pacman -Syu
+x-reload 
+pamixer --get-volume
+pamixer -i 10
+tran
+trans
+hx
+tran
+ping 1.1.1.1
+trans
+ping 1.1.1.1
+n
+ping 1.1.1.1
+n
+z excel
+n
+n
+ls
+n
+kalker
+yazi
+ping 1.1.1.1
+n
+ping 1.1.1.1
+n
+ls
+n
+ls
+n
+ping 1
+ping 1.1.1.1
+n
+z not
+ls
+hx plan.txt
+n
+hx plan.txt
+n
+hx plan.txt
+n
+ping 1.1.1.1
+n
+ls
+hx plan.txt
+n
+yazi
+z torrent
+z excel
+yazi
+pamixer -m
+n
+pamixer -u
+n
+yazi
+z excel
+z http
+ls
+z http
+ls
+node net-sender.js
+z http
+node net-sender.js
+n
+kalker
+n
+hx net-sender.js
+node simple-server.js
+z
+yazi
+x-reload 
+n
+?baka-lisp n
+n
+yazi
+s
+ls
+z http
+ls
+z http
+node net-sender.js
+n
+trans
+n
+trans
+n
+yazi
+z excel
+pamixer -m
+pamixer -u
+trans
+n
+pamixer --get-volume
+pamixer -i 10
+n
+pamixer -d 10
+pamixer --get-volume
+n
+z notex
+hs
+z notes
+hx plan.txt
+git add .
+git commit -m 'zig route'
+git push
+hx plan.txt
+git add .
+git commit -m 'lisp way'
+git push
+hx net-sender.js
+n
+hx plan.txt
+n
+hx plan.txt
+trans
+n
+hx plan.txt
+n
+pamixer --get-volume
+n
+pacman -Syu
+z
+sudo pacman -S emacs
+emacs
+pacman -S clojure
+java -v
+java --help
+java -version
+clojure -v
+clj --help
+clojure --help
+clojure -version
+clj
+pacman -S rlwrap
+clj
+pacman -S leiningen
+lein repl
+hx plan.txt
+n
+pacman -S catgirl
+n
+node simple-server.js
+z
+ls
+n
+config leftwm 
+n
+ls
+n
+pacman -S racket
+racket
+yazi
+n
+racket --help
+ls
+yazi
+ls
+trash Postman/
+ls
+trash http/ ziglings.org/
+ls
+mkdir sicp
+z sicp/
+ls
+touch try.lisp
+z sicp/
+ls
+racket -f try.lisp
+racket -l try.lisp
+racket --help
+..
+hx try.lisp
+ls
+..
+trash sicp/
+ls
+n
+hx plan.txt
+n
+yazi
+n
+ls
+n
+z not
+yazi
+hx plan.txt
+yazi
+z dotfiles/

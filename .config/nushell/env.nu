@@ -102,6 +102,13 @@ $env.HELIX_RUNTIME = "~/.local/src/helix/runtime"
 $env.BUN_INSTALL = "~/.bun"
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
-$env.PATH = ($env.PATH | split row (char esep) | prepend '~/.local/bin' | prepend "~/.cargo/bin" | prepend "/home/zukkini/.nimble/bin" | prepend "~/.bun/bin")
+$env.PATH = ($env.PATH 
+    | split row (char esep) 
+    | prepend '~/.local/bin' 
+    | prepend "~/.cargo/bin" 
+    | prepend "/home/zukkini/.nimble/bin" 
+    | prepend "~/.bun/bin"
+    | prepend "~/.local/src/zig-linux-x86_64-0.12.0-dev.3496+a2df84d0f"
+)
 
 zoxide init nushell | save -f ~/.zoxide.nu

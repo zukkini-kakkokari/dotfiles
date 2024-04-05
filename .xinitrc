@@ -54,7 +54,7 @@ export XMODIFIERS=@im=fcitx
 
 redshift -l 55.804480:38.978293 &
 fcitx5 &
-newlook &
+genki-look &
 transmission-daemon &
 setxkbmap -option caps:swapescape & # swap escape and capslog
 xset -b & # disable beep sound
