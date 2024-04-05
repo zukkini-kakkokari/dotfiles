@@ -4211,3 +4211,149 @@ yazi
 hx plan.txt
 yazi
 z dotfiles/
+git add .
+git commit -m 'a'
+git push
+n
+emacs --version
+n
+trans
+z notes
+hx plan.txt
+trnas
+trans
+n
+hx plan.txt
+trans
+n
+yazi
+z excel
+trans
+pamixer -m
+yazi
+shutdown now -r
+pamixer -m
+yazi
+n
+ls -a
+yazi
+n
+emacs --version
+n
+trans
+shutdown now
+tremc
+n
+tremc
+ls
+ls -a
+xrdb
+xrdb --help
+hx .xinitrc
+ls
+ls -a
+hx .xinitrc
+touch del.Xresources
+hx del.Xresources
+ls
+hx del.Xresources
+shutdown now -r
+ls
+ls -a
+ls
+mv del.Xresources .Xresources
+ls
+pamixer --help
+pamixer --list-source
+pamixer --list-sources
+pamixer --default-source 244
+pamixer --help
+pamixer --list-sources
+pamixer --source alsa_output.usb-Focusrite_Scarlett_Solo_USB-00.HiFi__hw_USB__sink.monitor
+pamixer --get-default-sink
+pamixer --default-source
+pamixer --get-default-sink
+pamixer --list-sources
+pamixer --source 301
+pamixer --get-volume
+pamixer --help
+pamixer -u
+pamixer --list-source
+pamixer --list-sources
+pamixer --default-source alsa_output.usb-Focusrite_Scarlett_Solo_USB-00.HiFi__hw_USB__sink.monitor
+tremc
+yazi
+ls
+n
+ls
+yai
+yazi
+s
+ls
+z no
+hx plan.txt
+ls
+n
+yazi
+x-reload 
+z excel
+yazii
+z
+ls
+ls -a
+yazi
+z dotfiles/
+ls
+stow .
+..
+ls -a
+hx .Xresources
+ls
+n
+yazi
+pamixer -m
+yazi
+feh --help
+ls
+yazi
+hx .local/bin/genki-look
+yazi
+hx .local/bin/genki-look
+genki-look 
+yazi
+genki-look 
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-43.jpg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-43.jpg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+yazi
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+yazi
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-43.jpg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-43.jpg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+feh --bg-fill --no-fehbg `~/Downloads/genki-43.jpg`
+z Downloads/
+ls
+genki-look 
+yazi
+hx .local/bin/genki-look
+genki-look 
+yazi
+emacs -n
+emacs --help
+btm
+trans
+ls
+hx .local/bin/x-reload
+x-reload 
+hx .local/bin/x-reload
+hx .xinitrc
+yazi
+z Downloads/
+..
+z dotfiles/
+ls

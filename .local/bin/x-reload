@@ -1,4 +1,4 @@
-setxkbmap -option caps:swapescape & # swap escape and capslog
+setxkbmap -option ctrl:swapcaps &
 xset -b & # disable beep sound
 xset r rate 200 30 & # setup typematic delay and rate
 

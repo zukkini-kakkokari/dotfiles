@@ -8,15 +8,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
-
 fi
 
 if [ -f $sysmodmap ]; then
@@ -24,15 +16,7 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
     xrdb -merge "$userresources"
-
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -56,7 +40,7 @@ redshift -l 55.804480:38.978293 &
 fcitx5 &
 genki-look &
 transmission-daemon &
-setxkbmap -option caps:swapescape & # swap escape and capslog
+setxkbmap -option ctrl:swapcaps &
 xset -b & # disable beep sound
 xset r rate 200 30 & # setup typematic delay and rate
 exec leftwm
