@@ -54,8 +54,8 @@
     auto_derive_workspaces: true,
     disable_cursor_reposition_on_resize: false,
     keybind: [
-        (command: IncreaseMainWidth, value: "5", modifier: ["modkey"], key: "a"),
-        (command: DecreaseMainWidth, value: "5", modifier: ["modkey"], key: "d"),
+        // (command: IncreaseMainWidth, value: "5", modifier: ["modkey"], key: "a"),
+        // (command: DecreaseMainWidth, value: "5", modifier: ["modkey"], key: "d"),
         (command: ToggleScratchPad, value: "Wezterm", modifier: ["modkey"], key: "s"),
         (command: Execute, value: "rlaunch -p -b", modifier: ["modkey"], key: "p"),
         (command: Execute, value: "wezterm start --always-new-process", modifier: ["modkey", "Shift"], key: "Return"),

@@ -4357,3 +4357,162 @@ z Downloads/
 ..
 z dotfiles/
 ls
+git add .
+git commit -m 'add hidpi + swap caps and ctrl'
+git push
+n
+hx .xinitrc
+ls
+yazi
+z excel
+trans
+pamixer -u
+ls
+n
+pamixer -m
+ls
+n
+ls
+n
+ls
+z note
+hx plan.txt
+n
+pamixer -u
+ls
+z htmx-course-resources/
+ls
+z 07-practice-start/
+ls
+hx app.js
+bun upgrade
+bun --version
+z 07
+n
+x-reload 
+n
+hx app.js
+yazi
+..
+ls
+unzip 02-new-project-starting-state.zip
+ls
+trash 07-practice-start/ 02-new-project-starting-state.zip
+ls
+z 11-new-project-starting-state/
+ls
+bun start
+..
+ls
+z 11
+ls
+bun start
+bun i
+btm
+neofetch
+btm
+kalker
+n
+hx app.js
+hx plan.txt
+n
+N
+n
+yazi
+shutdown now
+trans
+pamixer -m
+pamixer -u
+n
+z not
+hx plan.txt
+fcitx5-configtool
+n
+config leftwm 
+pacman -Syu
+n
+z excel
+ls
+z htmx-course-resources/
+ls
+z 11
+ls
+z 11
+btm
+n
+z 11
+hx app.js
+ls
+ping 1.1.1.1
+ping google.com
+n
+bun start
+ls
+z public/
+ls
+touch main.js
+..
+bun start
+ping 1.1.1.1
+n
+hx app.js
+ls
+yazi
+hx app.js
+ls
+bun i
+ls
+trash ~
+ls
+bun i
+ls
+yazi
+ls
+bun i
+ls
+yazi
+ls
+bun i
+ls
+yazi
+ls
+npm i
+ls
+yazi
+bun install --verbose
+ls
+ls
+n
+yazi
+npm i
+ls
+n
+hx app.js
+yazi
+npm start
+npm i
+ping 1.1.1.1
+n
+ping 1.1.1.1
+n
+hx app.js
+npm start
+ls
+z
+ping 1.1.1.1
+networkctl --help
+networkctl -s
+networkctl status
+networkctl --help
+ping 1.1.1.1
+n
+btm
+n
+z
+ls
+trans
+n
+ls
+ls
+n
+z dotfiles/
