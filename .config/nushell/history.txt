@@ -4516,3 +4516,142 @@ ls
 ls
 n
 z dotfiles/
+git add .
+git commit -m 'a'a
+git push
+n
+config leftwm 
+n
+trans
+ls
+z htmx-course-resources/
+ls
+z 11-new-project-starting-state/
+z 11
+n
+trans
+n
+hx app.js
+ls
+..
+trash 11
+trash 11-new-project-starting-state/
+ls
+yazi
+ls
+unzip 01-starting-project.zip
+trash 01-starting-project.zip
+ls
+z 01-starting-project/
+ls
+npm start
+z 01
+npm start
+npm i
+npm run
+pamixer -m
+n
+pamixer -u
+n
+hx app.js
+..
+yazi
+ls
+unzip 01-starting-project.zip
+ls
+trash 01-starting-project.zip
+ls
+z 01-starting-project/
+ls
+npm start
+..
+ls
+z 01-starting-project/
+npm i
+n
+z Downloads/
+ls
+trash htmx.min.js
+ls
+..
+n
+z no
+hx
+n
+hx plan.txt
+n
+hx plan.txt
+n
+m
+n
+kalker
+n
+hx app.js
+npm start
+yazi
+shutdown now
+pamixer -m
+pamixer -u
+n
+z no
+hx plan.txt
+yazi
+ls
+trans
+^trans
+hx plan.txt
+git add .
+git commit -m 'sicp route'
+git push
+ls
+n
+hx plan.txt
+yazi
+pamixer -i 30
+pamixer -d 30
+pamixer --get-volume
+hx plan.txt
+trans
+emacs --version
+trans
+ls
+z
+n
+xprop
+hx .config/picom/picom.conf
+ls
+genki-look 
+n
+ls
+z excel
+n
+genki-look 
+hx .local/bin/genki-look
+yazi
+genki-look 
+z not
+hx plan.txt
+yazi
+z
+yazi
+hx .local/bin/genki-look
+genki-look 
+ls
+hx .config/picom/picom.conf
+yazi
+genki-look 
+feh --bg-fill --no-fehbg `~/Downloads/genki.png`
+feh --bg-fill --no-fehbg `~/Downloads/genki-169.jpeg`
+hx .local/bin/genki-look
+feh --bg-fill --no-fehbg `~/Downloads/image.png`
+pacman -S gimp
+genki-look 
+feh --bg-fill --no-fehbg `~/Downloads/image.png`
+yazi
+genki-look 
+yazi
+genki-look 
+z no
+z
+hx .config/picom/picom.conf
+z dotfiles/
