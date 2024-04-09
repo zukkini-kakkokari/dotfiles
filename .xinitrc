@@ -40,7 +40,7 @@ redshift -l 55.804480:38.978293 &
 fcitx5 &
 genki-look &
 transmission-daemon &
-setxkbmap -option ctrl:swapcaps &
+setxkbmap -option caps:swapescape &
 xset -b & # disable beep sound
 xset r rate 200 30 & # setup typematic delay and rate
 exec leftwm

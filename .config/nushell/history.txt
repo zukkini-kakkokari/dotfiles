@@ -4655,3 +4655,208 @@ z no
 z
 hx .config/picom/picom.conf
 z dotfiles/
+git reset --hard HEAD~2
+git push -f
+hx git-cheatsheets.sh
+yazi
+n
+z no
+ls
+hx emacs-setup
+Ln
+n
+z excel
+n
+hx plan.txt
+z
+git clone https://github.com/sbcl/sbcl
+ls
+z sbcl/
+git clone https://github.com/nim-lang/Nim
+z Nim/
+ls
+git clone https://github.com/cisco/ChezScheme
+z ChezScheme/
+ls
+..
+ls
+trash sbcl/ Nim/ ChezScheme/
+trash-empty
+ls
+sudo trash-empty
+ls
+trash nimium/
+ls
+z no
+hx plan.txt
+n
+yazi
+n
+hx plan.txt
+fcitx5-configtool
+n
+trans
+hx emacs-setup
+n
+hx plan.txt
+shutdown now
+yazi
+z no
+hx plan.txt
+n
+trnas
+hx emacs-setup
+git add .
+git commit -m 'update some emacsen setup'
+git push
+hx emacs-setup
+shutdown now -r
+ls
+z no
+hx plan.txt
+hx emacs-setu
+yazi
+n
+trans
+n
+trans
+n
+trans
+n
+z excel
+n
+trans
+n
+ping 1.1.1.1
+trans
+n
+trans
+n
+trans
+n
+hx emacs-setup
+pamixer -m
+pamixer -u
+n
+z no
+hx emacs-setup
+n
+ls
+z
+ls
+exit
+trans
+top
+ls
+^ls
+^l
+ll
+trans
+n
+hx plan.txt
+n
+z no
+n
+hx plan.txt
+hx plan.txt
+n
+trans
+ping 1.1.1.1
+z
+ls
+yazi
+ls
+z .config/
+ls
+mkdir emacs
+z emacs/
+ls
+z
+mv .emacs .config/emacs/
+ls
+z emacs
+ls
+ls -a
+mv .emacs init.el
+ls
+z
+ls
+yazi
+ls
+ls -a
+z .emacs.d/
+ls
+ls -a
+..
+ls
+z emacs
+ls
+pwd
+ls
+mv init.el ~
+ls
+..
+trash emacs/
+ls
+z
+mv init.el ~/.emacs.el
+ls
+mv .emacs.el .emacs
+ls
+ls -a
+trans
+z no
+btm
+pacman -S dmenu
+dmenu
+dmenu_run 
+yazi
+n
+pacman -S rofi
+pacman -Runs dmenu
+pacman -Runs rofi
+pacman -S bemenu
+bmenu
+bm
+bmenu
+man bemenu
+bemenu
+bemenu --help
+bemenu -b
+config leftwm 
+bemenu-run 
+bemenu-run --help
+BEMENU_SCALE=3 bmenu-run
+BEMENU_SCALE=3 bemenu-run
+BEMENU_SCALE=3 bemenu-run -b
+config env
+config leftwm 
+pacman -S bemenu
+pacman -Q | grep -i bmenu
+pacman -Q
+z no
+hx arch-installation.sh
+git add .
+git commit -m 'change rlaunch to bemenu<\n>'
+git push
+z no
+hx n
+n
+hx emacs-setup
+ls
+z
+ls
+ls -a
+hx .xinitrc
+ls
+trash .xinitrc.save
+ls
+ls -a
+hx .xinitrc
+hx .local/bin/x-reload
+z
+z no
+hx plan.txt
+ls
+z
+z dotfiles/
