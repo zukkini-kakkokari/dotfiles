@@ -4860,3 +4860,396 @@ hx plan.txt
 ls
 z
 z dotfiles/
+git add .
+git commit -m 'change swap caps with escape, instead of ctrl'
+git push
+n
+la
+ls
+n
+trans
+ls
+n
+z no
+hx emacs-setup
+n
+z no
+z excel
+hx emacs-setup
+pamixer -m
+ping 1.1.1.1
+pamixer -m
+pamixer -u
+n
+trash-list
+yazi
+ls
+touch bobu
+ls
+trash-list
+ls
+trash-list
+z no
+hx plan.txt
+ls
+ls -a
+yazi
+ls
+rm #bobu#
+rm ./#bobu#
+ls
+trash-list
+trash-empty
+trash-list
+ls
+trash-list
+ls
+rm #bobu#
+ls
+rm #bobu#
+rm ./#bobu#
+ls
+rm `./#tutu#`
+ls
+trash tutu
+trash-list
+ls
+trash `./#bobu#`
+ls
+trash-list
+trash-empty
+trash list
+trash-list
+yazi
+ls
+ls -a
+yazi
+trash-list
+ls .local/share/Trash/files
+trash-empty
+ls .local/share/Trash/files
+rm .local/share/Trash/files/01-starting-project/
+rm -f .local/share/Trash/files/01-starting-project/
+rm -rf .local/share/Trash/files/01-starting-project/
+sudo rm -rf .local/share/Trash/files/01-starting-project/
+ls .local/share/Trash/files
+trash-list
+ls .local/share/Trash/files
+yazi
+ls
+ls -a
+ls .local/share/Trash/files
+trash-list
+yazi
+trash-list
+ls .local/share/Trash/files
+ls
+ls -a
+cat bobu
+ls
+cat bobu~
+ls
+ls .local/share/Trash/files
+ls
+rm bobu~
+ls
+ls -a
+ls .local/share/Trash/files
+ls
+ls -a
+ls .local/share/Trash/files
+trash .emacs~
+ls
+ls -a
+ls .local/share/Trash/files
+trash-empty
+ls .local/share/Trash/files
+n
+hx emacs-setup
+n
+z no
+hx emacs-setup
+n
+bemenu --version
+rust -v
+rustc -v
+rustc --version
+n
+n
+ls
+z
+ls
+ls -a
+ls .local/share/Trash/files
+ls
+ls -a
+n
+cmake
+pacman -S cmake
+n
+ls
+z no
+z
+ls
+yazi
+n
+ls
+n
+zno x
+exit
+n
+trans
+n
+yazi
+n
+ls
+z no
+ls
+hx plan.txt
+ping 1.1.1.1
+ls
+btm
+hx emacs-setup
+z
+hx .emacs
+n
+ls
+yazi
+yazi
+emacs --version
+n
+z no
+n
+hx plan.txt
+yazi
+n
+n
+ls
+ls -a
+shutdown now
+ls
+z no
+kalker
+n
+trans
+n
+pamixer -m
+pamixer -u
+pamixer -u
+n
+z excel
+emacs --verison
+emacs --version
+n
+kalker
+n
+kalker
+n
+hx plan.txt
+z
+ls
+lein new app my-staff
+ls
+yazi
+conj
+clj
+pacman -Syu
+lein --version
+lein --help
+lein upgrade
+ch
+chsh
+chsh --help
+chsh -l
+chsh
+yazi
+shutdown now -r
+ls
+shutdown now -r
+pamixer -u
+pamixer -m
+pamixer -u
+n
+z no
+n
+yazi
+n
+yazi
+n
+z excel
+locate
+pacman -S locate
+locate
+fd
+fd --help
+man fd
+pacman -S fd
+fd plan
+find plan
+fd plan
+hx plan.txt
+git add .
+z
+n
+z no
+yazi
+trash-list
+z
+ls .local/share/Trash/files
+z
+ls
+git clone https://github.com/yogthos/graviton.git
+z graviton/
+ls
+dua
+lein figwheel
+ls
+..
+dua
+z graviton/
+ls
+dua
+z public/
+ls
+dua
+z js/
+ls
+dua
+z out/
+ls
+dua
+z
+z Downloads/
+git clone https://github.com/yogthos/graviton.git
+dua
+trash graviton/
+..
+git clone https://github.com/fpischedda/minasss-games
+z minasss-games/
+lein figwheel
+trans
+lein clean
+lein do clean, cljsbuild once min
+ls
+..
+dua
+trash minasss-games/
+ls
+n
+n
+kalker
+n
+trans
+n
+trans
+yazi
+n
+shutdown now
+trans
+yazi
+zz excel
+z excel
+yzi
+yazi
+tremc
+z no
+hx emacs-setup
+ls
+hx plan.txt
+trans
+touch choice.txt
+n
+hx choice.txt
+trash choice.txt
+n
+trash-list
+trash-restore
+ls
+hx choice.txt
+z
+yzi
+yazi
+tremc
+z no
+n
+yazi
+tremc
+n
+tremc
+n
+hx plan.txt
+n
+yazi
+tremc
+n
+yazi
+z gen
+yai
+yazi
+n
+b
+n
+yazi
+tremc
+btm
+tremc
+n
+tremc
+n
+tremc
+x-reload 
+tremc
+n
+yazi
+n
+yazi
+n
+shutdown now
+n
+btm
+z no
+hx emacs-setup
+trans
+n
+ls
+hx emacs-setup
+hx plan.txt
+hx choice.txt
+z
+z .local/src/helix/
+git pull
+cargo install --path helix-term --locked
+n
+hx CHANGELOG.md
+z no
+hx choice.txt
+hx
+..
+ls
+z old/
+ls
+z
+z tr
+ls
+z `all projects/`
+ls
+z UNCC-code/
+ls
+z http/
+ls
+hx simpe-client.js
+ls
+z no
+n
+z excel
+man bash
+ping 1.1.1.1
+n
+ls
+yazi
+z dotfiles/
+stow .
+..
+yazi
+z dotfiles/
+ls
