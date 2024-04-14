@@ -5253,3 +5253,99 @@ stow .
 yazi
 z dotfiles/
 ls
+git add .
+git commit -m 'added emacs config'
+git push
+..
+ls
+n
+z
+yazi
+yazi
+n
+z
+n
+kalker
+yazi
+config leftwm 
+n
+pamixer m
+pamixer -m
+pamixer --u
+pamixer -u
+n
+trans
+n
+pacman -S iosevka
+pacman -S ttf-iosevka
+paru -S ttf-iosevka
+yuy
+yua
+hx .config/wezterm/wezterm.lua
+yay -S ttf-iosevka
+fc-list 
+fc-list | grep -i 'iosevka'
+fc-list | rg iosevka
+fc-list | rg 'iosevka'
+fc-list | rg -i iosevka
+fc-list | rg -i aile
+yay -S ttf-iosevka-aile
+fc-list | rg -i aile
+z no
+hx arch-installation.sh
+z
+n
+yazi
+n
+trans
+z no
+n
+touch tasks.org
+ls
+pwd
+which tasks.org
+pwd tasks.org
+n
+ls
+bat tasks.org
+ls
+n
+z
+yazi
+n
+ping 1.1.1.1
+n
+ping 1.1.1.1
+shutdown nwo
+pamixer -m
+pamixer -u
+yazi
+z genki
+yazi
+n
+yazi
+n
+z .emacs.d/
+ls
+yazi
+yazi
+n
+yazi
+n
+z no
+lsa
+ls
+bat tasks.org
+ls
+pamixer -m
+pamixer -u
+n
+ls
+trash hello.org 1.rkt
+ls
+trash graviton/
+ls
+trash my-staff/
+ls
+trans
+z dotfiles/

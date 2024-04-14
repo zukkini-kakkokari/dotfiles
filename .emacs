@@ -7,25 +7,22 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+	 '("940bf45c7f4b8ee4b4d4928b63fb8e170bf5bb44e524f93899c83d8d60e604ea" "33287893d3bae86fefff0601fd99071d67fc72caa30019986b85b38ec5a95d1b" "3160ce28d442228f9e0a405f34fa94522e6bdaedb58e268e8f957ecd1fe35476" default))
  '(package-selected-packages
-	 '(modus-themes racket-mode parinfer-rust-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow)))
+	 '(paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow)))
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:family "Iosevka Nerd Font Mono" :foundry "UKWN" :slant normal :weight regular :height 218 :width normal)))))
-;; change default settings
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (menu-bar-mode -1)
 (global-display-line-numbers-mode 1)
 (setq-default tab-width 2)
-(load-theme 'wheatgrass t)
+(setq vc-follow-symlinks t) ; disable symlink warning
 (save-place-mode 1) ; save cursor pos if you close emacs
 (global-auto-revert-mode 1) ; auto update file if it changes
+(set-face-attribute 'default nil :family "Iosevka" :height 218)
+(set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
 
 ;; setup backup folder
 (setq auto-save-file-name-transforms `((".*" "~/.local/share/Trash/files/" t)))
@@ -41,12 +38,15 @@
 (use-package rainbow-delimiters
   :hook org-mode prog-mode) ; rainbow brackets
 
-; term enulator
+;; paredit
+(use-package paredit
+	:hook org-mode prog-mode)
+
+;; term enulator
 (use-package vterm
   :config
   (setq shell-file-name "/bin/bash"
-	vterm-max-scrollback 5000))
-
+				vterm-max-scrollback 5000))
 
 
 ;; COMPLETION SNIPPET
@@ -259,4 +259,67 @@
 (add-hook 'racket-mode-hook
           (lambda ()
             (define-key racket-mode-map (kbd "<f5>") 'racket-run)))
-(add-hook 'racket-mode-hook #'racket-xp-mode) ; locale auto-complete
+(add-hook 'racket-mode-hook #'racket-xp-mode) ; locale auto-complete(package-initialize)
+
+;; setup org mode
+(require 'org-tempo) ; <s stuff
+
+(setq
+ ;; Edit settings
+ org-auto-align-tags nil
+ org-tags-column 0
+ org-catch-invisible-edits 'show-and-error
+ org-special-ctrl-a/e t
+ org-insert-heading-respect-content t
+
+ ;; Org styling, hide markup etc.
+ org-hide-emphasis-markers t
+ org-pretty-entities t
+ org-ellipsis "…"
+
+ ;; Agenda styling
+ org-agenda-tags-column 0
+ org-agenda-block-separator ?─
+ org-agenda-time-grid
+ '((daily today require-timed)
+   (800 1000 1200 1400 1600 1800 2000)
+   " ┄┄┄┄┄ " "┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄")
+ org-agenda-current-time-string
+ "◀── now ─────────────────────────────────────────────────"
+ org-agenda-start-with-log-mode t
+ org-log-done 'time
+ org-log-into-drawer t
+ org-agenda-files '("~/wakuwaku/projects/notes/tasks.org"))
+
+(global-org-modern-mode)
+
+
+;; THEME
+
+;; palete overrides
+;; f5deb3 => 000f08 => ff3864 => 02a9ea => 809bce
+(setq modus-vivendi-palette-overrides
+	'(
+		(color-wheat "#f5deb3")
+		(color-night "#000f08")
+		(color-folly "#ff3864")
+		(color-picton-blue "#02a9ea")
+		(color-vista-blue "#809bce")
+		(fg-main "#f5deb3")
+		(magenta  color-folly)
+		))
+
+;; remove modeline border
+(setq modus-themes-common-palette-overrides
+      '((border-mode-line-active unspecified)
+        (border-mode-line-inactive unspecified) ; remove modeline border
+				(bg-mode-line-active color-night)
+        (fg-mode-line-active fg-main)
+        (border-mode-line-active unspecified)
+        (border-mode-line-inactive unspecified)
+				(bg-region bg-ochre) 
+        (fg-region unspecified)))
+
+
+(load-theme 'modus-vivendi t)
+
