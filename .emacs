@@ -38,15 +38,15 @@
 (use-package rainbow-delimiters
   :hook org-mode prog-mode) ; rainbow brackets
 
-;; paredit
-(use-package paredit
-	:hook org-mode prog-mode)
-
 ;; term enulator
 (use-package vterm
   :config
   (setq shell-file-name "/bin/bash"
 				vterm-max-scrollback 5000))
+
+;; paredit
+(use-package paredit
+	:hook org-mode prog-mode)
 
 
 ;; COMPLETION SNIPPET
@@ -127,13 +127,13 @@
 	("RET" . nil))
   :init
   (global-corfu-mode)
-  ;(corfu-popupinfo-mode)
+  (corfu-popupinfo-mode)
   (corfu-history-mode)
-  (corfu-echo-mode)
+  ;(corfu-echo-mode)
   )
 (savehist-mode 1) ; for history mode working
 (add-to-list 'savehist-additional-variables 'corfu-history)
-(setq corfu-echo-delay 0.0)
+(setq corfu-popupinfo-delay 0.3)
 ;;
 ;; STOP COMPLETION SNIPPET
 
@@ -142,6 +142,11 @@
 ; activate commands to allow half-page scroll
 (autoload 'View-scroll-half-page-forward "view")
 (autoload 'View-scroll-half-page-backward "view")
+
+;; setup default directory
+(defun my-fd ()
+	(interactive)
+	(consult-fd "~"))
 
 ;; meow keys
 (defun meow-setup ()
@@ -152,18 +157,23 @@
    '("<escape>" . ignore))
   (meow-leader-define-key
    ;; Custom SPC commands, but x / h / c / m / g is reserved
-   '("j" . consult-buffer) ; find buffer
-   '("b" . kill-buffer) ; bakuretsu buffer
+   '("j" . consult-buffer)							; find buffer
+   '("b" . kill-buffer)									; bakuretsu buffer
    '("s" . save-buffer)
-   '("e" . eval-defun)
-   '("o" . find-file) ; open local file
-	 '("O" . consult-fd) ; open global file
-   '("p" . consult-yank-from-kill-ring) ; open kill ring
-   '("N" . set-mark-command) ; set mark
-   '("n" . consult-mark) ; find marks
-   '("a" . consult-imenu) ; all symbols picker
-   '("f" . consult-line) ; find inside file
-	 '("u" . meow-comment) ; uncomment/comment
+   '("e" . cider-eval-last-sexp)
+	 '("r" . cider-eval-buffer)
+	 '("i" . cider-find-dwim-other-window) ; go to implementation
+	 '("d" . cider-doc)										 ; show doc
+   '("o" . find-file)										 ; open local file
+	 '("O" . my-fd)									       ; open global file
+   '("p" . consult-yank-from-kill-ring)	 ; open kill ring
+   '("N" . set-mark-command)						 ; set mark
+   '("n" . consult-mark)								 ; find marks
+   '("a" . consult-imenu)								 ; all symbols picker
+   '("f" . consult-line)								 ; find inside file
+	 '("u" . meow-comment)								 ; uncomment/comment
+	 '("w" . paredit-wrap-sexp)
+	 '("TAB" . other-window)
    ;; Use SPC (0-9) for digit arguments.
    '("1" . meow-digit-argument)
    '("2" . meow-digit-argument)
@@ -241,12 +251,18 @@
    '("<" . indent-rigidly-left-to-tab-stop)
    '(">" . indent-rigidly-right-to-tab-stop)
 	 '("`" . delete-other-windows)
+	 '("~" . delete-window)
+	 '("W" . paredit-kill)
+	 '("C-h" . paredit-forward-slurp-sexp)
+	 '("C-l" . paredit-forward-barf-sexp)
+	 '("C-k" . paredit-split-sexp)
+	 '("C-j" . paredit-join-sexps)
    '("<escape>" . ignore)))
 (require 'meow)
 (meow-setup)
 (meow-global-mode 1)
 
-  
+
 ;; change font size
 (setq text-scale-mode-step 1.05)
 (global-set-key (kbd "C-=") 'text-scale-increase)

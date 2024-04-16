@@ -5349,3 +5349,311 @@ trash my-staff/
 ls
 trans
 z dotfiles/
+git add .
+git commit -m 'finish emacs setup'
+git push
+n
+trans
+n
+yazi
+n
+clj
+ls
+..
+ls
+mkdir code
+z code
+ls
+touch hello_world.clj
+exit
+ls
+exit
+bash
+exit
+exi
+exit
+ls
+config leftwm
+n
+z code
+ls
+lein repl
+n
+ls
+trash code
+ls
+pamixer -m
+..
+ls
+pamixer -m
+pamixer -u
+ls
+n
+z no
+ls
+git add .
+git commit -m 'lisp way'
+git push
+ls
+trash tasks.org
+ls
+hx plan.txt
+ping 1.1.1.1
+ls
+yazi
+ls
+mkdir nimium
+z nimium/
+touch hello.nim
+..
+z nimium/
+ls
+nim r hello.nim
+ls
+nim r hello.nim
+nim c hello.nim
+ls
+./hello
+trash hello
+ls
+nim r hello.nim
+ls
+hx plan.txt
+git add .
+git commit -m 'nim route'
+git push
+n
+nim r hello.nim
+hx plan.txt
+n
+z
+yazi
+n
+nim r hello.nim
+n
+yazi
+n
+tremc
+n
+z no
+hx plan.txt
+yazi
+z
+z Downloads/
+ls
+z no
+ls
+hx plan.txt
+hx hello.nim
+..
+ls
+trash nimium/
+z Downloads/
+ls
+trash `King K.N. - C Programming. A Modern Approach. 2nd Edition - 2008.pdf` `Andreas Rumpf - Mastering Nim (2023).pdf`
+ls
+..
+..
+mkdir code
+z code/
+ls
+ls
+n
+hx plan.txt
+ls
+touch hello_world.clj
+ls
+n
+ls
+hx plan.txt
+git add .
+git commit -m 'lisp is the only way'
+git push
+ls
+z Downloads/
+ls
+n
+trans
+n
+shutdown now
+n
+z no
+fd --help
+z code
+fd plan
+fd plan ~/
+fd . ~/
+fd . "~"
+fd . "~/"
+pwd
+fd . "/home/zukkini/code"
+fd . "~"
+fd --help
+fd ~ plan
+fd plan ~
+fd --search-path ~ plan
+pamixer -m
+pamixer -u
+n
+kalker
+n
+trans
+n
+yazi
+n
+zn o
+z no
+hx plan.txt
+pacman -S code
+z
+yazi
+pacman -Runs code
+z no
+hx plan.txt
+pacman -S code
+hx choice.txt
+ping 1.1.1.1
+hx plan.txt
+n
+yazi
+z Downloads/
+ls
+yazi
+unzip code.zip
+ls
+trash large-scale.epub code.zip
+s
+ls
+yazi
+z
+node -v
+npx create-next-app@latest
+ls
+z lingo/
+..
+dua
+z lingo/
+z lingo
+ls
+tree
+ls
+npx shadcn-ui@latest init
+hx choice.txt
+z
+z lingo
+hx app/layout.tsx
+hx --health | rg "tailwind"
+hx --health
+n
+ping 1.1.1.1
+z
+ls
+trash lingo/
+ls
+trash code
+z Downloads/
+ls
+yazi
+n
+z no
+hx plan.txt
+git add .
+git commit -m 'Nim for 1 month'
+git push
+z
+ls
+trash lingo/
+ls
+mkdir nimium
+z nimium/
+ls
+hx plan.txt
+n
+touch hey.nim
+npm run dev
+z
+ls
+z nimium/
+nim r hey.nim
+n
+nim r hey.nim
+z
+yazi
+n
+yazi
+nim r hey.nim
+pacman -S catgirl
+yuy -S
+yay -S catgirl
+catgirl
+catgirl --help
+catgirl -h
+catgirl irc://irc.libera.chat/nim
+man catgirl
+catgirl -h irc://irc.libera.chat/nim
+catgirl -h irc.libera.chat -j "nim"
+man catgirl
+n
+yazi
+n
+yazi
+n
+nim r hey.nim
+z no
+ls
+z Downloads/
+yazi
+hx hey.nim
+n
+ls
+trash nimium/
+ls
+z
+ls
+mkdir code
+code
+pacman -Runs code
+ls
+hx plan.txt
+git add .
+git commit -m 'Back to lisp'
+git push
+hx plan.txt
+z code
+touch hello_world.clj
+ls
+..
+n
+z
+ls
+z Downloads/
+ls
+trash `King K.N. - C Programming. A Modern Approach. 2nd Edition - 2008.pdf` `Dominik Picheta - Nim in Action (2017, Manning Publications) - libgen.li.pdf` `Andreas Rumpf - Mastering Nim (2023).pdf`
+ls
+n
+z
+yazi
+n
+ls
+z Downloads/
+ls
+..
+ls
+n
+z no
+lx
+ls
+git add .
+git commit -m 'finished lisp plan'
+git push
+n
+shutdown now
+ls
+n
+trns
+trans
+n
+ls
+z dotfiles/
+ls
+ls -a

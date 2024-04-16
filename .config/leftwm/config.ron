@@ -36,7 +36,7 @@
     layout_mode: Tag,
     insert_behavior: Bottom,
     scratchpad: [
-        (name: "Wezterm", value: "wezterm start --always-new-process", x: 100, y: 100, height: 950, width: 1700),
+        (name: "Wezterm", value: "wezterm start --always-new-process", x: 100, y: 100, height: 1950, width: 3700),
     ],
     window_rules: [
         (window_class: "nannou", spawn_floating: true),
