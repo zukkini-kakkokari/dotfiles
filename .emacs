@@ -7,10 +7,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-	 '("940bf45c7f4b8ee4b4d4928b63fb8e170bf5bb44e524f93899c83d8d60e604ea" "33287893d3bae86fefff0601fd99071d67fc72caa30019986b85b38ec5a95d1b" "3160ce28d442228f9e0a405f34fa94522e6bdaedb58e268e8f957ecd1fe35476" default))
  '(package-selected-packages
-	 '(paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow)))
+	 '(paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
+ '(safe-local-variable-values '((cider-clojure-cli-global-options . "-A:dev"))))
 
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
@@ -21,6 +20,7 @@
 (setq vc-follow-symlinks t) ; disable symlink warning
 (save-place-mode 1) ; save cursor pos if you close emacs
 (global-auto-revert-mode 1) ; auto update file if it changes
+(toggle-frame-fullscreen)
 (set-face-attribute 'default nil :family "Iosevka" :height 218)
 (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
 
@@ -56,6 +56,7 @@
   (vertico-mode)
   (setq vertico-cycle t))
 (keymap-set vertico-map "TAB" #'vertico-next) ; change default hotkeys
+(keymap-set vertico-map "M-TAB" #'vertico-insert)
 (keymap-set vertico-map "S-<iso-lefttab>" #'vertico-previous)
 
 ;; Persist history over Emacs restarts. Vertico sorts by history position.
@@ -166,7 +167,9 @@
 	 '("d" . cider-doc)										 ; show doc
    '("o" . find-file)										 ; open local file
 	 '("O" . my-fd)									       ; open global file
-   '("p" . consult-yank-from-kill-ring)	 ; open kill ring
+   '("y" . consult-yank-from-kill-ring)	 ; open kill ring
+	 '("Y" . clipboard-yank)
+	 '("P" . clipboard-kill-ring-save)     ; paste into OS clipboard
    '("N" . set-mark-command)						 ; set mark
    '("n" . consult-mark)								 ; find marks
    '("a" . consult-imenu)								 ; all symbols picker
@@ -230,7 +233,7 @@
    '("n" . meow-search)
    '("o" . meow-block)
    '("O" . meow-to-block)
-   '("p" . meow-yank)
+   '("y" . meow-yank) ; yank from kill ring
    '("q" . meow-quit)
    '("Q" . consult-goto-line)
    '("b" . meow-replace)
@@ -244,8 +247,8 @@
    '("E" . meow-mark-symbol)
    '("x" . meow-line)
    '("X" . meow-goto-line)
-   '("y" . meow-save)
-   '("Y" . meow-sync-grab)
+   '("p" . meow-save) ; paste into kill ring
+   '("P" . meow-sync-grab)
    '("z" . meow-pop-selection)
    '("'" . repeat)
    '("<" . indent-rigidly-left-to-tab-stop)
@@ -338,4 +341,17 @@
 
 
 (load-theme 'modus-vivendi t)
+
+;; dired settings
+(use-package dired
+	:ensure nil
+	:config
+		(define-key dired-mode-map (kbd "h") #'dired-up-directory)
+		(define-key dired-mode-map (kbd "l") #'dired-find-file)
+		(define-key dired-mode-map (kbd "`") #'delete-other-windows)
+		(define-key dired-mode-map (kbd "a") #'dired-create-empty-file)
+		(define-key dired-mode-map (kbd "A") #'dired-create-directory)
+		(define-key dired-mode-map (kbd "d") #'dired-do-delete)
+		(define-key dired-mode-map (kbd "c") #'dired-do-copy)
+		(define-key dired-mode-map (kbd "r") #'dired-do-rename))
 

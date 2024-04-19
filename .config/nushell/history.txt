@@ -5657,3 +5657,254 @@ ls
 z dotfiles/
 ls
 ls -a
+git add .
+git commit -m 'updated .emacs'
+git push
+..
+pacman -Runs emacs
+ls
+ls -a
+pacman -S emacs-nativecomp
+ls
+hx .emacs
+ls
+pacman -Runs emacs
+pacman -Runs emacs-nativecomp
+ls
+trash .emacs.d/
+ls
+ls -a
+pacman -S emacs-nativecomp
+ls
+ls -a
+n
+yazi
+n
+dua
+n
+pamixer --m
+pamixer -m
+n
+pamixer -u
+n
+trans
+n
+yazi
+n
+trans
+n
+yazi
+n
+shutdown r -now
+shutdown -r now
+btm
+n
+trans
+n
+yazi
+n
+hx
+kalker
+n
+yazi
+n
+shutdown now
+pacman -S bemenu
+n
+git clone https://github.com/magnars/parens-of-the-dead-s2.git
+ls
+mv parens-of-the-dead-s2/ parens
+ls
+yazi
+mkdir parens
+z parens
+ls
+mkdir src
+mkdir test
+mkdir dev
+yazi
+z
+z parens
+touch deps.edn
+n
+clojure -version
+cljs
+z src
+ls
+mkdir undead
+z undead/
+touch system.clj
+..
+z dev/
+touch dev.clj
+..
+mkdir dev-resources
+z dev-resources/
+touch config.edn
+..
+ls
+ls -a
+touch .dir-locals.el
+n
+pamixer -m
+pamixer -u
+yazi
+n
+trans
+n
+ls
+trash parens
+z Downloads/
+ls
+trash parens-of-the-dead-final/
+..
+git clone https://github.com/magnars/parens-of-the-dead-s2.git
+mv parens-of-the-dead-s2/ parens
+ls
+n
+z excel
+n
+trans
+n
+trans
+x-reload 
+trans
+ping 1.1.1.1
+n
+trans
+n
+trans
+ping duckduckgo.com
+c++ 
+c++ --help
+man c++
+n
+trans
+n
+yazi
+shutdown now
+n
+ls
+mkdir unraveal
+z unraveal/
+touch unravel.cljs
+ls
+mv unravel.cljs unravel.clj
+..
+pamixer -m
+pamixer -u
+n
+tran
+z unraveal/
+ls
+mv unravel.clj unravel.cljs
+z
+trans
+pamixer -m
+pamixer -u
+n
+trans
+n
+yazi
+n
+yazi
+n
+node -v
+java -version
+rlwrap
+mkdir -p mynodeapp/src/mynodeapp
+mkdir mynodeapp/src/mynodeapp
+z mynodeapp/
+tree
+touch package.json
+touch shadow-cljs.edn
+z src/mynodeapp/
+touch main.cljs
+.....
+z
+z mynodeapp/
+npm i
+ls
+dua
+ls
+dua
+n
+npm run compile
+ls
+ls target/
+bat target/app.js
+ls
+node target/app.js
+..
+yazi
+pamixer -m
+n
+z mywebapp/
+npm i
+ls
+npm i
+npm run watch
+shadow-cljs 
+pamixer m
+pamixer -u
+n
+z no
+git add .
+git commit -m '1 year of lisp'
+git push
+n
+z excel
+n
+yazi
+z
+yazi
+n
+z
+yazi
+trans
+n
+yazi
+n
+trans
+n
+trans
+n
+yazi
+ls
+mkdir nimium
+z nimium/
+ls
+choosenim --help
+choosenim update stable
+nim -v
+n
+yazi
+yazi
+n
+trna
+n
+trans
+n
+yazi
+n
+yazi
+trans
+n
+trans
+n
+trasn
+n
+shutdown now
+n
+trans
+tran
+trans
+n
+exit
+trans
+n
+yazi
+z dotfiles/
+.
+..
+z dotfiles/
