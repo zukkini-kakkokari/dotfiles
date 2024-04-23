@@ -5908,3 +5908,278 @@ z dotfiles/
 .
 ..
 z dotfiles/
+git add .
+git commit -m 'change scroll amount in zathura'
+git push
+n
+..
+ls
+lein new luminus guestbook --template-version 3.91 -- +h2 +http-kit
+ls
+z guestbook/
+ls
+ls -a
+ls
+n
+.
+z
+yazi
+n
+z guestbook/
+clojure -v
+clojure -version
+z guestbook/
+tree
+..
+dua
+z guestbook/
+tree
+bat env/dev/clj/user.clj
+n
+tree
+tree -d
+tree
+tree src
+n
+tree resources/
+rm resources/migrations/*
+tree resources/
+n
+rm resources/migrations/*
+tree
+tree resources/
+n
+tree -d
+tree src
+n
+trans
+lein test
+n
+lein test-refresh
+n
+yazi
+n
+pamixer -m
+n
+pamixer -u
+n
+cal
+kalker
+tremc
+btm
+tremc
+n
+kalker
+yazi
+n
+yazi
+n
+tgpt
+pacman -S tgpt
+yay -S tgpt
+tgpt "The most amount of packages in package manager in programming language"
+tgpt "top languages by amount of packages in software registry"
+tgpt "list top languages by amount of packages in software registry. With exactly amount numbers"
+n
+tremc
+n
+tremc
+yazi
+tremc
+yazi
+tremc
+n
+trna
+trans
+yazi
+trans
+n
+trans
+n
+lein repl
+n
+n
+-n
+n
+ls
+n
+yazi
+ls
+rm -rf go
+sudo rm -rf go
+ls
+yazi
+z guestbook/
+n
+lein repl
+lein uberjar
+dua /home/zukkini/guestbook/target/uberjar/
+yazi
+bash repl
+lein repl
+n
+ls
+..
+lein new ring-app
+n
+z ring-app/
+yazi
+n
+java -version
+which java
+lein run
+n
+tremc
+n
+..
+n
+yazi
+n
+z ring-app/
+curl -I localhost:3000
+lein run
+curl -I localhost:3000
+curl localhost:3000
+n
+m
+n
+curl localhost:3000
+lein run
+curl -I localhost:3000
+lein run
+lein repl
+curl -H "Content-Type: application/json" -X POST -d '{"id":1}' localhost:3000
+n
+curl -H "Content-Type: application/edn" -H "Accept: application/edn" -X POST -d '{:id 1}' localhost:3000
+n
+curl -H "Content-Type: application/edn" -H "Accept: application/edn" -X POST -d '{:id 1}' localhost:3000
+curl -H "Content-Type: application/edn" -H "Accept: application/json" -X POST -d '{:id 1}' localhost:3000
+curl -H "Content-Type: application/edn" -X POST -d '{"id":1}' localhost:3000
+curl -H "Content-Type: application/json" -X POST -d '{"id":1}' localhost:3000
+n
+lein run
+yazi
+n
+shutdown now -r
+yai
+yazi
+n
+pamixer -m
+pamixer -u
+n
+yazi
+n
+yazi
+n
+tremc
+yazi
+n
+tremc
+yazi
+n
+yazi
+n
+yazi
+n
+z no
+ls
+n
+git add .
+git commit -m 'lisp + genki + anime = hapiness'
+git puhs
+git push
+shutdown now
+n
+tremc
+n
+yazi
+n
+kalker
+yazi
+n
+trans
+n
+trans
+yazi
+n
+yazi
+n
+shutdown now
+n
+yazi
+n
+trans
+n
+trans
+n
+trans
+n
+shutdown now
+n
+yazi
+n
+z ring-app/
+curl localhost:3000
+curl -X POST localhost:3000
+curl localhost:3000
+curl localhost:3000/echo/40
+curl -H "Content-Type: application/json" -X POST -d '{"a": 3, "b": 2}' localhost:3000/api/multiply
+n
+curl localhost:3000/baka
+n
+curl localhost:3000/index.html
+lein run
+..
+lein new html-templating
+z html-templating/
+n
+trans
+n
+..
+yazi
+n
+btm
+ping melpa.org/
+ping melpa.org
+btm
+touch baka.html
+pacman -Syu
+n
+shutdown -r now
+ls
+n
+config leftwm 
+n
+yazi
+tremc
+yazi
+tremc
+yazi
+btm
+temc
+tremc
+npm install -g browser-sync
+sudo npm install -g browser-sync
+z bakaa/
+ls
+mkdir css
+z css/
+touch style.css
+browser-sync start --server --files "css/*.css"
+..
+browser-sync start --server --files "css/*.css"
+z bakaa/
+start-css-server 
+n
+zzz
+z
+ls
+trash bakaa/
+ls
+n
+pamixer -m
+pamixer -u
+n
+trmec
+tremc
+z dotfiles/

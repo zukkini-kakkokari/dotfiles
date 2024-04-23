@@ -2,13 +2,20 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
+
+;; *elpa mirrors
+(setq package-archives
+      '(("melpa" . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/melpa/")
+        ("org"   . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/org/")
+        ("gnu"   . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/gnu/")))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-	 '(paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
+	 '(web-mode emmet-mode paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
  '(safe-local-variable-values '((cider-clojure-cli-global-options . "-A:dev"))))
 
 (setq inhibit-startup-message t)
@@ -20,6 +27,7 @@
 (setq vc-follow-symlinks t) ; disable symlink warning
 (save-place-mode 1) ; save cursor pos if you close emacs
 (global-auto-revert-mode 1) ; auto update file if it changes
+(electric-pair-mode 1) ; auto pair closing
 (toggle-frame-fullscreen)
 (set-face-attribute 'default nil :family "Iosevka" :height 218)
 (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
@@ -46,12 +54,28 @@
 
 ;; paredit
 (use-package paredit
-	:hook org-mode prog-mode)
+		:hook org-mode emacs-lisp-mode clojure-mode)
 
+;; emmet mode
+(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
+(global-set-key (kbd "M-j") 'emmet-expand-line)
+(add-hook 'emmet-mode-hook (lambda () (setq emmet-indent-after-insert nil)))
+(add-hook 'emmet-mode-hook (lambda () (setq emmet-indentation 2))) ;; indent 2 spaces.
+(setq-default css-indent-offset 2)
+
+;; web mode
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(defun my-web-mode-hook ()
+  "Hooks for Web mode."
+  (setq web-mode-markup-indent-offset 2)
+	(setq web-mode-css-indent-offset 2)
+)
+(add-hook 'web-mode-hook  'my-web-mode-hook)
 
 ;; COMPLETION SNIPPET
 ;;
-(use-package vertico ; for minibuffer completion
+(use-package vertico										; for minibuffer completion
   :init
   (vertico-mode)
   (setq vertico-cycle t))
@@ -135,12 +159,11 @@
 (savehist-mode 1) ; for history mode working
 (add-to-list 'savehist-additional-variables 'corfu-history)
 (setq corfu-popupinfo-delay 0.3)
+(define-key corfu-map [remap next-line] nil) ; disable j/k for choising items
+
 ;;
 ;; STOP COMPLETION SNIPPET
-
-
-
-; activate commands to allow half-page scroll
+																				; activate commands to allow half-page scroll
 (autoload 'View-scroll-half-page-forward "view")
 (autoload 'View-scroll-half-page-backward "view")
 
@@ -332,7 +355,7 @@
 (setq modus-themes-common-palette-overrides
       '((border-mode-line-active unspecified)
         (border-mode-line-inactive unspecified) ; remove modeline border
-				(bg-mode-line-active color-night)
+				(bg-mode-line-active "#111")
         (fg-mode-line-active fg-main)
         (border-mode-line-active unspecified)
         (border-mode-line-inactive unspecified)
@@ -355,3 +378,11 @@
 		(define-key dired-mode-map (kbd "c") #'dired-do-copy)
 		(define-key dired-mode-map (kbd "r") #'dired-do-rename))
 
+;; lsp settings, if autocomplete will lag
+;; (fset #'jsonrpc--log-event #'ignore)
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
