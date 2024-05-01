@@ -129,3 +129,21 @@ stow .
 ..
 z dotfiles/
 ls
+git add .
+git commit -m 'added vs code config'
+git push
+n
+ls
+..
+z
+hx
+hx --health elixir
+ls
+z dotfiles/
+ls
+z .config/
+ls
+trash `Code - OSS/`
+ls
+..
+ls
