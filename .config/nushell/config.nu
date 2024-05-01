@@ -776,4 +776,4 @@ alias trans = trans :ru
 alias docker-check-ip = docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
 alias cal = cal --week-start mo
 alias "config leftwm" = hx ~/.config/leftwm/config.ron
-alias "start-css-server" = browser-sync start --server --files "css/*.css"
+alias "start-css-server" = browser-sync start --server --files "./*.css"

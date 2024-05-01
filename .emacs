@@ -22,13 +22,12 @@
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (menu-bar-mode -1)
-(global-display-line-numbers-mode 1)
 (setq-default tab-width 2)
 (setq vc-follow-symlinks t) ; disable symlink warning
 (save-place-mode 1) ; save cursor pos if you close emacs
 (global-auto-revert-mode 1) ; auto update file if it changes
 (electric-pair-mode 1) ; auto pair closing
-(toggle-frame-fullscreen)
+; (toggle-frame-fullscreen)
 (set-face-attribute 'default nil :family "Iosevka" :height 218)
 (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
 
@@ -159,7 +158,8 @@
 (savehist-mode 1) ; for history mode working
 (add-to-list 'savehist-additional-variables 'corfu-history)
 (setq corfu-popupinfo-delay 0.3)
-(define-key corfu-map [remap next-line] nil) ; disable j/k for choising items
+(define-key corfu-map [remap next-line] nil) ; disable j for choising items
+(define-key corfu-map [remap previous-line] nil) ; disable k for choising items
 
 ;;
 ;; STOP COMPLETION SNIPPET
@@ -190,9 +190,9 @@
 	 '("d" . cider-doc)										 ; show doc
    '("o" . find-file)										 ; open local file
 	 '("O" . my-fd)									       ; open global file
-   '("y" . consult-yank-from-kill-ring)	 ; open kill ring
-	 '("Y" . clipboard-yank)
-	 '("P" . clipboard-kill-ring-save)     ; paste into OS clipboard
+   '("p" . consult-yank-from-kill-ring)	 ; open kill ring
+	 '("P" . clipboard-yank)
+	 '("Y" . clipboard-kill-ring-save)     ; paste into OS clipboard
    '("N" . set-mark-command)						 ; set mark
    '("n" . consult-mark)								 ; find marks
    '("a" . consult-imenu)								 ; all symbols picker
@@ -256,22 +256,22 @@
    '("n" . meow-search)
    '("o" . meow-block)
    '("O" . meow-to-block)
-   '("y" . meow-yank) ; yank from kill ring
+   '("P" . meow-yank) ; yank from kill ring
    '("q" . meow-quit)
    '("Q" . consult-goto-line)
    '("b" . meow-replace)
    '("B" . meow-swap-grab)
    '("w" . meow-kill)
    '("t" . meow-till)
-   '("u" . meow-undo)
-   '("U" . meow-undo-in-selection)
+   '("U" . meow-undo)
+   ;'("U" . meow-undo-in-selection)
    '("v" . meow-visit)
    '("e" . meow-mark-word)
    '("E" . meow-mark-symbol)
    '("x" . meow-line)
    '("X" . meow-goto-line)
-   '("p" . meow-save) ; paste into kill ring
-   '("P" . meow-sync-grab)
+   '("y" . meow-save) ; paste into kill ring
+   '("Y" . meow-sync-grab)
    '("z" . meow-pop-selection)
    '("'" . repeat)
    '("<" . indent-rigidly-left-to-tab-stop)
@@ -377,6 +377,7 @@
 		(define-key dired-mode-map (kbd "d") #'dired-do-delete)
 		(define-key dired-mode-map (kbd "c") #'dired-do-copy)
 		(define-key dired-mode-map (kbd "r") #'dired-do-rename))
+(setf dired-kill-when-opening-new-dired-buffer t)
 
 ;; lsp settings, if autocomplete will lag
 ;; (fset #'jsonrpc--log-event #'ignore)
