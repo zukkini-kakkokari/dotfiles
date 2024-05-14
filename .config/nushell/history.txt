@@ -147,3 +147,1720 @@ trash `Code - OSS/`
 ls
 ..
 ls
+git add .
+git commit -m 'remove vs code in flavor of helix'
+git push
+pacman -Runs code
+n
+yazi
+n
+pacman -S elixir-ls
+yay -S elixir-ls
+hx --health elixir
+hx 
+z .config/
+ls
+hx helix/languages.toml
+z
+z notes
+ls
+hx plan.txt
+git add .
+git commit -m 'lisp way'
+git push
+hx plan.txt
+git add .
+git commit -m 'elixir way'
+git puhs
+git push
+hx plan.txt
+git add .
+git commit -m 'excel saga'
+git push
+z Downloads/
+ls
+mkdir train
+z code.zip train/
+ls
+mv code.zip train/
+ls
+z train/
+ls
+unzip code.zip
+yazi
+ls
+..
+trash train/
+ls
+yazi
+trans
+hx plan.txt
+n
+pamixer -m
+pamixer -u
+ls
+z no
+hx plan.txt
+yazi
+yazi
+hx
+hx
+z
+ls
+z .local/src/helix/
+ls
+z runtime/
+ls
+z themes/
+ls
+hx
+config env
+hx ayu_evolve.toml
+hx
+hx ayu_dark.toml
+hx ayu_evolve.toml
+hx
+ls
+hx ayu_evolve.toml
+hx
+hx ayu_dark.toml
+hx
+hx ayu_dark.toml
+hx
+hx ayu_dark.toml
+hx
+ls
+..
+...
+ls
+z helix/
+ls
+z helix-event/
+ls
+hx src/debounce.rs
+z
+n
+n
+trans
+config leftwm 
+ls
+n
+yazi
+kalker
+tremc
+z
+yazi
+tremc
+ls
+btm
+n
+btm
+n
+ls
+z Downloads/
+ls
+mkdir elixir
+mv kt-eanfpfb.zip elixir/
+z elixir/
+ls
+unzip kt-eanfpfb.zip
+ls
+trans
+n
+tremc
+n
+tremc
+yazi
+z no
+kalker
+z notex
+z not
+git checkout 2a941e5
+ls
+git checkout 2a941e5
+git reset --hard HEAD~2
+ls
+git add .
+git commit -m 'back to lisp<\n>'
+git add .
+git commit -m 'back to lisp<\n>'
+git push
+git push --force
+n
+z
+hx git-cheatsheets.sh
+z
+tremc
+n
+tremc
+n
+yazi
+tremc
+n
+yazi
+z genki
+z excel
+..
+z genki/
+ls
+yazi
+yazi
+n
+z
+yazi
+n
+yazi
+shutdown now
+n
+yazi
+n
+z no
+z
+yazi
+tremc
+n
+yazi
+z excel
+config leftwm 
+z no
+yazi
+hx plan.txt
+git add .
+git commit -m 'excel is the only way'
+git push
+hx plan.txt
+n
+tremc
+n
+tremc
+n
+z no
+z
+z note
+hx plan.txt
+n
+hx plan.txt
+n
+hx --health html
+n
+elixir --help
+erlang
+er
+erl
+mix
+cat /etc/default/locale
+sudo update-locale LC_ALL=en_US.UTF-8
+pacman -S update-locale
+pacman -S locales
+locale -a
+loacle
+locale
+sudo hx /etc/locale.gen
+locale-gen
+sudo locale-gen
+locale
+sudo locale-gen
+locale
+localectl set-locale LANG=en_US.UTF-8
+locale
+hx /etc/locale.conf
+locale
+elixir
+elixir --version
+$env.LC_ALL=en_US.UTF-8
+$env.LC_ALL="en_US.UTF-8"
+config env
+locale
+elixir
+elixir --version
+config env
+n
+yazi
+n
+yazi
+shutdown now -r
+locale
+n
+elixir --version
+locale
+locale -a
+hx /etc/locale.gen
+locale-gen
+sudo locale-gen
+locale
+hx /etc/locale.conf
+hx ~/.config/locale.conf
+locale
+trash .config/locale.conf
+config env
+locale
+elixir --version
+n
+tremc
+n
+btm
+n
+yazi
+z no
+hx plan.txt
+n
+elixir --version
+iex
+z
+ls
+n
+iex
+n
+gdu -d
+gdu
+pacman -S gdu
+gdu
+gdu -d
+n
+tremc
+n
+iex
+n
+yazi
+n
+iex
+ls
+touch geometry.ex
+hx geometry.ex
+hx --health elixir
+trash geometry.ex
+n
+hx
+n
+tremc
+n
+yazi
+ls
+mkdir .fonts
+z .fonts/
+..
+z torrent
+ls
+z 'DanMachi Sword Oratoria [BDRip] [1080p]/'
+ls
+z `Rus Subs/`
+ls
+z Fonts/
+ls
+fc-list 
+ls
+fc-list | rg -i calibrib
+fc-list | rg -i calibriz
+fc-list | rg -i cambariab
+fc-list | rg -i nerd
+cp * ~/.fonts/
+ls
+z .fonts
+ls
+z Fonts
+ls
+fc-list | rg -i cambariab
+fc-cache -vf
+fc-list | rg -i cambariab
+fc-list | rg -i calibriz
+ls
+fc-list | rg -i calibrib
+fc-list | rg -i calibriz
+fc-list | rg -i cambriab
+n
+yazi
+n]
+n
+trasn
+trans
+n
+pamixer -m
+pamixer -u
+n
+z no
+ls
+git reset --hard HEAD~1
+hx plan.txt
+git push --force
+hx plan.txt
+config leftwm 
+n
+yazi
+z excel
+hx plan.txt
+n
+git add .
+git commit -m 'excel is the only way'
+git push
+config leftwm 
+hx plan.txt
+n
+trans
+n
+hx plan.txt
+git reset --hard HEAD~1
+git push --force
+hx plan.txt
+config leftwm 
+n
+yazi
+ls
+git add .
+git commit -m 'Lisp + Genki + Anime + Tsuyoi'
+git puhs
+git push
+yazi
+n
+yazi
+n
+z
+ls
+trash-list
+trash-restore
+ls
+ls -a
+ls
+n
+mkdir clojure4
+n
+trans
+n
+z no
+git add .
+git commit -m 'Lisp + Genki + Anime + Tairyoku'
+git push
+n
+config leftwm 
+z no
+hx plan.txt
+git add .
+git commit -m 'excel sama'
+git push
+hx plan.txt
+git add .
+git commit -m 'fuck programming'
+git push
+n
+yazi
+z excel
+hx plan.txt
+n
+yazi
+iex
+touch geometry.ex
+hx geometry.ex
+mkdir try
+mv geometry.ex try/
+ls
+z try/
+ls
+bat geometry.ex
+hx geometry.ex
+ls
+bat geometry.ex
+elixirc geometry.ex
+ls
+hx Elixir.Geometry.beam
+ls
+hx geometry.ex
+elixirc geometry.ex
+ls
+hx my_fency_mod.beam
+z .local/src/helix/
+git pull
+n
+cargo install --path helix-term --locked
+hx geometry.ex
+trans
+n
+z
+n
+yazi
+n
+ls
+z try/
+ls
+man ascii
+ascii
+hx
+n
+yazi
+n
+yazi
+n
+yazi
+n
+z no
+hx plan.txt
+n
+shutdown now
+n
+yazi
+n
+iex
+locale
+n
+pamixer -m
+n
+pamixer -u
+n
+yazi
+n
+z no
+hx plan.txt
+n
+hx plan.txt
+n
+shutdown now
+n
+yazi
+n
+yazi
+n
+iex
+shutdown now
+n
+pamixer -m
+n
+pamixer -u
+n
+yazi
+z no
+hx plan.txt=
+hx plan.txt
+n
+hx plan.txt
+n
+trans
+n
+yazi
+z
+yazi
+n
+trans
+n
+iex
+n
+baka
+n
+pacman -S baka
+yay -S baka
+n
+kalker
+n
+yazi
+n
+n
+yazi
+n
+cal
+cal --day
+cal --help
+cal --week-start monday
+n
+shutdown now
+n
+yazi
+n
+m
+n
+yazi
+n
+z no
+hx pl
+hx plan.txt
+n
+tremc
+n
+gdu -d
+n
+tremc
+gdu -d
+n
+shutdown now
+n
+yazi
+z no
+hx plan.txt
+n
+iex
+clearn
+clea
+clear
+iex
+trans
+n
+tremc
+gdu -d
+n
+trans
+bas
+ls
+nya
+n
+trans
+n
+yazi
+n
+iex
+erl
+iex
+ls
+trash try
+ls
+mix new some_project_name
+z some_project_name/
+ls
+..
+trash some_project_name/
+ls
+mkdir try
+z try/
+elixir hello.exs
+n
+elixir hello.exs
+n
+elixir hello.exs
+n
+yazi
+n
+yazi
+n
+trans
+hx hello.exs
+n
+touch simple_todo.ex
+n
+hx simple_todo.ex
+z
+yazi
+n
+pamixer -m
+pamixer -u
+n
+z no
+hx plan.txt
+z
+n
+..
+ls
+z css-demystified-course-material/
+ls
+z module-1/
+ls
+z 01-inheritance-a-little-project/
+ls
+npm i -g vscode-langservers-extracted
+sudo npm i -g vscode-langservers-extracted
+ls
+hx styles.css
+hx index.html
+z
+hx .config/helix/config.toml
+z dotfiles/
+hx index.html
+ls
+ls -a
+hx index.html
+hx .config/helix/config.toml
+2n
+n
+z
+n
+z no
+hx plan.txt
+ls
+n
+z
+hx .xinitrc
+ls
+hx .Xresources
+n
+z no
+hx plan.txt
+git add .
+git commit -m 'every choice should lead to genki'
+git push
+hx plan.txt
+n
+hx plan.txt
+n
+yazi
+n
+yazi
+hx plan.txt
+n
+hx index.html
+z
+ls
+z try/
+ls
+hx simple_todo.ex
+ls
+..
+mkdir ex-book
+yazi
+n
+z ex-book/
+ls
+hx simple_todo.ex
+touch todo_multi_dict.ex
+hx simple_todo.ex
+z
+n
+z
+n
+yazi
+n
+tremc
+gdu -d
+n
+gdu -d
+gdu
+n
+tremc
+z no
+hx plan.txt
+n
+hx plan.txt
+n
+hx todo_multi_dict.ex
+..
+n
+hx plan.txt
+n
+hx plan.txt
+n
+hx drawing_quest.txt
+tremc
+n
+hx drawing_quest.txt
+n
+z
+n
+yazi
+n
+tremc
+gdu -d
+tremc
+n
+ping pixijs.com
+n
+npm create vite@latest
+z drawing-quest-js/
+ls
+trash drawing-quest-js/
+ls
+z projects
+ls
+yazi
+ls
+npm create vite@latest
+z drawing-quest-js/
+npm i
+npm run dev
+z proj
+ls
+z drawing-quest-js/
+ls
+ls
+hx index.html
+ls
+z src/
+ls
+hx main.ts
+ls
+..
+n
+hx src/main.ts
+ls
+hx tsconfig.json
+ls
+hx package.json
+ls
+hx index.html
+ls src
+z src
+ls
+hx vite-env.d.ts
+ls
+hx main.ts
+ls
+..
+ls
+z public/
+ls
+..
+ls
+hx src/main.ts
+ls
+ls src/
+z src/
+ls
+hx main.ts
+ls
+touch pixiapp.ts
+ls
+n
+hx counter.ts
+ls
+mkdir pixi
+ls
+mv pixiapp.ts pixi/
+ls
+ls pixi/
+tree
+n
+z
+npm run dev
+z no
+hx plan.txt
+shutdown now
+n
+yazi
+n
+tremc
+n
+shutdown now
+yazi
+n
+z no
+ls
+hx genki.png
+mv genki.png excel.png
+touch genki.txt
+n
+hx genki.txt
+n
+git add .
+git commit -m 'genki'
+git push
+shutdown now
+n
+z no
+hx plan.txt
+hx genki.txt
+yazi
+ls
+z ex-book/
+ls
+n
+hx genki.txt
+n
+z ex-book/
+iex simple_todo.ex
+iex simple_todo.ex todo_multi_dict.ex
+trans
+n
+hx simple_todo.ex
+ls
+iex simple_todo.ex
+ls
+z
+ls
+z dotfiles/
+ls
+..
+touch .baka
+ls
+hx .baka
+mv .baka dotfiles/
+z dotfiles/
+stow .
+..
+hx .baka
+ls
+hx .baka
+z dotfiles/
+ls
+hx .baka
+..
+ls
+trash .baka
+ls
+z dotfiles/
+ls
+trash .baka
+stow .
+..
+ls
+n
+z no
+hx genki.txt
+n
+hx simple_todo.ex
+ls
+trash todo_multi_dict.ex
+ls
+hx simple_todo.ex
+touch todos.csv
+hx todos.csv
+ls
+elixir simple_todo.ex
+hx genki.txt
+n
+hx genki.txt
+n
+hx genki.txt
+elixir simple_todo.ex
+iex
+elixir simple_todo.ex
+iex
+elixir simple_todo.ex
+iex
+elixir simple_todo.ex
+n
+elixir simple_todo.ex
+n
+hx genki.txt
+n
+hx genki.txt
+n
+pacman -Syu
+x-reload 
+hx genki.txt
+n
+iex simple_todo.ex
+trans
+n
+startx
+shutdown now -r
+yazi
+n
+z no
+hx genki.txt
+n
+z css-demystified-course-material/
+ls
+z module-1/
+ls
+z 03-pricing-cards-1/
+ls
+z code/
+ls
+z 03
+ls
+start-css-server 
+ls
+z code/
+hx index.html
+yazi
+n
+hx genki.txt
+hx plan.txt
+n
+start-css-server 
+z
+z
+ls
+n
+hx plan.txt
+n
+pamixer -m
+pamixer -u
+tremc
+n
+ls
+z projects
+ls
+z drawing-quest-js/
+ls
+hx src/pixi/pixiapp.ts
+z draw
+ls
+z src/
+ls
+hx counter.ts
+..
+npm install pixi.js
+ls
+z
+z draw
+ls
+z src/
+ls
+trash pixi/
+ls
+..
+hx src/main.ts
+ls
+z src/
+ls
+touch app.ts
+ls
+hx main.ts
+ls
+z Downloads/
+ls
+yazi
+npm run dev
+ls
+z src/
+ls
+yazi
+..
+z
+x-reload 
+n
+yazi
+n
+ls
+gdu -d
+yazi
+z Downloads/
+ls
+.
+..
+z dow
+ls
+z cssforjs/
+ls
+unzip jw-cssfojscuncut.zip
+ls
+yazi
+n
+z
+n
+hx app.ts
+ls
+mkdir app
+mv app.ts app/
+ls
+..
+hx src/app/app.ts
+z src/
+ls
+hx main.ts
+z app/
+ls
+..
+n
+hx app/addBackground.ts
+..
+ls
+hx tsconfig.json
+hx src/app/addFishes.ts
+hx tsconfig.json
+n
+pamixer -m
+pamixer -u
+n
+hx src/app/addFishes.ts
+yazi
+n
+z no
+n
+npm run dev
+start-css-server 
+npm run dev
+hx genki.txt
+n
+hx src/main.ts
+z src/
+hx app/addFishes.ts
+shutdown now
+n
+z no
+hx genki.txt
+z try/
+ls
+n
+yazi
+z excel
+z try/
+n
+iex hello.exs
+elixirc hello.exs
+l
+ls
+n
+yazi
+n
+tran
+trans
+n
+iex
+n
+yazi
+n
+iex hello.exs
+yazi
+z excel
+n
+yazi
+n
+trans
+n
+z
+yazi
+n
+z no
+hx genki.txt
+hx plan.txt
+iex
+z
+hx hello.exs
+yazi
+pacman -S kdenlive
+x-reload 
+pacman -S breeze
+pacman -S avidemux-qt
+z excel
+ls
+z
+z excel
+yazi
+z
+yazi
+x-reload 
+ls
+trash `Excel Saga 01 (DVD 960x720 x264 AAC).mkv`
+ls
+pacman -S shotcut
+pacman -S flowblade
+flowblade 
+pacman -S openshot
+pacman -S vidcutter
+pacman -S  pitivi
+yazi
+yay -S losslesscut-bin
+yay -S olive
+n
+z no
+hx plan.txt
+pacman -S handbrake
+hanbdrake
+pacman -S handbrake
+ghb
+ls
+yazi
+ls
+mkdir output
+ls
+z `output/Excel Saga 01 (DVD 960x720 x264 AAC).mkv`
+ls
+z output/
+ls
+trash `Excel Saga 01 (DVD 960x720 x264 AAC).mkv`
+la
+ls
+trash `Excel Saga 01 (DVD 960x720 x264 AAC).mkv`
+yay -S cinelerra-cv-git
+ls
+ls
+trash `Excel Saga 01 (DVD 960x720 x264 AAC).mkv`
+ls
+yazi
+ls
+trash `Excel Saga 01 (DVD 960x720 x264 AAC).mkv`
+ls
+yazi
+ls
+yazi
+ls
+yazi
+n
+z no
+hx plan.txt
+n
+nn
+n
+yazi
+hx genki.txt
+z no
+hx plan.txt
+n
+hx plan.txt
+n
+hx plan.txt
+n
+hx plan.txt
+n
+z
+yazi
+x-reload 
+yazi
+n
+z no
+n
+x-reload 
+n
+hx plan.txt
+yazi
+n
+n
+zn
+z
+n
+shutdown now
+n
+yazi
+n
+trans
+n
+ls
+z no
+hx plan.txt
+n
+z no
+hx plan.txt
+n
+z
+ls
+trash 'Excel Saga [DVDRip 720p]/' Videos/ input/ output/
+ls
+trash-empty 
+ls
+gdu -d
+n
+hx plan.txt
+n
+shutdown now
+n
+yazi
+n
+trans
+z no
+n
+hx plan.txt
+n
+..
+ls
+trash drawing-quest-js/
+ls
+npm create vite@latest
+zz drawing-quest-js/
+z drawing-quest-js/
+ls
+hx main.js
+ls
+npm i pixi.js
+npm install perfect-freehand
+n
+z drawin
+ls
+trash counter.js javascript.svg
+ls
+yazi
+n
+npm run dev
+n
+z
+hx main.js
+z no
+hx plan.txt
+shutdown  now
+n
+yazi
+ls
+z ex-book/
+ls
+touch database_server.ex
+btm
+n
+ls
+n
+newlook
+crontab -e
+crontab -l
+hx .xinitrc
+n
+z ex-book/
+pamixer -m
+pamixer -u
+n
+journalctl 
+journalctl --since=today
+pacman -Syu
+ls
+yazi
+z ex-book/
+n
+yazi
+yazi
+n
+hx database_server.ex
+ls
+trash database_server.ex
+hx todo_server.ex
+ls
+touch todo_server.hx
+hx todo_server.hx
+mv todo_server.hx todo_server.ex
+n
+newlook
+n
+hx todo_server.ex
+z ex-book/
+trans
+n
+iex process_bottleneck.ex
+man erl
+erl
+iex
+iex --erl "+S 1"
+btm
+n
+htop
+top
+btm
+n
+iex
+x-reload 
+iex
+n
+hx process_bottleneck.ex
+yazi
+n
+z
+n
+kalker
+n
+yazi
+n
+tremc
+z torrent
+ls
+z `Baka to test to Shoukanjuu BD/`
+ls
+..
+ls
+z `Baka to test to Shoukanjuu BD/`
+ls
+touch 5
+ls
+yazi
+n
+z
+tremc
+gdu -d
+n
+tremc
+n
+pamixer -m
+n
+tremc
+n
+tremc
+yazi
+pamixer -u
+z .fonts/
+ls
+..
+ls
+mkdir de
+mv .fonts/ de
+mv de/.fonts/ .
+ls
+trash de
+z .fonts/
+ls
+tremc
+n
+shutdown now
+ls
+lsblk
+udisksctl --help
+udisksctl mount --help
+udisksctl mount -p /dev/sdd1
+udisksctl mount /dev/sdd1
+udisksctl mount -b /dev/sdd1
+z /run/media/zukkini/ARCH_202403/
+ls
+yazi
+x-reload 
+yazi
+..
+dua
+z
+ls
+btm
+gparted
+pacman -S gparted
+gparted
+ls
+sudo gparted
+udisksctl unmount -b /dev/sdd1
+ls
+btm
+udisksctl unmount -b /dev/sdd1
+sudo lsof /dev/sdd1
+pacman -S lsof
+sudo lsof /dev/sdd1
+udisksctl unmount -b /dev/sdd1
+lsblk
+udisksctl unmount -b /dev/sdd1
+sudo lsof /dev/sdd1
+udisksctl unmount -f -b /dev/sdd1
+udisksctl power-off -b /dev/sdd1
+udisksctl power-off -f -b /dev/sdd1
+lsblk
+udisksctl mount -b /dev/sdd1
+sudo gparted
+udisksctl unmount -b /dev/sdd1
+sudo gparted
+lsblk
+udisksctl mount -b /dev/sdd1
+ls
+udisksctl unmount -b /dev/sdd1
+lblk
+sudo gparted
+lsblk
+udisksctl mount -b /dev/sdd1
+ls
+z torrent
+z Fallout.S01.720p.WEB-DL.H.264-RGzsRutracker/
+ls
+xcp
+xcp Fallout.S01E01.The.End.720p.WEB-DL.H.264-RGzsRutracker.mkv Fallout.S01E02.The.Target.720p.WEB-DL.H.264-RGzsRutracker.mkv /run/media/zukkini/baka/
+btm
+pacman -S dolphin
+x-reload 
+z dotfiles/
+ls
+ls -a
+z .config/
+ls -a
+z
+pacman -S thunar
+newlook
+pacman -S Nautilus
+pacman -S nautilus
+pacman -S krusader
+z .local/share/dolphin
+ls
+..
+ls
+n
+sudo xcp Fallout.S01E01.The.End.720p.WEB-DL.H.264-RGzsRutracker.mkv Fallout.S01E02.The.Target.720p.WEB-DL.H.264-RGzsRutracker.mkv /run/media/zukkini/baka/
+ls
+z
+lsblk
+udisksctl unmount -b /dev/sdd1
+udisksctl power-off -b /dev/sdd1
+udisksctl unmount -b /dev/sdd1
+lsblk
+udisksctl mount -b /dev/sdd1
+ls
+n
+lsblk
+udisksctl mount -b /dev/sdd1
+z /run/media/zukkini/
+z /run/media/zukkini/baka/
+ls
+mpv Fallout.S01E01.The.End.720p.WEB-DL.H.264-RGzsRutracker.mkv
+z
+n
+shutdown now
+n
+tremc
+n
+yazi
+x-reload 
+n
+yazi
+n
+lsblk
+udisksctl mount -b /dev/sdd1
+yazi
+udisksctl unmount -b /dev/sdd1
+n
+lsblk
+udisksctl mount -b /dev/sdd1
+yazi
+n
+udisksctl unmount -b /dev/sdd1
+n
+sudo gparted
+n
+shutdown now -r
+n
+newlook 
+newlook
+n
+yazi
+n
+iex
+n
+kalker
+n
+kalker
+n
+z no
+hx plan.txt
+n
+yazi
+n
+yazi
+z
+yazi
+n
+z workshop/
+ls
+ls -a
+ls
+ls -a
+ls
+ls -a
+ls
+ls -a
+ls
+ls -a
+ls- a
+ls -a
+n
+ls
+ls
+trans
+n
+trans
+n
+trans
+n
+z
+n
+yazi
+n
+pamixer -m
+n
+pamixer -u
+n
+sudo gparted
+lsblk
+udisksctl mount -b /dev/sdd1
+yazi
+n
+btm
+udisksctl unmount -b /dev/sdd1
+xprop
+ls
+z .config/
+ls
+pacman -S lightly-qt
+yay -S lightly-qt
+lsblk
+hx kdeglobals
+hx dotfiles/.config/picom/picom.conf
+n
+ls
+lsblk
+gdu -d
+ls
+udisksctl mount -b /dev/sdd1
+gdu -d
+ls
+yazi
+gdu -d
+n
+pacman -S ntfs-3g
+gparted
+kalker
+gdu -d
+n
+gdu -d
+n
+trans
+n
+n
+ls
+z workshop/
+ls
+ls -a
+ls
+ls -a
+trash #book.clj#
+trash ./#book.clj#
+ls
+ls- a
+z no
+ls
+ls -a
+z
+ls
+z workshop/
+ls -a
+ls
+ls -a
+ls --a
+ls -a
+z workshop/
+ls -a
+trash `./#book.clj#`
+ls
+ls -a
+ls 
+ls -a
+trash book.clj~
+ls -a
+ls 
+ls -a
+yazi
+gdu -d
+hx book.clj
+ls -a
+n
+pacman -S nemo
+pacman -S thunar
+pacman -S caja
+udisksctl unmount -b /dev/sdd1
+pacman -S PCManFM
+pacman -S pcmanfm
+lsblk
+ls
+lsblk
+udisksctl unmount -b /dev/sdd1
+lsblk
+pacman -S ntfs-3g
+x-reload 
+sudo gparted
+z no
+z no
+hx plan.txt
+pacman -S gparted
+hx arch-installation.sh
+git add .
+git commit -m 'add ntfs disk support for arch'
+git push
+lsblk
+n
+n
+yazi
+x-reload 
+yazi
+btm
+n
+z no
+pacman -S thunar
+pacman -S gdu
+hx arch-installation.sh
+git add .
+git commit -m 'added thunar to arch install'
+git push
+xprop
+z dotfi
+hx .config/picom/picom.conf
+ls
+z .config/Thunar/
+ls
+ls -a
+hx uca.xml
+..
+ls- a
+ls -a
+ls
+ls -a
+z
+ls
+n
+z .config/
+ls -a
+z dconf/
+ls -a
+hx user
+thunar --help
+ls -a
+..
+ls -a
+touch baka
+ls -a
+trash baka
+ls
+..
+z .local/
+ls -a
+z share/
+ls -a
+hx recently-used.xbel
+..
+z .config/
+ls
+z xfce4/
+ls -a
+hx xfconf/
+z xfconf/
+ls -a
+z xfce-perchannel-xml/
+ls -a
+hx thunar.xml
+yazi
+z .conf
+ls -a
+trash xfce4/
+ls -a
+..
+z dotfiles/
+stow .
+..
+z .config/
+ls -a
+hx xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+man thunar
+ls
+trash xfce4/
+ls -a
+ls a-
+ls -a
+..
+z .local/
+ls -a
+z share/
+ls -a
+..
+ls -a
+..
+z .config/
+ls -a
+z Thunar/
+ls -a
+hx uca.xml
+..
+ls -a
+..
+z .local/
+ls -a
+z share/
+ls -a
+z
+z no
+hx arch-installation.sh
+z dotfil
+ls
+z .config/
+trash xfce4/
+..
+stow .
+..
+ls
+z dotfiles/
+z .config/
+trash-list
+trash-restore 
+z
+z .config/
+ls -a
+trash xfce4/
+ls -a
+z
+z .config/
+ls
+..
+z .config/
+ls -a
+z dot
+ls
+stow .
+..
+z .config/
+ls -a
+ls
+ls 
+ls -a
+z .cache/
+ls -a
+shutdown now -r
+n
+z .config/
+ls -a
+..
+z dotfiles/
+ls -a

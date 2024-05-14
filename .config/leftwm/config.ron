@@ -67,7 +67,7 @@
         (command: MoveWindowDown, value: "", modifier: ["modkey", "Shift"], key: "j"),
         // (command: MoveWindowTop, value: "", modifier: ["modkey"], key: "Return"),
         (command: FocusWindowUp, value: "", modifier: ["modkey"], key: "k"),
-        // (command: FocusWindowDown, value: "", modifier: ["modkey"], key: "j"),
+        (command: FocusWindowDown, value: "", modifier: ["modkey"], key: "j"),
         (command: NextLayout, value: "", modifier: ["modkey", "Control"], key: "k"),
         (command: PreviousLayout, value: "", modifier: ["modkey", "Control"], key: "j"),
         (command: FocusWorkspaceNext, value: "", modifier: ["modkey"], key: "l"),

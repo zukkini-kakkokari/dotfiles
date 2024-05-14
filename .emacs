@@ -31,11 +31,13 @@
 (set-face-attribute 'default nil :family "Iosevka" :height 218)
 (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
 
-;; setup backup folder
-(setq auto-save-file-name-transforms `((".*" "~/.local/share/Trash/files/" t)))
-(setq backup-directory-alist '((".*" . "~/.local/share/Trash/files/")))
+;; Disable autosave
+(setq make-backup-files nil)
+(setq auto-save-default nil)
+;; (setq auto-save-file-name-transforms `((".*" "~/.local/share/Trash/files/" t)))
+;; (setq backup-directory-alist '((".*" . "~/.local/share/Trash/files/")))
 
-; vim like scrolling
+;; vim like scrolling
 (setq scroll-margin 3) 
 (setq scroll-conservatively 101)
 

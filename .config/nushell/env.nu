@@ -100,6 +100,7 @@ $env.NU_PLUGIN_DIRS = [
 $env.EDITOR = "hx"
 $env.HELIX_RUNTIME = "~/.local/src/helix/runtime"
 $env.BUN_INSTALL = "~/.bun"
+$env.LANG = "en_US.UTF-8"
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 $env.PATH = ($env.PATH 
