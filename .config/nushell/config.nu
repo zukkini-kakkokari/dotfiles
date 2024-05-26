@@ -771,8 +771,8 @@ source ~/.zoxide.nu
 # aliases
 alias pacman = sudo pacman
 alias n = date now
+alias t = trans :ru
 alias bacon = bacon clippy
-alias trans = trans :ru
 alias docker-check-ip = docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
 alias cal = cal --week-start mo
 alias "config leftwm" = hx ~/.config/leftwm/config.ron

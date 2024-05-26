@@ -2,8 +2,6 @@ theme = "ayu_evolve"
 
 [editor]
 shell = ["nu", "-c"]
-# indent-heuristic = "simple"
-
 
 [keys.normal]
 "backspace" = ":toggle lsp.display-inlay-hints"

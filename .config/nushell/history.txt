@@ -1864,3 +1864,1025 @@ ls -a
 ..
 z dotfiles/
 ls -a
+git add .
+git commit -m 'added thunar config'
+git push
+ls -a
+ls 
+ls
+mv workshop/ clworkshop
+ls 
+z Desktop/
+ls -a
+..
+trash Desktop/
+ls -a
+ls
+yazi
+mv clworkshop/ cljworkshop
+ls
+z baka/
+ls
+..
+trash baka/
+ls -a
+ls
+x css-demystified-course-material/
+ls
+trash css-demystified-course-material/
+ls
+ls ex-book/
+ls
+yazi
+n
+ls
+n
+config leftwm 
+n
+x-reload 
+yazi
+n
+yazi
+n
+kalker
+n
+shutdown now
+n
+yazi
+n
+lsblk
+sudo gparted
+thunar
+tremc
+n
+btm
+n
+x-reload 
+n
+trans
+n
+trasn
+trans
+n
+shutdown now
+yazi
+n
+trans
+n
+trans
+n
+trans
+n
+shutdown now
+n
+yazi
+n
+trans
+trans
+z cljworkshop/
+ls
+ls -a
+..
+n
+trans
+n
+t
+config env
+config nu
+t
+n
+t
+n
+t
+n
+pamixer -m
+n
+t
+n
+pacman -S xfce4
+hx .xinitrc
+x-reload 
+hx .xinitrc
+ls
+hx .Xresources
+kill Xorg
+kill xi
+yazi
+x-reload 
+yazi
+z .config/zathura/zathurarc
+hx .config/zathura/zathurarc
+tremc
+gdu -d
+n
+tremc
+ls
+t
+n
+tremc
+n
+hx .xinitrc
+hx .Xresources
+ls
+yazi
+ls
+n
+tremc
+n
+t
+n
+t
+pamixer -m
+n
+t
+n
+t
+n
+pamixer -u
+tremc
+n
+tremc
+n
+tremc
+n
+yazi
+n
+tremc
+n
+yazi
+n
+pamixer -m
+pamixer -u
+n
+z no
+kalker
+n
+hx plan.txt
+git add .
+git commit -m 'genki naritai'
+git push
+hx plan.txt
+z
+n
+z no
+yazi
+n
+tremc
+gdu -d
+n
+hx plan.txt
+n
+newlook 
+yazi
+n
+hx plan.txt
+tremc
+n
+z
+z no
+git add .
+git commit -m 'Lisp + Genki + Anime + Tairyoku'
+git push
+n
+t
+n
+z
+n
+t
+n
+t
+n
+yazi
+yazi
+t
+n
+t
+n
+yazi
+n
+yazi
+n
+yqai
+tremc
+n
+tremc
+n
+yazi
+n
+t
+n
+t
+n
+shutdown now
+n
+yazi
+n
+yazi
+n
+t
+newlook 
+t
+n
+pamixer -u
+z no
+hx plan.txt
+git add .
+git commit -m 'Genki Naritai!'
+git push
+n
+hx plan.txt
+tremc
+yazi
+n
+yazi
+n
+tremc
+n
+yazi
+z proj
+yazi
+z
+yazi
+n
+hx git-cheatsheets.sh
+git reset --hard HEAD~1
+hx plan.txt
+git add .
+git push -f
+hx plan.txt
+yazi
+n
+z
+tremc
+n
+yazi
+yazi
+n
+tremc
+n
+z .emacs.d/
+ls
+z ./history
+ls
+dua
+..
+z .cache/
+ls
+..
+n
+yazi
+z no
+hx plan.txt
+git add .
+git commit -m 'Genki Naritai!'
+git push
+tremc
+n
+hx plan.txt
+n
+iex
+z ex-book/
+ls
+touch server_process.ex
+n
+hx server_process.ex
+z
+n
+git reset --hard HEAD~1
+git push -f
+hx plan.txt
+yazi
+n
+tremc
+n
+z
+n
+tremc
+n
+yazi
+n
+tremc
+n
+tremc
+n
+shutdown now
+n
+cal
+cal --week-start monday
+tremc
+yazi
+gdu -d
+n
+z proj
+ls
+npm create vite@latest
+z css-course/
+z proj
+ls
+z css-course/
+ls
+npm run dev
+npm i
+n
+npm run dev
+n
+z
+n
+yazi
+x-reload 
+tremc
+z
+yazi
+n
+yay -S popsicle
+gdu -d
+pacman -S gnome-multi-writer
+n
+shutdown now -r
+tremc
+yazi
+pacman -S gnome-multi-writer
+sudo gnome-multi-writer
+pacman -Runs gnome-multi-writer
+lsblk
+ls -l /dev/disk/by-id/usb-_USB_DISK_2.0_071C361B33A21213-0:0
+z torrent
+cat archlinux-2024.05.01-x86_64.iso > /dev/disk/by-id/usb-_USB_DISK_2.0_071C361B33A21213-0:0
+lsbk
+lsblk
+cp archlinux-2024.05.01-x86_64.iso /dev/disk/by-id/usb-_USB_DISK_2.0_071C361B33A21213-0:0
+btm
+sudo cp archlinux-2024.05.01-x86_64.iso /dev/disk/by-id/usb-_USB_DISK_2.0_071C361B33A21213-0:0
+lsblk
+gdu -d
+shutdown now -r
+n
+yazi
+gdu -d
+tremc
+n
+pamixer -m
+pamixer -u
+n
+kalker
+n
+yazi
+n
+kalker
+n
+shutdown now
+n
+z no
+hx plan.txt
+n
+yazi
+n
+hx plan.txt
+shutdown now
+n
+yazi
+n
+t
+n
+ls
+mkdir my-cljs-project
+z my-cljs-project/
+n
+touch deps.end
+mv deps.end deps.edn
+ls
+n
+shutdown now
+n
+sudo gparted
+btm
+yazi
+n
+pamixer -m
+n
+pamixer -u
+n
+yazi
+n
+pamixer -m
+pamixer -u
+n
+z genki
+yazi
+n
+z
+n
+yazi
+n
+z no
+hx plan.txt
+n
+z
+yazi
+n
+yazi
+n
+pamixer -uj
+pamixer -u
+pamixer -m
+pamixer -u
+tremc
+gdu -d
+tremc
+n
+tremc
+n
+z no
+hx genki.txt
+n
+yazi
+hx genki.txt
+n
+hx genki.txt
+n
+hx plan.txt
+ls
+yazi
+n
+trash-restore 
+ls
+mv my-cljs-project/ cljworkshop/
+yazi
+hx genki.txt
+n
+yazi
+ls
+z ex-book/
+ls
+mv try ..
+ls
+..
+ls
+z ex-book/
+ls
+z ex-book/
+iex server_process.ex
+hx genki.txt
+n
+z
+ls
+z Downloads/
+ls
+mkdir vpn
+mv vpnbook-openvpn-de220.zip vpn
+z vpn/
+ls
+uzzip vpnbook-openvpn-de220.zip
+unzip vpnbook-openvpn-de220.zip
+ls
+trash vpnbook-openvpn-de220.zip
+ls
+z vpnbook-openvpn-de220/
+ls
+openvpn vpnbook-de220-udp25000.ovpn
+hx server_process.ex
+yay -S tor-browser-bin
+gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+sudo gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+pacman -S torbrowser-launcher
+gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+curl -s https://openpgpkey.torproject.org/.well-known/openpgpkey/torproject.org/hu/kounek7zrdx745qydx6p59t9mqjpuhdf |gpg --import -
+systemctl enable --now tor.service
+torbrowser-launcher 
+sudo openvpn vpnbook-de220-udp25000.ovpn
+ls
+openvpn vpnbook-de220-udp53.ovpn
+yay -S tor-browser-bin
+sudo openvpn vpnbook-de220-udp53.ovpn
+ping 1.1.1.1
+bash
+sudo gpg --auto-key-locate nodefault,wkd --locate-keys torbrowser@torproject.org
+systemctl disable tor.service
+z
+ls
+trash '#*message*-20240521-150355#'
+ls
+z Downloads/
+ls
+trash vpn/
+trash kounek7zrdx745qydx6p59t9mqjpuhdf
+ls
+shutdown now -r
+yazi
+btm
+tremc
+n
+gdu -d
+yazi
+n
+z no
+yazi
+hx genki.txt
+z
+yazi
+n
+ls
+yazi
+n
+z my-cljs-project/
+clj -m cljs.main --compile my-cljs-project.core --repl
+clj -M:dev
+t
+tgpt
+tgpt "BAka"
+tgpt "Emacs hangs, how can I fix it?"
+z no
+hx genki.txt
+yazi
+n
+git add .
+git commit -m 'genki.txt'
+git push
+hx genki.txt
+n
+config leftwm 
+yazi
+z ex-book/
+ls
+z
+ls
+z ex-book/
+z gen
+ls
+yazi
+n
+iex server_process.ex
+ls
+hx genki.txt
+yay -S clojure-lsp-bin
+ls
+z
+ls
+z proj
+ls
+z old/
+ls
+z cljworkshop/
+ls
+hx todo_server.ex
+z
+clojure-lsp 
+hx book.clj
+z proj
+z old/cljworkshop/
+ls
+hx book.clj
+ls
+z my-cljs-project/
+ls
+hx src/my_cljs_project/core.cljs
+..
+ls
+hx book.clj
+ls
+git init
+ls
+ls -a
+hx book.clj
+n
+yay -S lem-editor-git
+hx server_process.ex
+x-reload 
+n
+yazi
+n
+yazi
+z no
+hx plan.txt
+n
+ls
+ls -a
+z .clojure/
+ls
+hx deps.edn
+z
+clj -X:new :template figwheel-main :name learn-cljs/weather :args '["+deps" "--reagent"]'
+ls
+z weather/
+tree
+..
+clj -X:new :template figwheel-main :name learn-cljs/weather :args '["+deps" "--reagent"]'
+ls
+z weather/
+tree
+tree -a
+newlook 
+newlook
+t
+z no
+ls
+trash my-cljs-project/
+ls
+trash cljworkshop/
+ls
+trash-empty
+yazi
+trash weather/
+trash-empty 
+yazi
+z ex-book/
+ls
+n
+hx genki.txt
+n
+z
+yazi
+n
+gdu -d
+tremc
+gdu -d
+yazi
+gdu -d
+tremc
+n
+tremc
+n
+yazi
+t
+n
+z no
+hx genki.txt
+tremc
+n
+hx todo_server.ex
+n
+iex
+touch key_value_gen_server.ex
+n
+z
+z ex-book/
+hx key_value_gen_server.ex
+hx genki.txt
+shutdown now
+n
+z no
+hx genki.txt
+yazi
+n
+ls
+z ex-book/
+ls
+hx key_value_gen_server.ex
+n
+tremc
+n
+yazi
+n
+hx key_value_gen_server.ex
+ls
+t
+n
+hx todo_server.ex
+n
+z
+ls
+hx genki.txt
+n
+zz no
+z no
+hx arch-installation.sh
+n
+z
+ls
+z try/
+ls
+touch macro_propostion.ex
+z try/
+yazi
+n
+ls
+hx genki.txt
+n
+l
+ls
+iex macro_propostion.ex
+ls
+hx hello.exs
+hx macro_propostion.ex
+hx hello.exs
+z
+z try/
+z
+z dotfiles/
+ls
+hx hello.exs
+hx .config/helix/config.toml
+hx hello.exs
+yay -S elixir-ls
+pacman -S elixir-ls
+hx .config/helix/languages.toml
+n
+ls
+tremc
+n
+gdu -d
+tremc
+n
+gdu -d
+n
+n
+ls
+..
+ls
+mix new vote
+z vote/
+trash lib/vote.ex test/vote_test.exs
+tree
+tree -a
+tree
+rm -rf /
+touch lib/election.ex
+ls
+z
+z vote/
+touch lib/candidate.ex
+pamixer -m
+n
+pamixer -u
+iex
+z lib/
+iex
+..
+iex -S mix
+tree -a
+tree
+iex --help
+iex help
+iex -S mix
+iex help
+n
+iex -S mix
+yazi
+n
+lsblk
+gparted
+sudo gparted
+ls
+tremc
+hx lib/election.ex
+z
+z no
+hx genki.txt
+n
+yazi
+n
+yazi
+tremc
+n
+tremc
+n
+tremc
+n
+shutdown now -r
+z no
+hx genki.txt
+n
+yazi
+n
+hx genki.txt
+tremc
+n
+hx genki.txt
+z
+tremc
+n
+z proj
+ls
+z draw
+ls
+z draw
+ls
+yazi
+tremc
+n
+z no
+hx genki.txt
+hx main.js
+ls
+touch utils.js
+n
+tremc
+n
+hx genki.txt
+n
+tremc
+n
+yazi
+n
+trem
+tremc
+n
+btm
+n
+z no
+hx genki.txt
+z no
+hx genki.txt
+n
+btm
+n
+hx gen
+hx genki.txt
+n
+z
+yazi
+hx genki.txt
+n
+shutdown now
+YAZI
+yaiz
+n
+yazi
+n
+shutdown now
+n
+tremc
+gdu -d
+n
+t
+n
+yazi
+n
+shutdown now
+n
+x-reload 
+n
+yazi
+n
+t
+n
+ls
+mix new todo
+n
+ls
+z todo/
+z lib
+ls
+..
+ls
+tree
+trash lib/todo.ex test/todo_test.exs
+tree
+bat test/test_helper.exs
+..
+ls
+z ex-book/
+ls
+hx todo_server.ex
+yazi
+..
+ls
+z todo/
+ls
+tree
+hx lib/todo/list.ex
+ls
+z lib/todo
+ls
+touch server.ex
+ls
+z todo/
+pacman -Syu
+iex -S mix
+x-reload 
+n
+hx list.ex
+shutdown now -r
+pamixer -m
+n
+yazi
+z tod
+z todo/
+yazi
+iex -S mix
+pamixer -u
+n
+yazi
+yazi
+n
+hx lib/todo/list.ex
+..
+cp todo/ todo_cache
+cp -r todo/ todo_cache
+ls
+z todo_cache/
+ls
+touch lib/todo/cache.ex
+yazi
+z excel
+z bg
+pamixer -m
+yazi
+pamixer -m
+hx .fehbg
+ls
+pamixer -u
+hhx lib/todo/cache.ex
+hx .xinitrc
+genki-look 
+crontab -e
+crontab -l
+n
+iex -S mix
+..
+z todo_cache/
+iex -S mix
+btm
+n
+yazi
+n
+crontab -e
+crontab -l
+hx .xinitrc
+n
+hx .xinitrc
+crontab -e
+crontab -l
+genki-look 
+yazi
+z excel
+hx lib/todo/cache.ex
+touch test/todo/cache_test.exs
+touch --help
+mkdir test/todo
+hx test/todo/cache_text.exs
+mv test/todo/cache_text.exs test/todo/cache_test.exs
+mix test
+n
+yazi
+x-reload 
+yazi
+crontab -e
+crontab -l
+yazi
+n
+yazi
+n
+yazi
+hx test/todo/cache_test.exs
+ls
+..
+cp todo_cache/ persistable_todo_cache
+cp todo_cache/ persistable_todo_cache -r
+z persistable_todo_cache/
+ls
+z no
+hx genki.txt
+n
+shutdown now
+n
+yazi
+n
+yazi
+n
+yazi
+z persistable_todo_cache/
+ls
+n
+z no
+hx genki.txt
+n
+z persistable_todo_cache/
+ls
+z persist/
+ls
+hx bobs_list
+n
+iex -S mix
+n
+hx genki.txt
+pamixer -m
+pamixer -u
+z no
+hx genki.txt
+n
+hx lib/todo/cache.ex
+z
+n
+hx genki.txt
+n
+z
+yazi
+n
+z no
+hx genki.txt
+n
+yazi
+hx genki.txt
+n
+shutdown now
+n
+yazi
+n
+shutdown now -r
+n
+z no
+yazi
+n
+hx genki.txt
+z dotfiles/

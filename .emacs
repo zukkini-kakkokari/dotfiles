@@ -4,10 +4,10 @@
 
 
 ;; *elpa mirrors
-(setq package-archives
-      '(("melpa" . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/melpa/")
-        ("org"   . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/org/")
-        ("gnu"   . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/gnu/")))
+;; (setq package-archives
+;;       '(("melpa" . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/melpa/")
+;;         ("org"   . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/org/")
+;;         ("gnu"   . "https://raw.githubusercontent.com/d12frosted/elpa-mirror/master/gnu/")))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -15,7 +15,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-	 '(web-mode emmet-mode paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
+	 '(company-quickhelp company web-mode emmet-mode paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
  '(safe-local-variable-values '((cider-clojure-cli-global-options . "-A:dev"))))
 
 (setq inhibit-startup-message t)
@@ -40,6 +40,9 @@
 ;; vim like scrolling
 (setq scroll-margin 3) 
 (setq scroll-conservatively 101)
+
+;; Garbage collection
+;; (setq garbage-collection-messages t)
 
 (beacon-mode 1) ; never lose your cursor again
 (use-package rainbow-mode
@@ -85,9 +88,9 @@
 (keymap-set vertico-map "S-<iso-lefttab>" #'vertico-previous)
 
 ;; Persist history over Emacs restarts. Vertico sorts by history position.
-(use-package savehist
-  :init
-  (savehist-mode))
+;; (use-package savehist
+;;   :init
+;;   (savehist-mode))
 
 ;; A few more useful configurations...
 (use-package emacs
@@ -137,31 +140,43 @@
   (marginalia-mode))
 
 ; buffer completion
-(use-package corfu
-  ;; TAB-and-Go customizations
-  :custom
-  (corfu-auto t)
-  (corfu-cycle t)           ;; Enable cycling for `corfu-next/previous'
-  (corfu-preselect 'prompt) ;; Always preselect the prompt
-  ;; Use TAB for cycling, default is `corfu-complete'.
-  :bind
-  (:map corfu-map
-        ("TAB" . corfu-next)
-        ([tab] . corfu-next)
-        ("S-TAB" . corfu-previous)
-        ([backtab] . corfu-previous)
-	("RET" . nil))
-  :init
-  (global-corfu-mode)
-  (corfu-popupinfo-mode)
-  (corfu-history-mode)
-  ;(corfu-echo-mode)
-  )
-(savehist-mode 1) ; for history mode working
-(add-to-list 'savehist-additional-variables 'corfu-history)
-(setq corfu-popupinfo-delay 0.3)
-(define-key corfu-map [remap next-line] nil) ; disable j for choising items
-(define-key corfu-map [remap previous-line] nil) ; disable k for choising items
+;; (use-package corfu
+;;   ;; TAB-and-Go customizations
+;;   :custom
+;;   (corfu-auto t)
+;;   (corfu-cycle t)           ;; Enable cycling for `corfu-next/previous'
+;;   (corfu-preselect 'prompt) ;; Always preselect the prompt
+;;   ;; Use TAB for cycling, default is `corfu-complete'.
+;;   :bind
+;;   (:map corfu-map
+;;         ("TAB" . corfu-next)
+;;         ([tab] . corfu-next)
+;;         ("S-TAB" . corfu-previous)
+;;         ([backtab] . corfu-previous)
+;; 	("RET" . nil))
+;;   :init
+;;   (global-corfu-mode)
+;;   (corfu-popupinfo-mode)
+;;   ;; (corfu-history-mode)
+;;   ;(corfu-echo-mode)
+;;   )
+;; (savehist-mode 1) ; for history mode working
+;; (add-to-list 'savehist-additional-variables 'corfu-history)
+;; (setq corfu-popupinfo-delay 0.3)
+;; (define-key corfu-map [remap next-line] nil) ; disable j for choising items
+;; (define-key corfu-map [remap previous-line] nil) ; disable k for choising items
+
+;; (add-hook 'focus-in-hook 'redraw-display)
+
+;; company completion
+;; (global-company-mode)
+;; (add-hook 'after-init-hook 'company-tng-mode)
+;; (setq company-idle-delay 0)
+;; (setq company-selection-wrap-around t)
+;; (setq company-insertion-on-trigger t)
+;; (company-quickhelp-mode)
+
+;; (ac-config-default)
 
 ;;
 ;; STOP COMPLETION SNIPPET

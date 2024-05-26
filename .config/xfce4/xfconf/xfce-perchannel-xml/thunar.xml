@@ -10,4 +10,5 @@
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_160"/>
   <property name="last-separator-position" type="int" value="516"/>
   <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_96"/>
+  <property name="last-splitview-separator-position" type="int" value="1640"/>
 </channel>
