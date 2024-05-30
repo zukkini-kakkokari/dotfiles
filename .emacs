@@ -15,7 +15,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-	 '(company-quickhelp company web-mode emmet-mode paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
+	 '(lsp-mode company-quickhelp company web-mode emmet-mode paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
  '(safe-local-variable-values '((cider-clojure-cli-global-options . "-A:dev"))))
 
 (setq inhibit-startup-message t)
@@ -169,14 +169,15 @@
 ;; (add-hook 'focus-in-hook 'redraw-display)
 
 ;; company completion
-;; (global-company-mode)
-;; (add-hook 'after-init-hook 'company-tng-mode)
+(global-company-mode)
+(add-hook 'after-init-hook 'company-tng-mode)
 ;; (setq company-idle-delay 0)
-;; (setq company-selection-wrap-around t)
-;; (setq company-insertion-on-trigger t)
+(setq company-selection-wrap-around t)
+(setq company-insertion-on-trigger t)
+;; (eval-after-load 'company
+;; 	(company-quickhelp-mode))
 ;; (company-quickhelp-mode)
-
-;; (ac-config-default)
+(add-hook 'after-init-hook 'company-quickhelp-mode)
 
 ;;
 ;; STOP COMPLETION SNIPPET

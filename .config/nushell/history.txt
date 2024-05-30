@@ -2886,3 +2886,777 @@ yazi
 n
 hx genki.txt
 z dotfiles/
+git add .
+git commit -m 'a'
+git push
+ls
+hx arch-installation.sh
+n
+pamixer -m
+pamixer -u
+n
+t
+z no
+hx genki.txt
+z
+yazi
+n
+tremc
+n
+z no
+yazi
+hx genki.txt
+z
+z genki
+ls
+z
+n
+yazi
+z genki
+yazi
+n
+z
+config leftwm 
+yazi
+z clojureworkshop/
+wget https://raw.githubusercontent.com/PacktWorkshops/The-Clojure-Workshop/master/Chapter04/tennis-data/match_scores_1877-1967_unindexed_csv.csv
+ls
+wget https://raw.githubusercontent.com/PacktWorkshops/The-Clojure-Workshop/master/Chapter04/tennis-data/match_scores_1968-1990_unindexed_csv.csv
+wget https://raw.githubusercontent.com/PacktWorkshops/The-Clojure-Workshop/master/Chapter04/tennis-data/match_scores_1991-2016_unindexed_csv.csv
+ls
+dua
+ls
+yazi
+n
+pamixer -i 20
+pamixer -d 10
+n
+yazi
+z bg
+yazi
+hx .fehbg
+gdu -d
+n
+tremc
+n
+pamixer --get-volume
+pamixer -d 10
+n
+tremc
+yazi
+tremc
+n
+x-reload 
+n
+yazi
+tremc
+yazi
+n
+z no
+t
+n
+hx genki.txt
+tremc
+gdu -d
+n
+tremc
+n
+tremc
+n
+z
+n
+tremc
+n
+z no
+hx genki.txt
+git add .
+git commit -m 'genki is the only way'
+git push
+hx genki.txt
+n
+tremc
+yazi
+n
+hx genki.txt
+n
+config leftwm 
+ls
+n
+z Downloads/
+ls
+..
+yazi
+z ex-book/
+ls
+z persistable_todo_cache/
+ls
+hx genki.txt
+n
+z proj
+ls
+z drawing-quest-js/
+ls
+n
+z Downloads/
+ls
+hx genki.txt
+tremc
+n
+yazi
+shutdown now
+n
+tremc
+n
+yazi
+n
+z no
+n
+yazi
+z dow
+ls
+..
+z d
+ls
+mkdir retrogames
+mv udemy-retrogameswithjs.zip retrogames/
+ls
+z retrogames/
+ls
+unzip udemy-retrogameswithjs.zip
+n
+ls
+mv `Remake Retro Games with JavaScript/` ..
+ls
+..
+ls -a
+ls
+trash retrogames/
+ls -
+ls
+ls -a
+n
+pamixer -m
+n
+pamixer -u
+n
+pamixer -d 20
+n
+ls
+yazi
+npm create vite@latest
+z space-invaders/
+ls
+npm i
+sl
+npm i
+pacman -Syu
+ls
+..
+n
+mkdir test
+z test/
+ls
+npm init
+ls
+npm i pixi.js
+..
+ls
+trash test/
+ls
+z space-invaders/
+npm i
+..
+ls
+trash space-invaders/
+ls
+bun create vite
+z space-invaders/
+bun i
+ls
+trash counter.js
+ls
+trash javascript.svg
+ls
+hx style.css
+n
+hx main.js
+n
+bun run dev
+n
+..
+hx genki.txt
+n
+hx genki.txt
+shutdown now
+n
+yazi
+n
+z no
+n
+ls
+z space-invaders/
+ls
+z space-invaders/
+ls
+npm run dev
+hx main.js
+z no
+bun run dev
+yay -Runs ttf-iosevka-aile ttf-iosevka
+hx arch-installation.sh
+z spa
+ls
+hx main.js
+ls
+hx .config/wezterm/wezterm.lua
+z dotfiles/
+lhx .gitignore
+ls -a
+hx .gitignore
+hx main.js
+hx .config/helix/config.toml
+ls
+z
+ls
+z .local/src/helix/
+git pull
+hx genki.txt
+z dotf
+hx main.js
+hx .gitignore
+hx main.js
+cargo install --path helix-term --locked
+z dot
+hx .config/helix/config.toml
+hx .config/helix/languages.toml
+hx main.js
+ls
+git init
+hx main.js
+hx .config/helix/config.toml
+..
+hx .emacs
+z space-invaders/
+ls
+hx main.js
+n
+z no
+hx main.js
+hx genki.txt
+biome
+bun add --dev --exact @biomejs/biome
+pacman -S biome
+hx .config/helix/languages.toml
+n
+hx .config/wezterm/wezterm.lua
+ls
+z ex-book/
+ls
+z persistable_todo_cache/
+ls
+fc-list | rg -i iosevka
+ls
+hx .config/wezterm/wezterm.lua
+hx lib/todo/cache.ex
+z ex-book/persistable_todo_cache/
+hx lib/todo/cache.ex
+hx main.js
+yazi
+n
+yay -S biome
+biome
+n
+z dotfiles/
+fc-list | rg -i iosevka
+fc-list | rg -i iosevka regular
+fc-list | rg -i iosevka
+hx .config/wezterm/wezterm.lua
+n
+shutdown now
+n
+cal --week-start monday
+ping 
+ping 1.1.1.1
+z dotfiles/
+ls
+fc-list | rg -i iosevka
+ls
+z ex-book/persistable_todo_cache/
+ls
+z space-invaders/
+hx main.js
+hx .config/wezterm/wezterm.lua
+fc-list | rg -i iosevka
+t
+hx .config/wezterm/wezterm.lua
+weztrem ls-fonts
+wezterm ls-fonts
+hx lib/todo/cache.ex
+hx .config/wezterm/wezterm.lua
+ls
+z ex-book/persistable_todo_cache/
+ls
+z dotfiles/
+hx .config/wezterm/wezterm.lua
+hx lib/todo/cache.ex
+sl
+ls
+wezterm ls-fonts
+z dotfiles/
+ls
+hx lib/todo/cache.ex
+hx .config/wezterm/wezterm.lua
+wezterm ls-fonts
+..
+ls
+z space-invaders/
+ls
+hx main.js
+:q
+hx main.js
+npx @biomejs/biome format --write ./src
+npx @biomejs/biome format --write ./
+ls
+hx .config/helix/languages.toml
+hx main.js
+ls
+n
+z no
+hx genki.txt
+ls
+yazi
+z
+tremc
+n
+pamixer -m
+n
+tremc
+n
+ls
+z ex-book/
+ls
+z persistable_todo_cache/
+ls
+pamixer -m
+pamixer -u
+n
+pamixer -i 20
+pamixer --get-volume
+pamixer -i 15
+pamixer -d 15
+pamixer -d 20
+pamixer -i 20
+n
+tremc
+n
+yazi
+n
+pamixer -m
+pamixer -u
+n
+hx lib/todo/database.ex
+git init
+z ex-book/persistable_todo_cache/
+iex -S mix
+ls
+ls -a
+tree
+hx persist/bobs_list
+iex -S mix
+hx lib/todo/database.ex
+touch lib/todo/database_worker.ex
+z ex-book/persistable_todo_cache/
+ls -a
+z baka/
+ls
+hx aho
+ls
+..
+trash baka/
+tremc
+n
+iex -S mix.exs
+pamixer -m
+n
+pamixer -u
+t
+iex -S mix
+ls
+z persist/
+ls
+..
+ls
+z ex-book/persistable_todo_cache/
+ls
+ls persist/
+z
+n
+ping 1.1.1.1
+n
+hx lib/todo/database.ex
+z
+tremc
+n
+z ex-book/persistable_todo_cache/
+hx lib/todo/database_worker.ex
+z
+n
+yazi
+tremc
+yazi
+n
+tremc
+n
+tremc
+n
+tremc
+z ex-book/
+ls
+z vote/
+ls
+hx lib/election.ex
+..
+z vote/
+git init
+..
+ls
+..
+mkdir baka
+z baka/
+git init -b main
+..
+trash baka/
+ls
+z ex-book/
+z vote/
+n
+iex -S mix
+..
+z vote/
+ls
+iex -S mix
+pamixer -m
+pamixer -u
+z vf
+z bg
+hx .fehbg
+yazi
+crontab -e
+genki-look 
+n
+hx lib/election.ex
+yazi
+n
+z
+ls
+z dotfiles/
+npm create vite@latest
+z vite-project/
+ls
+npm i
+bun i
+hx src/main.ts
+npx @biomejs/biome format --write ./src
+hx src/main.ts
+biome format
+biome format --help
+biome format --write
+biome format --write ./src
+hx src/main.ts
+..
+trash vite-project/
+npm create vite@latest
+z vite-project/
+bun i
+hx src/main.ts
+hx .config/helix/languages.toml
+biome json
+biome format json
+ls
+hx package.json
+z
+ls
+trash vite-project/
+z space-invaders/
+ls
+..
+ls
+pamixer -d 20
+iex -S mix
+z
+z space-invaders/
+n
+yazi
+n
+hx main.js
+tremc
+n
+yazi
+pamixer -i 20
+tremc
+n
+z
+t
+pamixer --get-volume
+pamixer -d 20
+pamixer -i 10
+pamixer -5 5
+pamixer -d 5
+n
+tremc
+n
+bun run dev
+x-reload 
+n
+t
+n
+yazi
+n
+tremc
+n
+z dotfiles/
+z space-invaders/
+hx main.js
+main.js
+hx .config/helix/config.toml
+t back
+hx main.js
+ls
+z space-invaders/
+ды
+hx .config/helix/config.toml
+z
+yazi
+hx genki.txt
+n
+n
+yazi
+n
+hx main.js
+pamixer --get-volume
+pamixer -d 15
+ls
+yazi
+z Downloads/
+ls
+mkdir resources
+mv code.zip resources/
+z resources/
+ls
+unzip code.zip
+ls
+yazi
+n
+z
+ls
+z space-invaders/
+ls
+z public/
+ls
+..
+z
+n
+z dotf
+ls
+hx .config/helix/config.toml
+z
+pacman -S yt-dlp
+yt-dlp url https://www.youtube.com/watch?v=0g4BCvr-dwY
+ls
+yazi
+ls
+trash 'Uber Writes A Data Store To Save 6 Million [0g4BCvr-dwY].webm'
+ls
+mkdir genki-playlist
+z genki-playlist/
+yt-dlp url https://www.youtube.com/playlist?list=PLtt3XritXP51Vs8tey-2vVxbI4FSOl-k7
+n
+ls
+yazi
+ls
+..
+ls
+n
+ls
+mkdir test
+z test
+yt-dlp url https://www.youtube.com/playlist?list=PLtt3XritXP53Zn0kZ0Tp4lNy-v5blFQVY
+ls
+yazi
+yt-dlp https://www.youtube.com/playlist?list=PLtt3XritXP53Zn0kZ0Tp4lNy-v5blFQVY
+ls
+..
+trash test
+mkdir test
+z test/
+yt-dlp -I 1:3 https://www.youtube.com/playlist?list=PLtt3XritXP53Zn0kZ0Tp4lNy-v5blFQVY
+ls
+..
+trash test
+n
+hx main.js
+yazi
+ls
+n
+shutdown now
+yazi
+n
+pamixer --get-volume
+pamixer -i 15
+gdu -d
+yazi
+z wakuwaku/
+z tr/
+ls
+mkdir genki-playlist
+z genki-playlist/
+ls
+n
+z ex-book/
+z vote
+ls
+z ex-book/vote/
+iex -S mix
+exit
+ls
+yazi
+hx lib/election.ex
+exi
+exit
+n
+ls
+btm
+z ex-book/
+ls
+z vote
+ls
+ls
+z ex-book/vote/
+ls
+z test/
+ls
+touch election_test.exs
+ls
+..
+z test/
+mix test
+..
+mix test
+z dotfiles/
+ls
+hx .config/helix/config.toml
+hx lib/election.ex
+hx lib/
+hx .config/helix/config.toml
+hx lib/election.ex
+t end
+t start
+t begining
+t beginning
+mix test
+iex -S mix
+hx .config/helix/config.toml
+mix test
+yt-dlp https://www.youtube.com/playlist?list=PLtt3XritXP51Vs8tey-2vVxbI4FSOl-k7
+mix test
+hx test/election_test.exs
+ls
+n
+yazi
+n
+pacman -S i3-wm
+n
+z
+n
+yazi
+n
+z trt
+z tr
+ls
+dua
+z
+ls
+n
+gdu -d
+n
+pamixer --get-volume
+pamixer -i 4
+pamixer -i 1
+pamixer --get-volume
+ls
+hx .xinitrc
+yazi
+ls
+zz
+startx
+hx .xinitrc
+ls
+i3-wm
+i3wm
+hx .xinitrc
+ls
+hx .config/leftwm/config.ron
+hx .config/i3/config
+ls
+hx .config/leftwm/config.ron
+ls
+wezterm --help
+wezterm start --help
+hx .config/wezterm/wezterm.lua
+kalker
+n
+hx .config/i3/config
+ls
+ls
+ls
+hx .config/i3/config
+ls
+hx .xinitrc
+hx .config/i3/config
+ls
+hx .config/i3/config
+ls
+pamixer --get-volume
+z no
+hx arch-installation.sh
+pamixer -i 10
+ls
+sl
+ls
+ls
+ls
+sl
+ls
+n
+tremc
+picom -b
+hx .config/i3/config
+ls
+n
+hx .xinitrc
+ls
+hx .config/i3/config
+ls
+ls
+ls
+picom -b
+hx .config/i3/config
+hx .xinitrc
+hx .config/i3/config
+hx .config/picom/picom.conf
+shutdown now -r
+ls
+ls
+l
+hx .xinitrc
+z dotfiles/
+..
+yazi
+z dotfiles/
+ls
+stow .
+..
+hx .config/i3/config
+ls .config/i3
+yazi
+z dotfiles/

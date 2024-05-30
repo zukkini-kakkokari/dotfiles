@@ -14,7 +14,27 @@ end
 
 -- For example, changing the color scheme:
 config.font_size = 25
-config.font = wezterm.font 'Iosevka Nerd Font'
+config.font = wezterm.font 'Iosevka Nerd Font Mono'
+
+config.font_rules = {
+  {
+    italic = false,
+    intensity = "Half",
+    font = wezterm.font({
+      family = "Iosevka Nerd Font Mono",
+      weight = "Regular",
+    })
+  },  
+  {
+    italic = true,
+    intensity = "Half",
+    font = wezterm.font({
+      family = "Iosevka Nerd Font Mono",
+      weight = "Regular",
+    })
+  }
+}
+
 config.adjust_window_size_when_changing_font_size = false
 config.enable_tab_bar = false
 config.exit_behavior = 'Close'

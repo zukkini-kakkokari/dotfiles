@@ -43,4 +43,4 @@ transmission-daemon &
 setxkbmap -option caps:swapescape &
 xset -b & # disable beep sound
 xset r rate 200 30 & # setup typematic delay and rate
-exec leftwm
+exec i3

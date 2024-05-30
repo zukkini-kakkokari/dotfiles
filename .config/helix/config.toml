@@ -1,8 +1,12 @@
 theme = "ayu_evolve"
 
-[editor]
-shell = ["nu", "-c"]
+[keys.normal.space]
+w = ":write"
 
 [keys.normal]
-"backspace" = ":toggle lsp.display-inlay-hints"
-
+e = "move_prev_word_start"
+f = "move_next_word_start"
+b = "move_next_word_end"
+w = "find_next_char"
+K = "page_cursor_half_up"
+J = "page_cursor_half_down"

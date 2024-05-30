@@ -4,32 +4,41 @@ checkOnSave = false
 completion.callable.snippets = "add_parentheses"
 
 
-[[language]]
-name = "html"
-formatter = { command = 'prettier', args = ["--parser", "html"] }
 
-[[language]]
-name = "json"
-formatter = { command = 'prettier', args = ["--parser", "json"] }
-
-[[language]]
-name = "css"
-formatter = { command = 'prettier', args = ["--parser", "css"] }
+# JS 
+[language-server]
+biome = { command = "biome", args = ["lsp-proxy"] }
 
 [[language]]
 name = "javascript"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+formatter = { command = 'biome', args = ["format", "--stdin-file-path", "a.js"] }
 auto-format = true
 
 [[language]]
 name = "typescript"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+formatter = { command = 'biome', args = ["format", "--stdin-file-path", "a.ts"] }
 auto-format = true
 
 [[language]]
 name = "tsx"
-formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
+formatter = { command = 'biome', args = ["format", "--stdin-file-path", "a.tsx"] }
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+
+[[language]]
+name = "jsx"
+auto-format = true
+formatter = { command = 'biome', args = ["format", "--stdin-file-path", "a.jsx"] }
+language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
+
+[[language]]
+name = "json"
+formatter = { command = 'biome', args = ["format", "--stdin-file-path", "a.json"] }
+language-servers = [ { name = "vscode-json-language-server", except-features = [ "format" ] }, "biome" ]
+
+
 
 
 [[language]]
