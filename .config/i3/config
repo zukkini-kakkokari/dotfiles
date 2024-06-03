@@ -28,7 +28,7 @@ bindsym $mod+p exec --no-startup-id BEMENU_SCALE=3 bemenu-run -b
 
 # change focus
 bindsym $mod+h focus left
-bindsym $mod+j focus down
+# bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 

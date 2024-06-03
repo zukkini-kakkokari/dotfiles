@@ -28,6 +28,8 @@
 (global-auto-revert-mode 1) ; auto update file if it changes
 (electric-pair-mode 1) ; auto pair closing
 ; (toggle-frame-fullscreen)
+;; (set-face-attribute 'default nil :family "Iosevka Nerd Font Mono" :height 218)
+;; (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
 (set-face-attribute 'default nil :family "Iosevka" :height 218)
 (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
 
@@ -169,19 +171,25 @@
 ;; (add-hook 'focus-in-hook 'redraw-display)
 
 ;; company completion
-(global-company-mode)
-(add-hook 'after-init-hook 'company-tng-mode)
 ;; (setq company-idle-delay 0)
-(setq company-selection-wrap-around t)
-(setq company-insertion-on-trigger t)
-;; (eval-after-load 'company
-;; 	(company-quickhelp-mode))
-;; (company-quickhelp-mode)
-(add-hook 'after-init-hook 'company-quickhelp-mode)
+(use-package company
+	:config
+	(global-company-mode)
+	(setq company-idle-delay 0)
+	(setq company-quickhelp-delay 0.1)
+	(setq company-selection-wrap-around t)
+	(setq company-insertion-on-trigger t)
+	(setq company-quickhelp-color-background "#303030")
+	(setq company-quickhelp-color-foreground "#ffa07a")
+	(company-tng-mode)
+	(company-quickhelp-mode))
+
 
 ;;
 ;; STOP COMPLETION SNIPPET
-																				; activate commands to allow half-page scroll
+
+
+;; activate commands to allow half-page scroll
 (autoload 'View-scroll-half-page-forward "view")
 (autoload 'View-scroll-half-page-backward "view")
 

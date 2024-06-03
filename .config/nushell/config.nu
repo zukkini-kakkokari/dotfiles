@@ -233,7 +233,7 @@ $env.config = {
     use_ansi_coloring: true
     bracketed_paste: true # enable bracketed paste, currently useless on windows
     edit_mode: emacs # emacs, vi
-    shell_integration: false # enables terminal shell integration. Off by default, as some terminals have issues with this.
+    # shell_integration: false # enables terminal shell integration. Off by default, as some terminals have issues with this.
     render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
     use_kitty_protocol: false # enables keyboard enhancement protocol implemented by kitty console, only if your terminal support this.
     highlight_resolved_externals: false # true enables highlighting of external commands in the repl resolved by which.
@@ -777,3 +777,6 @@ alias docker-check-ip = docker inspect --format='{{range .NetworkSettings.Networ
 alias cal = cal --week-start mo
 alias "config leftwm" = hx ~/.config/leftwm/config.ron
 alias "start-css-server" = browser-sync start --server --files "./*.css"
+alias "vol" = pamixer --get-volume
+alias "i" = pamixer -i
+alias "d" = pamixer -d

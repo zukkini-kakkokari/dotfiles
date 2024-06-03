@@ -3660,3 +3660,436 @@ hx .config/i3/config
 ls .config/i3
 yazi
 z dotfiles/
+git add .
+git commit -m 'switch to i3'
+git push
+..
+n
+yazi\
+yazi
+n
+ls
+z ex-book/
+z vote
+ls
+z genki-playlist
+ls
+rg -i noucame
+rg -i noucome
+rg -i ljiwaru
+ls
+yaiz
+yazi
+n
+z no
+pamixer -m
+pamixer -u
+n
+tremc
+iex
+tremc
+yazi
+tremc
+n
+yazi
+n
+tremc
+yzi
+yazi
+tremc
+yazi
+n
+tremc
+n
+yazi
+n
+ls
+ls
+z
+ls
+hx genki.txt
+ls
+sls
+ls
+sl
+ls
+hx .config/wezterm/wezterm.lua
+hx
+n
+z no
+ls
+n
+ls
+n
+ls
+n
+tremc
+yazi
+tremc
+n
+n
+ls
+z proj
+ls
+z css
+ls
+yazi
+z proj
+ls
+z css
+ls
+z proj
+z css
+ls
+z dotf
+ls
+npm i -g vscode-langservers-extracted
+yay -S vscode-langservers-extracted
+hx .config/helix/languages.toml
+hx main.js
+pamixer -d 15
+n
+yazi
+n
+z proj
+ls
+z cs
+ls
+z public/
+ls
+n
+t
+n
+z no
+npm run dev
+yazi
+z
+yazi
+n
+nn
+n
+t
+n
+yazi
+n
+yazi
+n
+ls
+hx .config/i3/config
+yazi
+hx genki.txt
+fc-list | rg -i iosevka
+hx .config/wezterm/wezterm.lua
+z notes
+z
+yay -S ttf-iosevka-aile ttf-iosevka
+hx arch-installation.sh
+yazi
+tremc
+gdu -d
+fc-list | rg -i aile
+n
+hx .emacs
+an
+n
+n
+z no
+hx plan.txt
+tremc
+n
+shutdown now
+n
+tremc
+yazi
+tremc
+n
+ls
+n
+z no
+hx genki.txt
+n
+tremc
+n
+shutdown now
+n
+yazi
+tremc
+n
+yazi
+n
+tremc
+yazi
+tremc
+gdu -d
+n
+tremc
+yazi
+tremc
+n
+ls
+z no
+hx genki.txt
+n
+hx genki.txt
+n
+hx genki.txt
+tremc
+n
+hx gen
+hx genki.txt
+n
+hx genki.txt
+n
+shutdown now
+n
+z no
+hx genki.txt
+n
+tremc
+n
+hx genki.txt
+n
+t
+z
+z ex-book/
+ls
+z try/
+ls
+touch long_lived_process.exs
+n
+z ex-book/try/
+pamixer -m
+pamixer -u
+tremc
+n
+yazi
+n
+yazi
+z torrrent
+ls
+z torr
+ls
+z `Milky Holmes/`
+ls
+mkdir fonts
+mv Fonts.rar fonts/
+z fonts/
+ls
+unrar
+unrar Fonts.rar
+ls
+unrar Fonts.rar
+unrar e Fonts.rar
+ls
+yazi
+z
+tremc
+n
+tremc
+n
+tremc
+n
+n
+yazi
+z no
+n
+hx long_lived_process.exs
+t
+n
+pacman -Syu
+x-reload 
+t
+config nu
+ls
+n
+n
+tremc
+n
+tremc
+n
+t
+n
+t
+n
+iex
+..
+ls
+trash simple_todo.ex server_process_todo.ex server_process.ex process_bottleneck.ex key_value_gen_server.ex
+ls
+trash todo_server.ex
+trash todos.csv
+ls
+mv try ..
+ls
+trash todo/ todo_cache/
+ls
+mv vote ..
+ls
+mv persistable_todo_cache/ ..
+..
+ls
+mv persistable_todo_cache/ todo
+ls
+trash ex-book/
+ls
+mv try/ ex-course
+ls
+mv vote ex-course/
+ls
+z todo/
+ls
+yazi
+n
+hx genki.txt
+tremc
+n
+yazi
+tremc
+n
+ls
+tremc
+n
+iex long_lived_process.exs
+..
+z
+z todo/
+iex -S mix
+n
+cal
+cal --week-start monday
+config nu
+n
+ls
+cal
+n
+ls
+z lib/
+ls
+z todo/
+touch system.ex
+....
+z todo/
+ls
+hx lib/todo/cache.ex
+n
+hx genki.txt
+n
+tremc
+shutdown now
+cal
+config nu
+n
+n
+z genki
+z
+n
+z no
+t
+n
+tremc
+n
+hx genki.txt
+n
+tremc
+n
+yazi
+n
+ls
+z no
+z
+n
+pamixer --get-volume
+pamixer -d 15
+yazi
+pamixer -i 5
+n
+config nu
+p i 5
+p v
+pv 
+p v
+config nu
+pv
+pi 5
+pv
+pd 5
+pv
+ls
+z space-invaders/
+ls
+ls
+z space-invaders/
+ls
+vol
+config nu
+vol
+i 5
+vol
+d 5
+vol
+kalkre
+kalker
+z dotfi
+ls
+hx .config/helix/config.toml
+hx main.js
+n
+z no
+hx genki.txt
+n
+z
+yazi
+n
+hx genki.txt
+n
+gdu -d
+n
+tremc
+n
+tremc
+n
+bun run dev
+tremc
+n
+hx genki.txt
+n
+hx genki.txt
+n
+vol
+nol
+vol
+shutdown now
+z no
+n
+z space-invaders/
+ls
+z dot
+ls
+hx .config/wezterm/wezterm.lua
+n
+z space-invaders/
+ls
+z
+tremc
+ping 1.1.1.1
+n
+yazi
+n
+yazi
+n
+hx main.js
+bun run dev
+z
+yazi
+i 15
+vol
+z
+hx genki.txt
+yaizi
+yazi
+z no
+git add .
+git commit -m 'b'
+git push
+z
+z dotfiles

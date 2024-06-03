@@ -38,7 +38,9 @@ name = "json"
 formatter = { command = 'biome', args = ["format", "--stdin-file-path", "a.json"] }
 language-servers = [ { name = "vscode-json-language-server", except-features = [ "format" ] }, "biome" ]
 
-
+[[language]]
+name = "css"
+formatter = { command = 'prettier', args = ["--parser", "css"] }
 
 
 [[language]]
