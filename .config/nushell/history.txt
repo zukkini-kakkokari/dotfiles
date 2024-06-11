@@ -4093,3 +4093,744 @@ git commit -m 'b'
 git push
 z
 z dotfiles
+git add .
+git commit -m 'b'
+gti push
+git push
+n
+shutdown now
+yazi
+n
+ls
+yazi
+zathura
+yazi
+z no
+hx genki.png
+trash genki.png
+ls
+n
+t
+ping youtube.com
+n
+yazi
+ls
+z proj
+ls
+z old
+ls
+yazi
+n
+t
+n
+z
+n
+pamixer -m
+pamixer -u
+pamixer -m
+hx genki.txt
+yazi
+n
+pamixer -m
+pamixer -u
+vol
+n
+yazi
+hx .config/i3/config
+yazi
+crontab -e
+crontab -l
+t
+z clojureworkshop/
+ls
+z tennis-data/
+ls
+n
+n
+shutdown now
+z no
+hx genki.txt
+z
+n
+d 10
+dec 5
+d 5
+vol
+n
+decode
+which decode
+decode --help
+baka
+n
+t
+n
+ls
+yazi
+gdu -d
+n
+ls
+git clone https://github.com/css-for-js/huckleberry.git
+ls
+ls
+z huckleberry/
+npm i
+n
+t
+n
+npm run start
+yazi
+n
+tremc
+n
+i 15
+vol
+yazi
+n
+tremc
+n
+tremc
+n
+tremc
+n
+ls
+ls -a
+z .clojure/
+ls
+hx tools/tools.edn
+hx deps.ednp
+hx deps.edn
+z
+ls
+n
+clj -X:new :template figwheel-main :name learn-cljs/weather :args '["+deps" "--reagent"]'
+ls
+z weather/
+n
+z
+yazi
+n
+yazi
+n
+yazi
+n
+z no
+touch implementation-detail.txt
+ls
+hx implementation-detail.txt
+t
+t искать
+trans искать
+t seek it
+t seek him
+t "seek him"
+hx genki.txt
+n
+hx genki.txt
+n
+hx genki.txt
+yazi
+n
+z
+yazi
+n
+yazi
+x-reload 
+yazi
+n
+hx genki.txt
+n
+cat genki.txt
+bat genki.txt
+n
+t
+n
+hx gen
+hx genki.txt
+n
+ls
+mkdir train
+yazi
+ls
+yazi
+ls
+z train/
+ls
+hx genki.txt
+z no
+n
+hx genki.txt
+n
+t
+z
+n
+t
+n
+t
+n
+t
+n
+hx genki.txt
+shutdown now
+n
+yazi
+n
+n
+yazi
+n
+crontab -e
+crontab -l
+genki-look
+n
+yazi
+ls
+z train/
+ls
+npm create vite@latest
+z html5_canvas/
+bun i
+ls
+hx index.html
+hx main.js
+git inti
+git init -b main
+hx main.js
+ls
+trash counter.js
+ls
+z train/
+ls
+z html5_canvas/
+n
+hx main.js
+ls
+mkdir src
+z src/
+..
+hx main.js
+ls
+z src/
+touch core.js
+n
+hx core.js
+ls
+..
+ls
+trash main.js
+ls
+n
+ls
+mkdir input
+mkdir output
+z excel
+yazi
+la
+z
+last
+ls
+n
+z excel
+yazi
+mkdir final
+ls
+hx index.html
+yazi
+z excel
+yazi
+n
+yazi
+z
+ls
+n
+bun run dev
+yazi
+ls
+z no
+n
+hx genki.txt
+n
+shutdown now
+n
+ls
+mkdir test
+yazi
+x-reload 
+yazi
+ls
+n
+ls
+yzi
+yazi
+z test/
+ls
+dua
+n
+ls
+n
+yazi
+ls
+yazi
+ls
+z train/
+ls
+mv html5_canvas/ 2d-engine
+ls
+z 2d-engine/
+ls
+hx package.json
+ls
+z src/
+ls
+touch vertex_buffer.js
+hx vertex_buffer.js
+ls
+n
+hx core.js
+n
+shutdown now
+ls
+n
+vol
+yazi
+yai
+yazi
+yazi
+n
+pamixer -m
+n
+pamixer -u
+yazi
+n
+i 10
+n
+z excel
+yazi
+z
+ls
+yazi
+ls
+z train/
+ls
+n
+pamixer -m
+n
+pamixer -u
+n
+yazi
+n
+t
+n
+yazi
+n
+yazi
+n
+shutdown now
+ls
+n
+gdu -d
+tremc
+n
+yazi
+ls
+mv 'Excel Saga [DVDRip 720p]/' 'backup-excel'
+ls
+z excel/
+ls
+pacman -S mediainfo
+mediainfo --Inform="Video;%Duration%" *
+mediainfo --Inform="Video;%Duration%" `Excel Saga 01 (DVD 960x720 x264 AAC).mkv`
+sum
++ 3
+math sum 3 4
+math sum 
+mediainfo --Inform="Video;%Duration%" * | math sum
+ls
+mediainfo --Inform="Video;%Duration%" excel/
+man mediainfo
+mediainfo --help
+pacman -Runs mediainfo
+ls
+kalker
+n
+yazi
+n
+ls
+z no
+hx genki.txt
+n
+ls
+vol
+d 10
+vol
+z
+yazi
+hx .config/mpv/input.conf
+n
+z no
+n
+vol
+n
+ls
+yazi
+tremc
+gdu -d
+n
+ls
+yazi
+ls
+hx genki.txt
+n
+n
+dua
+ls
+n
+shutdown now
+n
+ls
+z train/space-invaders/
+ls
+z train/space-invaders/
+ls
+n
+ls
+ls
+z train/space-invaders/
+ls
+z public/
+ls
+n
+ls
+n
+ls
+n
+yazi
+n
+bun run dev
+z
+ls
+yazi
+i 10
+vol
+i 10
+d 20
+vol
+pamixer -m
+pamixer -u
+n
+ls
+z no
+hx genki.txtn
+hx genki.txt
+n
+yazi
+hx main.js
+z
+ls
+z train/
+ls
+z 2d-engine/
+l
+ls
+gdu -d
+n
+z
+z train/2d-engine/
+ls
+z src/
+touch shader_support.js
+n
+hx genki.txt
+n
+ls
+z
+yazi
+n
+tremc
+n
+sudo thunar
+ls
+lsblk
+ls
+ls /mnt
+lsblk
+mount --help
+lsblk
+mount /dev/sda2 /mnt
+sudo mount /dev/sda2 /mnt
+lsblk
+sudo umount /dev/sda2
+lsbk
+lsblk
+tremc
+n
+hx src/vertex_buffer.js
+ls
+yazi
+tremc
+hx .config/mpv/input.conf
+n
+tremc
+h
+n
+crontab -e
+t
+n
+z no
+hx genki.txt
+ls
+z train
+ls
+z huckleberry/
+npm run dev
+bun run dev
+n
+bun start
+shutdown now
+ls
+yazi
+tremc
+yazi
+n
+tremc
+yazi
+shutdown now -r
+ls
+n
+yazi
+z weather/
+t
+n
+t
+n
+ls
+z .clojure/
+ls
+hx deps.edn
+..
+ls
+z train/
+ls
+clj -X:new :template figwheel-main :name learn-cljs/baka :args '["+deps" "--reagent"]'
+ls
+clj -X:new :template figwheel-main :name learn-cljs/baka :args '["+deps" "--reagent"]'
+clj -A:fig:build
+n
+z
+n
+yazi
+n
+tremc
+gdu -d
+tremc
+n
+ls
+n
+z no
+ls
+trash 'Kelvin Sung, Jebediah Pavleas, Matthew Munson, Jason Pace - Build Your Own 2D Game Engine and Create Great Web Games_ Using HTML5, JavaScript, and WebGL2 (2021, Apress) [10.1007_978-1-4842-7377-7] - libgen.li.pdf'
+ls
+touch meditation.txt
+n
+hx meditation.txt
+n
+hx genki.txt
+n
+ls
+ls
+z Downloads/
+l
+ls
+yt-dlp https://www.youtube.com/watch?v=X_ocxmXeczk
+n
+yazi
+n
+yazi
+n
+t
+n
+yazi
+n
+yazi
+ls
+z train/
+ls
+z todo/
+ls
+ls
+z todo
+n
+hx lib/todo/system.ex
+iex -S mix
+hx meditation.txt
+n
+shutdown now
+ls
+n
+vol
+yazi
+n
+n
+ls
+yazi
+emacs -bg black/grey
+gdu -d
+ls
+z .config/
+ls
+mkdir emacs
+z emacs/
+touch early-init.el
+yazi
+n
+yazi
+n
+gdu -d
+shutdown now
+n
+yazi
+tremc
+n
+shutdown now
+yazi
+n
+t
+n
+pamixer -m
+pamixer -u
+n
+t
+n
+yazi
+n
+yazi
+n
+yazi
+t
+n
+t
+n
+yazi
+n
+yazi
+n
+yazi
+n
+yazi
+n
+ls
+z train/huckleberry/
+bun run dev
+n
+yazi
+yazi
+n
+shutdown now
+n
+ping 1.1.1.1
+1.1.1.1
+ping 1.1.1.1
+shutdown now -r
+n
+yazi
+n
+x-reload 
+n
+pamixer -m
+yazi
+pamixer -
+pamixer -u
+pamixer -m
+pamixer -u
+n
+yazi
+n
+t
+n
+yazi
+n
+t
+n
+t
+n
+t
+n
+yazi
+n
+tremc
+yazi
+n
+shutdown now
+n
+yazi
+n
+t
+yazi
+n
+yazi
+pacman -Syu
+shutdown now -r
+ls
+n
+yazi
+n
+yazi
+n
+kalker
+n
+t
+n
+yazi
+yazi
+n
+t
+n
+t
+n
+yazi
+z train
+ls
+z clojureworkshop/
+ls
+csvlens
+pacman -S csvlens
+t
+pacman -S csvlens
+z notex
+z notes
+hx arch-installation.sh
+csvlens match_scores_1991-2016_unindexed_csv.csv
+n
+ls
+n
+pamixer -m
+pamixer -u
+n
+yazi
+n
+vol
+yazi
+n
+tremc
+n
+tremc
+n
+tremc
+n
+tremc
+gdu -d
+n
+yazi
+shutdown now 
+n
+tremc
+tremc --help
+tremc --create-config
+tremc
+hx .config/tremc/settings.cfg
+tremc
+yazi
+z dotfiles/
+stow .
+..
+tremc
+n
+z dotfiles

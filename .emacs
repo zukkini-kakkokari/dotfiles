@@ -16,7 +16,10 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
 	 '(lsp-mode company-quickhelp company web-mode emmet-mode paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
- '(safe-local-variable-values '((cider-clojure-cli-global-options . "-A:dev"))))
+ '(safe-local-variable-values
+	 '((cider-clojure-cli-parameters . "-A:fig")
+		 (cider-clojure-cli-global-options . "-A:fig")
+		 (cider-clojure-cli-global-options . "-A:dev"))))
 
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
@@ -47,6 +50,9 @@
 ;; (setq garbage-collection-messages t)
 
 (beacon-mode 1) ; never lose your cursor again
+(setq beacon-blink-when-window-scrolls nil)
+(setq beacon-blink-when-point-moves-vertically 2)
+
 (use-package rainbow-mode
   :hook org-mode prog-mode) ; show hex colors
 (use-package rainbow-delimiters
@@ -90,9 +96,9 @@
 (keymap-set vertico-map "S-<iso-lefttab>" #'vertico-previous)
 
 ;; Persist history over Emacs restarts. Vertico sorts by history position.
-;; (use-package savehist
-;;   :init
-;;   (savehist-mode))
+(use-package savehist
+  :init
+  (savehist-mode))
 
 ;; A few more useful configurations...
 (use-package emacs
@@ -209,7 +215,7 @@
    ;; Custom SPC commands, but x / h / c / m / g is reserved
    '("j" . consult-buffer)							; find buffer
    '("b" . kill-buffer)									; bakuretsu buffer
-   '("s" . save-buffer)
+   '("w" . save-buffer)
    '("e" . cider-eval-last-sexp)
 	 '("r" . cider-eval-buffer)
 	 '("i" . cider-find-dwim-other-window) ; go to implementation
@@ -224,7 +230,7 @@
    '("a" . consult-imenu)								 ; all symbols picker
    '("f" . consult-line)								 ; find inside file
 	 '("u" . meow-comment)								 ; uncomment/comment
-	 '("w" . paredit-wrap-sexp)
+	 '("s" . paredit-wrap-sexp)
 	 '("TAB" . other-window)
    ;; Use SPC (0-9) for digit arguments.
    '("1" . meow-digit-argument)
@@ -252,20 +258,21 @@
    '("1" . meow-expand-1)
    '("-" . negative-argument)
    '(";" . meow-reverse)
-   '("." . meow-inner-of-thing)
-   '("," . meow-bounds-of-thing)
+   '("," . meow-inner-of-thing)
+   '("." . meow-bounds-of-thing)
    '("[" . meow-beginning-of-thing)
    '("]" . meow-end-of-thing)
    '("a" . meow-append)
-   '("A" . meow-open-below)
-   '("d" . meow-back-word)
+   '("o" . meow-open-below)
+   '("w" . meow-back-word)
    '("D" . meow-back-symbol)
    '("c" . meow-change)
    '("s" . meow-delete)
-   '("S" . meow-backward-delete)
-   '("f" . meow-next-word)
+   ;;'("D" . meow-backward-delete)
+   '("e" . meow-next-word)
    '("F" . meow-next-symbol)
-   '("r" . meow-find)
+   ;;'("r" . meow-find)
+   '("r" . meow-change-char)
    '("g" . meow-cancel-selection)
    '("G" . meow-grab)
    '("h" . meow-left)
@@ -280,19 +287,19 @@
    '("L" . meow-right-expand)
    '("m" . meow-join)
    '("n" . meow-search)
-   '("o" . meow-block)
+   '("A" . meow-block)
    '("O" . meow-to-block)
    '("P" . meow-yank) ; yank from kill ring
    '("q" . meow-quit)
    '("Q" . consult-goto-line)
-   '("b" . meow-replace)
+   '("R" . meow-replace)
    '("B" . meow-swap-grab)
-   '("w" . meow-kill)
+   '("d" . meow-kill)
    '("t" . meow-till)
    '("U" . meow-undo)
    ;'("U" . meow-undo-in-selection)
    '("v" . meow-visit)
-   '("e" . meow-mark-word)
+   '("f" . meow-mark-word)
    '("E" . meow-mark-symbol)
    '("x" . meow-line)
    '("X" . meow-goto-line)
@@ -304,7 +311,7 @@
    '(">" . indent-rigidly-right-to-tab-stop)
 	 '("`" . delete-other-windows)
 	 '("~" . delete-window)
-	 '("W" . paredit-kill)
+	 '("D" . paredit-kill)
 	 '("C-h" . paredit-forward-slurp-sexp)
 	 '("C-l" . paredit-forward-barf-sexp)
 	 '("C-k" . paredit-split-sexp)
@@ -364,18 +371,19 @@
 
 ;; THEME
 
+
 ;; palete overrides
 ;; f5deb3 => 000f08 => ff3864 => 02a9ea => 809bce
 (setq modus-vivendi-palette-overrides
-	'(
-		(color-wheat "#f5deb3")
-		(color-night "#000f08")
-		(color-folly "#ff3864")
-		(color-picton-blue "#02a9ea")
-		(color-vista-blue "#809bce")
-		(fg-main "#f5deb3")
-		(magenta  color-folly)
-		))
+			'(
+				(color-wheat "#f5deb3")
+				(color-night "#000f08")
+				(color-folly "#ff3864")
+				(color-picton-blue "#02a9ea")
+				(color-vista-blue "#809bce")
+				(fg-main "#f5deb3")
+				(magenta  color-folly)
+				))
 
 ;; remove modeline border
 (setq modus-themes-common-palette-overrides
@@ -413,3 +421,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
