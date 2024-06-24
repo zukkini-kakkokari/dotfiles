@@ -30,7 +30,8 @@
 (setq vc-follow-symlinks t) ; disable symlink warning
 (save-place-mode 1) ; save cursor pos if you close emacs
 (global-auto-revert-mode 1) ; auto update file if it changes
-; (toggle-frame-fullscreen)
+(setq shell-file-name "/bin/bash")
+;; (toggle-frame-fullscreen)
 ;; (set-face-attribute 'default nil :family "Iosevka Nerd Font Mono" :height 218)
 ;; (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
 (set-face-attribute 'default nil :family "Iosevka" :height 218)

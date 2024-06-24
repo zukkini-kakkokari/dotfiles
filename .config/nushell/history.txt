@@ -5697,3 +5697,18 @@ git push
 ls
 z
 z dotfiles/
+git add .
+git commit -m 'updated emacs config'
+git push
+yazi
+n
+ls
+ls -a
+touch .gitignore
+ls
+z dotfiles/
+ls
+z .config/nushell/
+ls
+hx .gitignore
+ls
