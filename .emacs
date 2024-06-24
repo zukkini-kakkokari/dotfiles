@@ -14,8 +14,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(electric-pair-pairs '((34 . 34) (8216 . 8217) (8220 . 8221) (123 . 125)))
  '(package-selected-packages
-	 '(lsp-mode company-quickhelp company web-mode emmet-mode paredit org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless vterm rainbow-mode rainbow-delimiters beacon vertico meow))
+	 '(puni lsp-mode company-quickhelp company web-mode emmet-mode org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless rainbow-mode rainbow-delimiters beacon vertico meow))
  '(safe-local-variable-values
 	 '((cider-clojure-cli-parameters . "-A:fig")
 		 (cider-clojure-cli-global-options . "-A:fig")
@@ -29,7 +30,6 @@
 (setq vc-follow-symlinks t) ; disable symlink warning
 (save-place-mode 1) ; save cursor pos if you close emacs
 (global-auto-revert-mode 1) ; auto update file if it changes
-(electric-pair-mode 1) ; auto pair closing
 ; (toggle-frame-fullscreen)
 ;; (set-face-attribute 'default nil :family "Iosevka Nerd Font Mono" :height 218)
 ;; (set-face-attribute 'variable-pitch nil :family "Iosevka Aile" :height 218)
@@ -58,15 +58,28 @@
 (use-package rainbow-delimiters
   :hook org-mode prog-mode) ; rainbow brackets
 
-;; term enulator
-(use-package vterm
-  :config
-  (setq shell-file-name "/bin/bash"
-				vterm-max-scrollback 5000))
+;; Puni - Parentheses Universalistic
+(use-package puni
+  :defer t
+  :hook ((prog-mode emacs-lisp-mode clojure-mode) . puni-mode))
+(setq puni-confirm-when-delete-unbalanced-active-region nil)
 
-;; paredit
-(use-package paredit
-		:hook org-mode emacs-lisp-mode clojure-mode)
+;; remap 0 and 9 to ( and )
+(defun insert-paren-if-not-next ()
+  "Insert ) only if the next character is not the same."
+  (interactive)
+	(if (char-equal (char-after) ?\))
+			(forward-char 1)
+      (insert ")")))
+
+(global-set-key (kbd "(") (lambda () (interactive) (insert "9")))
+(global-set-key (kbd ")") (lambda () (interactive) (insert "0")))
+(global-set-key (kbd "9") (lambda () (interactive) (insert-parentheses)))
+(global-set-key (kbd "0") 'insert-paren-if-not-next)
+;; force delete character (even if unbalanced)
+(global-set-key (kbd "S-<backspace>") (lambda () (interactive) (backward-delete-char 1)))
+;; autopair [ and }
+(electric-pair-mode 1)
 
 ;; emmet mode
 (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
@@ -75,6 +88,7 @@
 (add-hook 'emmet-mode-hook (lambda () (setq emmet-indent-after-insert nil)))
 (add-hook 'emmet-mode-hook (lambda () (setq emmet-indentation 2))) ;; indent 2 spaces.
 (setq-default css-indent-offset 2)
+
 
 ;; web mode
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
@@ -147,37 +161,7 @@
   :init
   (marginalia-mode))
 
-; buffer completion
-;; (use-package corfu
-;;   ;; TAB-and-Go customizations
-;;   :custom
-;;   (corfu-auto t)
-;;   (corfu-cycle t)           ;; Enable cycling for `corfu-next/previous'
-;;   (corfu-preselect 'prompt) ;; Always preselect the prompt
-;;   ;; Use TAB for cycling, default is `corfu-complete'.
-;;   :bind
-;;   (:map corfu-map
-;;         ("TAB" . corfu-next)
-;;         ([tab] . corfu-next)
-;;         ("S-TAB" . corfu-previous)
-;;         ([backtab] . corfu-previous)
-;; 	("RET" . nil))
-;;   :init
-;;   (global-corfu-mode)
-;;   (corfu-popupinfo-mode)
-;;   ;; (corfu-history-mode)
-;;   ;(corfu-echo-mode)
-;;   )
-;; (savehist-mode 1) ; for history mode working
-;; (add-to-list 'savehist-additional-variables 'corfu-history)
-;; (setq corfu-popupinfo-delay 0.3)
-;; (define-key corfu-map [remap next-line] nil) ; disable j for choising items
-;; (define-key corfu-map [remap previous-line] nil) ; disable k for choising items
-
-;; (add-hook 'focus-in-hook 'redraw-display)
-
 ;; company completion
-;; (setq company-idle-delay 0)
 (use-package company
 	:config
 	(global-company-mode)
@@ -230,7 +214,7 @@
    '("a" . consult-imenu)								 ; all symbols picker
    '("f" . consult-line)								 ; find inside file
 	 '("u" . meow-comment)								 ; uncomment/comment
-	 '("s" . paredit-wrap-sexp)
+	 '("s" . puni-wrap-round)
 	 '("TAB" . other-window)
    ;; Use SPC (0-9) for digit arguments.
    '("1" . meow-digit-argument)
@@ -268,6 +252,7 @@
    '("D" . meow-back-symbol)
    '("c" . meow-change)
    '("s" . meow-delete)
+	 '("S" . (lambda () (interactive) (delete-char 1)))
    ;;'("D" . meow-backward-delete)
    '("e" . meow-next-word)
    '("F" . meow-next-symbol)
@@ -311,11 +296,9 @@
    '(">" . indent-rigidly-right-to-tab-stop)
 	 '("`" . delete-other-windows)
 	 '("~" . delete-window)
-	 '("D" . paredit-kill)
-	 '("C-h" . paredit-forward-slurp-sexp)
-	 '("C-l" . paredit-forward-barf-sexp)
-	 '("C-k" . paredit-split-sexp)
-	 '("C-j" . paredit-join-sexps)
+	 '("D" . puni-kill-line)
+	 '("C-h" . puni-slurp-forward)
+	 '("C-l" . puni-barf-forward)
    '("<escape>" . ignore)))
 (require 'meow)
 (meow-setup)
@@ -328,6 +311,7 @@
 (global-set-key (kbd "C--") 'text-scale-decrease)
 (global-set-key (kbd "<C-wheel-up>") 'text-scale-increase)
 (global-set-key (kbd "<C-wheel-down>") 'text-scale-decrease)
+
 
 
 ;; racket run

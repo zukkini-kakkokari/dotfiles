@@ -4834,3 +4834,866 @@ stow .
 tremc
 n
 z dotfiles
+git add .
+git commit -m 'added tremc config'
+git push
+z
+tremc
+n
+yazi
+z genki
+yazi
+n
+t
+n
+z
+n
+t
+n
+yazi
+tremc
+tremc
+n
+tremc
+gdu -d
+n
+tremc
+n
+yazi
+n
+t
+n
+yazi
+n
+yazi
+n
+yazi
+n
+pamixer -m
+n
+pamixer -u
+yazi
+n
+yazi
+n
+tremc
+n
+shutdown now
+n
+yazi
+n
+z no
+hx genki.txt
+n
+ls
+yazi
+ls
+z todo
+ls
+hx genki.txt
+n
+hx lib/todo/server.ex
+n
+shutdown now
+yazi
+n
+t
+n
+z no
+pamixer -m
+pamixer -u
+nn
+n
+z gen
+ls
+yazi
+n
+ls
+yazi
+ls
+z todo/
+ls
+tree
+tree lib
+ls
+z todo/
+iex -S mix
+hx genki.txt
+n
+hx genki.txt
+n
+hx lib/todo/system.ex
+iex -S mix
+n
+ls
+yazi
+n
+shutdown now
+n
+ls
+n
+yazi
+n
+ls
+n
+z no
+ls
+z ex-course/
+ls
+vol
+mix new http_server
+z http_server/
+z ex-course/
+ls
+z http_server/
+ls
+iex -S mix
+curl -v http://localhost:8000/
+n
+cal
+n
+iex -S mix
+curl -v http://localhost:8000/
+n
+yazi
+n
+yazi
+hx lib/http_server.ex
+..
+mix new counter
+z  counter/
+ls
+..
+z counter/
+z dotfiles/
+hx .config/helix/config.toml
+hx lib/counter.ex
+n
+z src
+ls
+z helix/
+ls
+hx runtime/themes/ayu_dark.toml
+hx lib/counter.ex
+n
+hx runtime/themes/ayu_dark.toml
+n
+iex -S mix
+pamixer -m
+pamixer -u
+n
+vol
+n
+pamixer -m
+vol
+pamixer -u
+n
+touch lib/counter_supervisor.ex
+z http
+ls
+tree lib/
+..
+ls
+z counter/
+tree lib
+touch lib/cache.ex
+iex -S mix
+touch lib/app.ex
+n
+z dotfiles/
+hx .config/helix/config.toml
+iex -S mix
+n
+z
+n
+nn
+n
+yazi
+hx lib/counter_supervisor.ex
+z
+z todo/
+ls
+tree lib
+ls
+yazi
+t
+n
+z
+z todo/
+n
+t
+n
+hx lib/todo/cache.ex
+ls
+..
+z train/
+ls
+mix new echo-server
+mix new echo_server
+z echo_server/
+ls
+iex -S mix
+z echo
+ls
+n
+hx lib/echo_server.ex
+n
+z
+kalker
+n
+ls
+yazi
+z train/
+ls
+yazi
+z 2d-engine/
+ls
+iex -S mix
+ls
+z
+z train/
+ls
+z 2d
+ls
+n
+z 2d
+bun run dev
+n
+npm run dev
+hx src/vertex_buffer.js
+n
+hx genki.txt
+n
+shutdown now
+z 2d
+bun upgrade
+npm u
+bun update
+bun run dev
+z 2d
+bun run dev
+npm run dev
+ls
+..
+bun create
+bunx create
+hx src/core.js
+..
+bun init
+mkdir baka
+z baka/
+bun init
+ls
+hx index.ts
+..
+trash baka
+n
+ls
+z 2d-engine/
+z 2d-engine/
+ls
+ulimit -Sn
+ulimit -Sn
+ulimit -Sn 10000
+ulimit -Sn
+bun run dev
+sysctl fs.inotify
+sudo sysctl fs.inotify.max_user_instances=8192
+npm run dev
+n
+yazi
+n
+yazi
+ls
+z Downloads/
+ls
+mkdir webgl
+z no
+hx genki.txt
+n
+yt-dlp https://www.youtube.com/playlist?list=PLPbmjY2NVO_X1U1JzLxLDdRn4NmtxyQQo
+ls
+mv *.mkv webgl/
+ls
+z 'WebGL 2： Deferred rendering (framebuffer object technique 1) [cmfMVicl6Uw].webm'
+ls
+z webgl/
+ls
+..
+l
+ls
+yazi
+z webgl/
+ls
+yt-dlp https://www.youtube.com/playlist?list=PLPbmjY2NVO_X1U1JzLxLDdRn4NmtxyQQo
+yazi
+ls
+t
+n
+ls
+n
+hx genki.txt
+n
+yazi
+hx src/core.js
+n
+n
+shutdown now
+n
+ls
+yazi
+n
+i 20
+d 20
+vol
+n
+yazi
+n
+ls
+yazi
+n
+yazi
+t
+n
+pamixer -m
+pamixer -u
+n
+ls
+n
+yazi
+yazi
+n
+n
+ls
+n
+yazi
+shutdown now
+n
+yazi
+n
+tremc
+gdu- d
+gdu -d
+n
+8n
+n
+yazi
+n
+ls
+z train/
+ls
+mkdir jsclj
+trash jsclj
+clj -X:new :template figwheel-main :name learn-cljs/baka :args '["+deps" "--reagent"]'
+ls
+n
+t
+n
+shutdown now
+n
+yazi
+n
+yazi
+n
+shutdown now
+yazi
+n
+z no
+hx genki.txt
+ls
+n
+yazi
+hx genki.txt
+n
+hx genki.txt
+n
+hx genki.txt
+n
+hx genki.txt
+n
+shutdown now
+n
+z no
+kalker
+n
+hx genki.txt
+hx plan.txt
+n
+t
+n
+pamixer -m
+pamixer -u
+n
+yazi
+n
+t
+n
+t
+n
+ls
+z train/
+ls
+git clone https://github.com/css-for-js/character-creator
+z character-creator/
+bun i
+nnpm i --lockfile-version 3 --frozen-lockfile
+npm i --lockfile-version 3 --frozen-lockfile
+npm run start
+bun i
+bun run start
+ls
+trash node_modules/
+trash-empty
+bun i
+bun run start
+npm
+npm run start
+pacman -Runs nodejs
+node -v
+pacman -R nodejs
+pacman -Runs nodejs node-gyp nodejs-nopt npm semver
+pacman -S nodejs
+z train
+ls
+z character-creator/
+ls
+trash node_modules/
+npm i
+pacman -S npm
+npm i
+npm run start
+..
+trash character-creator/
+git clone https://github.com/css-for-js/character-creator
+z character-creator/
+npm i
+npm run dev
+npm run start
+$env.NODE_OPTIONS="--openssl-legacy-provider"
+$env.NODE_OPTIONS=--openssl-legacy-provider
+$env.NODE_OPTIONS = --openssl-legacy-provider
+npm run start
+ls
+z character-creator/
+z character-creator
+ls
+npm run start
+hx package.json
+n
+npm run start
+ls
+ls
+z character-creator
+hx src/index.css
+n
+yazi
+n
+npm run start
+n
+ping 1.1.1.1
+n
+yazi
+z no
+3t
+t
+n
+vi
+n
+cal
+n
+yazi
+z train/
+ls
+z echo_server/
+ls
+git init
+ls
+hx lib/echo_server.ex
+..
+z todo/
+ls
+hx lib/todo/
+ls
+z todo
+ls
+z lib/todo
+ls
+touch process_registry.ex
+z todo
+iex
+n
+z dotfiles/
+ls
+hx .config/helix/config.toml
+n
+iex -S mix
+n
+hx genki.txt
+hx lib/todo/cache.ex
+shutdown now
+z no
+hxg 
+hx gen
+yazi
+n
+ffmpeg
+yazi
+ls
+z excel_1/
+ls
+pacman -S Owner avatar<\n>vidmerger 
+pacman -S vidmerger
+yay -S videmerger
+yay -S vidmerger
+vidmerger .
+ls
+z excel_1/
+ls
+vidmerger .
+ls
+vidmerger --help
+vidmerger --skip-fps-changer .
+yazi
+yazi
+n
+yazi
+z todo
+ls
+hx genki.txt
+n
+hx genki.txt
+crontab -e
+crontab -l
+genki-look 
+n
+vol
+n
+vol
+n
+n
+n
+z
+shutdown now
+n
+yazi
+z no
+hx gen
+hx genki.txt
+n
+z
+n
+z no
+hx genki.txt
+n
+ls
+z train/
+ls
+z 2d-engine/
+ls
+n
+x-reload 
+z no
+hx genki.txt
+n
+z
+n
+ping 1.1.1.1
+n
+z no
+hx genki.txt
+n
+yazi
+t
+n
+z
+gdu -d
+tremc
+yazi
+n
+tremc
+n
+gdu -d
+n
+tremc
+n
+z no
+hx genki.txt
+hx src/core.js
+z
+ls
+z train/
+ls
+z character-creator/
+ls
+ls
+ls
+z chara
+z
+n
+n
+pamixer -m
+pamixer u
+pamixer -u
+n
+yazi
+n
+yazi
+n
+z no
+hx genki.txt
+yazi
+n
+shutdown now
+n
+z no
+hx genki.txt
+n
+tremc
+n
+hx genki.txt
+n
+z
+n
+z no
+hx genki.txt
+n
+z
+n
+yai
+n
+z no
+yazi
+n
+crontab -e
+crontab -l
+n
+hx genki.txt
+yazi
+n
+yazi
+n
+z
+yazi
+n
+yazi
+n
+shutdown now -r
+n
+yazi
+n
+yazi
+n
+yaiz
+yai
+tremc
+gdu -d
+yazi
+n
+tremc
+n
+gdu -d
+n
+yazi
+z torr
+z 'Robotics;Notes [BDRip] [1080p]/'
+ls
+z 'RUS Subs [Antravoco]/'
+ls
+mkdir fonts
+mv fonts.zip fonts/
+ls
+z fonts/
+ls
+unzip fonts.zip
+ls
+yazi
+ls
+z
+z .fonts/
+ls
+n
+tremc
+n
+tremc
+n
+ls
+z train/
+ls
+clj -X:new :template figwheel-main :name learn-cljs/doing-io :args '["+deps"]'
+n
+t
+n
+shutdown now
+yazi
+n
+t
+n
+ls
+z train
+ls
+clj -X:new :template figwheel-main :name learn-cljs/temp-converter :args '["+deps"]'
+yazi
+n
+shutdown now
+n
+yazi
+tremc
+n
+gdu -d
+n
+tgpt
+tgpt --help
+tgpt -u
+tgpt "how to remap in emacs '9' and '0' to '(' and ')'"
+tgpt "how to remap in emacs '(' and ')' to '9' and '0'"
+tgpt "It doesnot work"
+tgpt "how to remap in emacs '(' and ')' to '9' and '0'. define-key doesn't work"
+n
+shutdown now
+n
+tgpy "emacs how to see commands you type"
+tgpt "emacs how to see commands you type"
+n
+yazi
+tremc
+n
+gdu -d
+n
+yazi
+n
+z img
+z tr
+ls
+yazi
+hx .fehbg
+n
+t
+n
+yazi
+tremc
+n
+yazi
+tremc
+n
+tremc
+yazi
+n
+pamixer -m
+n
+pamixer -u
+n
+t
+n
+yazi
+tremc
+shutdown now
+tremc
+n
+yazi
+n
+tremc
+n
+tremc
+n
+ping 1.1.1.1
+n
+t
+n
+t
+n
+9n
+n
+yazi
+n
+tremc
+gdu -d
+n
+yazi
+n
+tremc
+n
+yazi
+n
+yazi
+n
+shutdown now
+n
+yazi
+n
+t
+n
+tremc
+gdu -d
+n
+yazi
+n
+tremc
+n
+tgpt "How to escape character in clojure?"
+n
+t
+tremc
+n
+t
+n
+t
+n
+tremc
+n
+gdu -d
+n
+yazi
+n
+yazi
+z img
+z tr
+ls
+yazi
+pamixer -m
+pamixer -u
+n
+yazi
+tremc
+shutdown now
+n
+yazi
+tremc
+gdu -d
+n
+ls
+z train/
+ls
+git clone https://github.com/kendru/learn-cljs/tree/main
+git clone https://github.com/kendru/learn-cljs/
+yazi
+n
+t
+x-reload 
+n
+z
+n
+kalker
+n
+cal
+n
+yazi
+tremc
+gdu -d
+n
+z no
+hx plan.txt
+n
+hx genki.txt
+n
+shutdown now
+n
+yazi
+n
+z no
+ls
+git add .
+git commit -m 'updated plan'
+git push
+ls
+z
+z dotfiles/
