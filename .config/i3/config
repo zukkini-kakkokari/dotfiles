@@ -146,7 +146,7 @@ default_border pixel 0
 for_window [class="^.*"] border pixel 0
 
 # bar {
-#         status_command i3status -c /home/$USER/.config/i3status/i3status.conj
+#         status_command i3status -c /home/$USER/.config/i3status/i3status.conf
 #         font pango:Iosevka Nerd Font Mono 13
 #         workspace_buttons no
 # }
