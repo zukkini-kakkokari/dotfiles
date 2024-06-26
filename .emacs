@@ -75,7 +75,7 @@
 
 (global-set-key (kbd "(") (lambda () (interactive) (insert "9")))
 (global-set-key (kbd ")") (lambda () (interactive) (insert "0")))
-(global-set-key (kbd "9") (lambda () (interactive) (insert-parentheses)))
+(global-set-key (kbd "9") (lambda () (interactive) (insert "()") (backward-char)))
 (global-set-key (kbd "0") 'insert-paren-if-not-next)
 ;; force delete character (even if unbalanced)
 (global-set-key (kbd "S-<backspace>") (lambda () (interactive) (backward-delete-char 1)))
