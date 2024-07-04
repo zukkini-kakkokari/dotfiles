@@ -1,0 +1,22 @@
+2024-07-04 17:04:41.309 [info] Started local extension host with pid 35048.
+2024-07-04 17:04:44.568 [info] [perf] Render performance baseline is 180ms
+2024-07-04 17:17:44.908 [error] Unable to read file '/home/zukkini/test/src/vertex_buffer.js' (Error: File not modified since): Error: Unable to read file '/home/zukkini/test/src/vertex_buffer.js' (Error: File not modified since)
+    at o.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:657:19291)
+    at o.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:657:19179)
+    at async d.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2202:35250)
+    at async d.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2202:35007)
+    at async L.Cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2191:11348)
+    at async L.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2191:9760)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2202:31053
+2024-07-04 17:18:00.315 [info] Started local extension host with pid 36507.
+2024-07-04 17:18:04.207 [info] [perf] Render performance baseline is 162ms
+2024-07-04 17:18:07.271 [error] Cannot read properties of undefined (reading 'codeLenses'): TypeError: Cannot read properties of undefined (reading 'codeLenses')
+	at /home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:879916
+	at Array.map (<anonymous>)
+	at N (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:879890)
+	at e.<anonymous> (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:884569)
+	at f (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:870652)
+	at Generator.<anonymous> (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:871994)
+	at Generator.next (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:871081)
+	at s (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:877208)
+	at a (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:877411)

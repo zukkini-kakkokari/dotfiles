@@ -1,0 +1,17 @@
+2024-07-04 17:45:06.996 [info] Getting Manifest... biomejs.biome
+2024-07-04 17:45:07.008 [info] Installing extension: biomejs.biome vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-04 17:45:07.839 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-04 17:45:07.839 [info] Extension signature verification is not done: biomejs.biome
+2024-07-04 17:45:07.878 [info] Extracted extension to file:///home/zukkini/.vscode-oss/extensions/biomejs.biome-2.3.0: biomejs.biome
+2024-07-04 17:45:07.884 [info] Renamed to /home/zukkini/.vscode-oss/extensions/biomejs.biome-2.3.0
+2024-07-04 17:45:07.997 [info] Extension installed successfully: biomejs.biome vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-04 17:45:08.002 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)

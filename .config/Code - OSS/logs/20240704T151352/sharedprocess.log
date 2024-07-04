@@ -1,0 +1,44 @@
+2024-07-04 15:40:23.392 [info] Getting Manifest... geddski.macros
+2024-07-04 15:40:23.406 [info] Installing extension: geddski.macros vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-04 15:40:24.440 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-04 15:40:24.440 [info] Extension signature verification is not done: geddski.macros
+2024-07-04 15:40:25.694 [info] Extracted extension to file:///home/zukkini/.vscode-oss/extensions/geddski.macros-1.2.1: geddski.macros
+2024-07-04 15:40:25.702 [info] Renamed to /home/zukkini/.vscode-oss/extensions/geddski.macros-1.2.1
+2024-07-04 15:40:25.831 [info] Extension installed successfully: geddski.macros vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-04 15:40:25.838 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-07-04 16:07:22.915 [info] Getting Manifest... serafeim.goto-previous-buffer
+2024-07-04 16:07:22.939 [info] Installing extension: serafeim.goto-previous-buffer vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-04 16:07:23.818 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-04 16:07:23.818 [info] Extension signature verification is not done: serafeim.goto-previous-buffer
+2024-07-04 16:07:23.843 [info] Extracted extension to file:///home/zukkini/.vscode-oss/extensions/serafeim.goto-previous-buffer-1.0.3: serafeim.goto-previous-buffer
+2024-07-04 16:07:23.851 [info] Renamed to /home/zukkini/.vscode-oss/extensions/serafeim.goto-previous-buffer-1.0.3
+2024-07-04 16:07:23.977 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-07-04 16:07:24.011 [info] Extension installed successfully: serafeim.goto-previous-buffer vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-04 16:54:13.999 [info] Uninstalling extension from the profile: geddski.macros@1.2.1 vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-04 16:54:14.044 [info] Marked extension as uninstalled geddski.macros-1.2.1
+2024-07-04 16:54:14.107 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-07-04 16:54:14.342 [info] Successfully uninstalled extension from the profile geddski.macros@1.2.1 vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json

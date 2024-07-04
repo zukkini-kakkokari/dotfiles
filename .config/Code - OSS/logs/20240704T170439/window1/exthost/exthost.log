@@ -1,0 +1,127 @@
+2024-07-04 17:04:41.754 [info] Extension host with pid 35048 started
+2024-07-04 17:04:41.754 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/be652389774f61ca956f853fd6853924.
+2024-07-04 17:04:41.928 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-04 17:04:41.939 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-04 17:04:41.985 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-04 17:04:42.382 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-04 17:04:42.384 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-04 17:04:42.387 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-04 17:04:42.478 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-04 17:04:42.508 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-04 17:04:42.587 [info] Eager extensions activated
+2024-07-04 17:04:42.642 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 17:04:42.645 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 17:04:42.656 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 17:05:14.950 [warning] TextEditor is closed/disposed
+2024-07-04 17:05:15.042 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-04 17:05:15.043 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model3)
+2024-07-04 17:08:16.027 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-04 17:08:16.027 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model1)
+2024-07-04 17:09:40.466 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-04 17:09:40.466 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model7)
+2024-07-04 17:12:27.329 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-04 17:12:27.329 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model6)
+2024-07-04 17:17:58.518 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-04 17:17:58.561 [info] Extension host with pid 35048 exiting with code 0
+2024-07-04 17:18:00.750 [info] Extension host with pid 36507 started
+2024-07-04 17:18:00.750 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/defef718bd443305de66f8d653288dff.
+2024-07-04 17:18:00.831 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-04 17:18:00.838 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescriptreact'
+2024-07-04 17:18:01.315 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-04 17:18:01.318 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-04 17:18:01.320 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-04 17:18:01.355 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-07-04 17:18:01.424 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-04 17:18:01.450 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-04 17:18:01.599 [info] Eager extensions activated
+2024-07-04 17:18:02.446 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 17:18:02.448 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 17:18:02.454 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 17:18:07.270 [error] [Codeium.codeium] provider FAILED
+2024-07-04 17:18:07.270 [error] TypeError: Cannot read properties of undefined (reading 'codeLenses')
+	at /home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:879916
+	at Array.map (<anonymous>)
+	at N (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:879890)
+	at e.<anonymous> (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:884569)
+	at f (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:870652)
+	at Generator.<anonymous> (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:871994)
+	at Generator.next (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:871081)
+	at s (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:877208)
+	at a (/home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/extension.js:2:877411)
+2024-07-04 17:19:28.062 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-04 17:19:29.137 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-07-04 17:19:34.629 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-07-04 17:22:54.911 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-04 17:22:54.938 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at n.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:945191)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-07-04 17:22:54.939 [error] Canceled: Canceled
+	at new A (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at n.value (/usr/lib/code/extensions/git/dist/main.js:2:1050764)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:964275)
+	at /usr/lib/code/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-07-04 17:22:54.944 [info] Extension host with pid 36507 exiting with code 0

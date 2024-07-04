@@ -1,0 +1,21 @@
+2024-07-04 18:02:14.124 [info] Log level: Info
+2024-07-04 18:02:14.124 [info] Validating found git in: "git"
+2024-07-04 18:02:14.124 [info] Using git "2.45.2" from "git"
+2024-07-04 18:02:14.124 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 18:02:14.124 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2024-07-04 18:02:14.124 [info] Open repository: /home/zukkini/train/sprout-scribble
+2024-07-04 18:02:14.124 [info] > git rev-parse --show-toplevel [268ms]
+2024-07-04 18:02:14.124 [info] > git config --get commit.template [275ms]
+2024-07-04 18:02:14.142 [info] No remotes found in the git config file.
+2024-07-04 18:02:14.144 [info] > git rev-parse --show-toplevel [14ms]
+2024-07-04 18:02:14.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-07-04 18:02:14.159 [info] > git status -z -uall [4ms]
+2024-07-04 18:02:14.159 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-04 18:02:14.181 [info] No remotes found in the git config file.
+2024-07-04 18:02:14.182 [info] > git config --get commit.template [6ms]
+2024-07-04 18:02:14.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-04 18:02:14.193 [info] > git status -z -uall [5ms]
+2024-07-04 18:02:14.535 [info] > git show --textconv :app/page.tsx [8ms]
+2024-07-04 18:02:14.540 [info] > git ls-files --stage -- /home/zukkini/train/sprout-scribble/app/page.tsx [6ms]
+2024-07-04 18:02:14.546 [info] > git cat-file -s 5705d4ea0457360a7c779a3ec1951f44a4d66175 [2ms]
+2024-07-04 18:02:14.588 [info] > git check-ignore -v -z --stdin [1ms]

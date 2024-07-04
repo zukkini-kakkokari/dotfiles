@@ -1,0 +1,89 @@
+2024-07-04 17:04:42.627 [info] Log level: Info
+2024-07-04 17:04:42.627 [info] Validating found git in: "git"
+2024-07-04 17:04:42.627 [info] Using git "2.45.2" from "git"
+2024-07-04 17:04:42.627 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-04 17:04:42.627 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:04:42.627 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 17:04:42.627 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:04:43.759 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-04 17:04:43.760 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:07:03.222 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-04 17:07:03.222 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:10.321 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 17:08:10.321 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:13.120 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 17:08:13.121 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:13.689 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 17:08:13.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:15.122 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-04 17:08:15.123 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:23.334 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 17:08:23.334 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:23.950 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 17:08:23.950 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:24.257 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 17:08:24.257 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:08:24.552 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-04 17:08:24.552 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:38.062 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-04 17:09:38.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:40.435 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-04 17:09:40.435 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:46.462 [info] > git rev-parse --show-toplevel [17ms]
+2024-07-04 17:09:46.462 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:47.223 [info] > git rev-parse --show-toplevel [12ms]
+2024-07-04 17:09:47.223 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:48.391 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-04 17:09:48.391 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:49.099 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 17:09:49.099 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:49.535 [info] > git rev-parse --show-toplevel [6ms]
+2024-07-04 17:09:49.535 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:09:49.833 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 17:09:49.833 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:10:05.955 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-04 17:10:05.955 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:10:06.983 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-04 17:10:06.983 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:10:14.330 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-04 17:10:14.330 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:10:34.229 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 17:10:34.229 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:11:16.470 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-04 17:11:16.470 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:11:17.044 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-04 17:11:17.044 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:12:27.298 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-04 17:12:27.298 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:15:38.986 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-04 17:15:38.987 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:17:30.520 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-04 17:17:30.520 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 17:18:01.591 [info] Log level: Info
+2024-07-04 17:18:01.591 [info] Validating found git in: "git"
+2024-07-04 17:18:01.591 [info] Using git "2.45.2" from "git"
+2024-07-04 17:18:01.591 [info] > git rev-parse --show-toplevel [17ms]
+2024-07-04 17:18:01.601 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-07-04 17:18:01.622 [info] Open repository: /home/zukkini/train/sprout-scribble
+2024-07-04 17:18:01.672 [info] > git config --get commit.template [8ms]
+2024-07-04 17:18:01.674 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-04 17:18:01.682 [info] No remotes found in the git config file.
+2024-07-04 17:18:01.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-07-04 17:18:01.700 [info] > git rev-parse --show-toplevel [13ms]
+2024-07-04 17:18:01.710 [info] > git status -z -uall [13ms]
+2024-07-04 17:18:01.732 [info] > git rev-parse --show-toplevel [23ms]
+2024-07-04 17:18:01.734 [info] > git config --get commit.template [3ms]
+2024-07-04 17:18:01.743 [info] No remotes found in the git config file.
+2024-07-04 17:18:01.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-04 17:18:01.756 [info] > git status -z -uall [5ms]
+2024-07-04 17:18:03.172 [info] > git show --textconv :app/page.tsx [7ms]
+2024-07-04 17:18:03.174 [info] > git ls-files --stage -- /home/zukkini/train/sprout-scribble/app/page.tsx [4ms]
+2024-07-04 17:18:03.180 [info] > git cat-file -s 5705d4ea0457360a7c779a3ec1951f44a4d66175 [2ms]
+2024-07-04 17:18:03.209 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-04 17:22:20.392 [info] > git show --textconv :app/page.tsx [10ms]
+2024-07-04 17:22:20.395 [info] > git ls-files --stage -- /home/zukkini/train/sprout-scribble/app/page.tsx [3ms]
+2024-07-04 17:22:20.403 [info] > git cat-file -s 5705d4ea0457360a7c779a3ec1951f44a4d66175 [1ms]
+2024-07-04 17:22:54.699 [info] > git config --get commit.template [3ms]
+2024-07-04 17:22:54.711 [info] No remotes found in the git config file.
+2024-07-04 17:22:54.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-04 17:22:54.730 [info] > git status -z -uall [6ms]

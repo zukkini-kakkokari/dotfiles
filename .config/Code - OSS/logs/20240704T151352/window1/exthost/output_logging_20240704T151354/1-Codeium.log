@@ -1,0 +1,409 @@
+(VSCode) 2024-07-04 15:13:55.950 [INFO]: No proxy settings found
+(VSCode) 2024-07-04 15:13:57.247 [INFO]: Creating manager directory: /tmp/fc5eec99-cec0-44f4-83fe-76c7e3951c83/codeium/manager
+(VSCode) 2024-07-04 15:13:57.913 [INFO]: Using cached LS with valid crc32: /home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/6cdf138621c60b5ad2a4202883779040e4f63a40/language_server_linux_x64
+(VSCode) 2024-07-04 15:13:57.920 [INFO]: Language server started
+I0704 15:13:58.087197 29310 main.go:605] Starting language server manager with pid 29310
+I0704 15:13:58.087345 29310 main.go:112] Manager acquired its lock file /tmp/fc5eec99-cec0-44f4-83fe-76c7e3951c83/codeium/manager/locks/manager.lock
+I0704 15:13:58.087991 29310 main.go:250] Waiting for random port file in /tmp/fc5eec99-cec0-44f4-83fe-76c7e3951c83/codeium/manager/child_random_port_1720095238087500104_4014341619407464956 to be created
+I0704 15:13:58.253606 29323 main.go:599] Starting language server process with pid 29323
+I0704 15:13:58.253688 29323 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0704 15:13:58.253836 29323 server.go:163] Language server listening on random port at 42407
+I0704 15:13:58.253916 29323 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0704 15:13:58.253939 29323 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0704 15:13:58.253966 29323 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0704 15:13:58.777180 29323 unleash.go:90] Initializing Unleash
+I0704 15:13:59.215369 29323 unleash.go:110] Successfully initialized Unleash
+E0704 15:13:59.244029 29323 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0704 15:13:59.684542 29323 server.go:355] Successfully created API server client
+I0704 15:13:59.769010 29323 server.go:364] Successfully initialized tokenizer
+I0704 15:13:59.930586 29323 server.go:473] Local search is enabled, will index local files.
+I0704 15:13:59.930640 29323 server.go:477] Using 3 indexer workers
+I0704 15:13:59.930742 29323 search_provider.go:201] Using database at /home/zukkini/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0704 15:13:59.939021 29323 search_provider.go:215] Successfully created embedding search database in 8ms
+I0704 15:13:59.939472 29323 indexer.go:225] Using 12 embed workers
+I0704 15:13:59.939556 29323 search_provider.go:240] Successfully created and started indexer
+I0704 15:13:59.939619 29323 search_provider.go:266] Successfully created embedding search provider
+I0704 15:13:59.939639 29323 server.go:516] Successfully created exact search provider
+I0704 15:13:59.959459 29323 server.go:546] Successfully created completion provider
+I0704 15:13:59.959770 29323 server.go:595] Child process attempting to acquire lock file /tmp/fc5eec99-cec0-44f4-83fe-76c7e3951c83/codeium/manager/locks/child_lock_1720095238087565202_7231015792594928142
+I0704 15:13:59.959892 29323 server.go:603] Child process acquired lock file /tmp/fc5eec99-cec0-44f4-83fe-76c7e3951c83/codeium/manager/locks/child_lock_1720095238087565202_7231015792594928142
+I0704 15:13:59.972305 29323 server.go:183] LSP listening on random port at 45491
+I0704 15:13:59.973109 29323 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:38301
+45491
+I0704 15:13:59.996645 29310 main.go:286] Language server manager found random server port 42407
+I0704 15:13:59.996734 29310 main.go:287] Language server manager found random lsp port 45491
+I0704 15:13:59.996815 29310 main.go:294] Language server manager attempting to connect to language server at 127.0.0.1:42407
+I0704 15:14:00.022381 29310 main.go:165] Fixing language server port at 42407
+I0704 15:14:00.022444 29310 main.go:345] Language server manager successfully connected to new language server at 127.0.0.1:42407
+(VSCode) 2024-07-04 15:14:00.032 [INFO]: Found language server running on port 42407
+(VSCode) 2024-07-04 15:14:00.039 [INFO]: Downloaded binary: /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0704 15:14:00.047821 29323 utils.go:182] Analyzing workspace files for /home/zukkini/test/
+I0704 15:14:00.048100 29323 utils.go:242] Done analyzing workspace files for /home/zukkini/test/
+I0704 15:14:00.048136 29323 lsp.go:208] Found 3 files in workspace /home/zukkini/test/
+I0704 15:14:00.048229 29323 lsp.go:232] Adding workspace listener for [0xc00011a770]
+I0704 15:14:00.048276 29323 indexing_listener.go:195] Add workspace event with uid 1 for workspace /home/zukkini/test/
+I0704 15:14:00.048345 29323 indexing_listener.go:235] Done enqueue workspace with uid 1
+I0704 15:14:00.051416 29323 rpcs_miscellaneous.go:118] Ripgrep available at /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0704 15:14:00.054999 29323 lazy_model.go:29] Successfully created faiss index
+I0704 15:14:00.204617 29323 rpcs_miscellaneous.go:312] University version is up to date.
+(VSCode) 2024-07-04 15:16:56.513 [INFO]: Completion request succeeded (771.27ms)
+(VSCode) 2024-07-04 15:16:56.516 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:16:56.520 [INFO]: provideInlineCompletionItems request succeeded (782.58ms)
+(VSCode) 2024-07-04 15:16:56.943 [INFO]: Completion request was cancelled by token (151.93ms)
+(VSCode) 2024-07-04 15:16:57.751 [INFO]: Completion request succeeded (557.2ms)
+(VSCode) 2024-07-04 15:16:57.755 [INFO]: Generated 3 completions
+(VSCode) 2024-07-04 15:16:57.762 [INFO]: provideInlineCompletionItems request succeeded (569.83ms)
+(VSCode) 2024-07-04 15:16:58.453 [INFO]: Completion request was cancelled by token (38.99ms)
+(VSCode) 2024-07-04 15:16:58.724 [INFO]: Completion request was cancelled by token (218.48ms)
+(VSCode) 2024-07-04 15:16:58.774 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:17:01.711 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:17:03.257 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:17:03.900 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:17:05.858 [INFO]: Completion request succeeded (381.42ms)
+(VSCode) 2024-07-04 15:17:05.860 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:17:05.861 [INFO]: provideInlineCompletionItems request succeeded (385.13ms)
+(VSCode) 2024-07-04 15:18:45.909 [INFO]: Completion request was cancelled by token (136.38ms)
+(VSCode) 2024-07-04 15:18:47.107 [INFO]: Completion request was cancelled by token (117.57ms)
+(VSCode) 2024-07-04 15:18:47.277 [INFO]: Completion request was cancelled by token (117.48ms)
+(VSCode) 2024-07-04 15:18:47.501 [INFO]: Completion request was cancelled by token (172.76ms)
+(VSCode) 2024-07-04 15:18:47.669 [INFO]: Completion request was cancelled by token (119.89ms)
+(VSCode) 2024-07-04 15:18:47.947 [INFO]: Completion request was cancelled by token (225.16ms)
+(VSCode) 2024-07-04 15:18:48.042 [INFO]: Completion request was cancelled by token (41.57ms)
+(VSCode) 2024-07-04 15:18:48.267 [INFO]: Completion request was cancelled by token (173.85ms)
+(VSCode) 2024-07-04 15:18:48.390 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:18:48.521 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:18:49.404 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:18:49.594 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:18:49.780 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:18:49.867 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:18:50.935 [INFO]: Completion request succeeded (404.48ms)
+(VSCode) 2024-07-04 15:18:50.938 [INFO]: Generated 2 completions
+(VSCode) 2024-07-04 15:18:50.946 [INFO]: provideInlineCompletionItems request succeeded (417.23ms)
+(VSCode) 2024-07-04 15:18:51.659 [INFO]: Completion request succeeded (15.38ms)
+(VSCode) 2024-07-04 15:18:51.660 [INFO]: Generated 2 completions
+(VSCode) 2024-07-04 15:18:51.662 [INFO]: provideInlineCompletionItems request succeeded (19.62ms)
+(VSCode) 2024-07-04 15:18:52.581 [INFO]: Completion request was cancelled by token (597.95ms)
+(VSCode) 2024-07-04 15:20:37.038 [INFO]: Completion request was cancelled by token (195.14ms)
+(VSCode) 2024-07-04 15:21:35.549 [INFO]: Completion request succeeded (404.65ms)
+(VSCode) 2024-07-04 15:21:35.552 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:21:35.553 [INFO]: provideInlineCompletionItems request succeeded (410.58ms)
+(VSCode) 2024-07-04 15:22:32.121 [INFO]: Completion request succeeded (727.09ms)
+(VSCode) 2024-07-04 15:22:32.124 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:22:32.125 [INFO]: provideInlineCompletionItems request succeeded (732.28ms)
+(VSCode) 2024-07-04 15:22:42.706 [INFO]: Completion request was cancelled by token (47.64ms)
+(VSCode) 2024-07-04 15:22:43.118 [INFO]: Completion request succeeded (360.36ms)
+(VSCode) 2024-07-04 15:22:43.122 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:22:43.123 [INFO]: provideInlineCompletionItems request succeeded (366.93ms)
+(VSCode) 2024-07-04 15:22:44.104 [INFO]: Completion request was cancelled by token (498.75ms)
+(VSCode) 2024-07-04 15:23:50.816 [INFO]: Completion request succeeded (438.45ms)
+(VSCode) 2024-07-04 15:23:50.821 [INFO]: Generated 6 completions
+(VSCode) 2024-07-04 15:23:50.837 [INFO]: provideInlineCompletionItems request succeeded (461.63ms)
+(VSCode) 2024-07-04 15:24:41.333 [INFO]: Completion request was cancelled by token (745.56ms)
+(VSCode) 2024-07-04 15:25:05.737 [INFO]: Completion request succeeded (392.81ms)
+(VSCode) 2024-07-04 15:25:05.741 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:25:05.742 [INFO]: provideInlineCompletionItems request succeeded (398.81ms)
+(VSCode) 2024-07-04 15:25:16.939 [INFO]: Completion request was cancelled by token (790.63ms)
+(VSCode) 2024-07-04 15:25:17.700 [INFO]: Completion request was cancelled by token (708.57ms)
+(VSCode) 2024-07-04 15:25:22.481 [INFO]: Completion request succeeded (747.09ms)
+(VSCode) 2024-07-04 15:25:22.484 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:25:22.485 [INFO]: provideInlineCompletionItems request succeeded (752.92ms)
+(VSCode) 2024-07-04 15:25:22.952 [INFO]: Completion request was cancelled by token (370.14ms)
+(VSCode) 2024-07-04 15:25:25.246 [INFO]: Completion request succeeded (386.58ms)
+(VSCode) 2024-07-04 15:25:25.249 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:25:25.249 [INFO]: provideInlineCompletionItems request succeeded (391.18ms)
+(VSCode) 2024-07-04 15:25:32.007 [INFO]: Completion request was cancelled by token (634.55ms)
+(VSCode) 2024-07-04 15:25:32.972 [INFO]: Completion request succeeded (473.73ms)
+(VSCode) 2024-07-04 15:25:32.975 [INFO]: Generated 5 completions
+(VSCode) 2024-07-04 15:25:32.984 [INFO]: provideInlineCompletionItems request succeeded (487.26ms)
+(VSCode) 2024-07-04 15:29:17.284 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:17.370 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:17.497 [INFO]: Completion request was cancelled by token (31.23ms)
+(VSCode) 2024-07-04 15:29:17.667 [INFO]: Completion request was cancelled by token (119.06ms)
+(VSCode) 2024-07-04 15:29:17.814 [INFO]: Completion request was cancelled by token (94.49ms)
+(VSCode) 2024-07-04 15:29:17.924 [INFO]: Completion request was cancelled by token (60.27ms)
+(VSCode) 2024-07-04 15:29:18.039 [INFO]: Completion request was cancelled by token (64.13ms)
+(VSCode) 2024-07-04 15:29:18.277 [INFO]: Completion request was cancelled by token (185.09ms)
+(VSCode) 2024-07-04 15:29:18.704 [INFO]: Completion request was cancelled by token (375.69ms)
+(VSCode) 2024-07-04 15:29:19.423 [INFO]: Completion request was cancelled by token (166.7ms)
+(VSCode) 2024-07-04 15:29:19.823 [INFO]: Completion request was cancelled by token (348.77ms)
+(VSCode) 2024-07-04 15:29:20.423 [INFO]: Completion request was cancelled by token (549.08ms)
+(VSCode) 2024-07-04 15:29:22.961 [INFO]: Completion request was cancelled by token (72.65ms)
+(VSCode) 2024-07-04 15:29:23.097 [INFO]: Completion request was cancelled by token (83.71ms)
+(VSCode) 2024-07-04 15:29:23.278 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:23.833 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:24.073 [INFO]: Completion request was cancelled by token (121.46ms)
+(VSCode) 2024-07-04 15:29:24.199 [INFO]: Completion request was cancelled by token (74.88ms)
+(VSCode) 2024-07-04 15:29:24.358 [INFO]: Completion request was cancelled by token (109.02ms)
+(VSCode) 2024-07-04 15:29:24.442 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:24.624 [INFO]: Completion request was cancelled by token (107.1ms)
+(VSCode) 2024-07-04 15:29:25.710 [INFO]: Completion request succeeded (424.66ms)
+(VSCode) 2024-07-04 15:29:25.713 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:29:25.716 [INFO]: provideInlineCompletionItems request succeeded (432.33ms)
+(VSCode) 2024-07-04 15:29:25.833 [INFO]: Completion request succeeded (16.78ms)
+(VSCode) 2024-07-04 15:29:25.835 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:29:25.837 [INFO]: provideInlineCompletionItems request succeeded (22.73ms)
+(VSCode) 2024-07-04 15:29:28.441 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:28.566 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:28.797 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:29.492 [INFO]: Completion request succeeded (386.37ms)
+(VSCode) 2024-07-04 15:29:29.493 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:29:29.495 [INFO]: provideInlineCompletionItems request succeeded (391.67ms)
+(VSCode) 2024-07-04 15:29:32.733 [INFO]: Completion request was cancelled by token (338.18ms)
+(VSCode) 2024-07-04 15:29:33.000 [INFO]: Completion request was cancelled by token (216.22ms)
+(VSCode) 2024-07-04 15:29:33.060 [INFO]: Completion request was cancelled by token (9.12ms)
+(VSCode) 2024-07-04 15:29:33.290 [INFO]: Completion request was cancelled by token (181.83ms)
+(VSCode) 2024-07-04 15:29:33.366 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:33.542 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:33.770 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:29:34.094 [INFO]: Completion request was cancelled by token (52.7ms)
+(VSCode) 2024-07-04 15:29:34.820 [INFO]: Completion request was cancelled by token (194.9ms)
+(VSCode) 2024-07-04 15:29:36.990 [INFO]: Completion request succeeded (424.89ms)
+(VSCode) 2024-07-04 15:29:36.992 [INFO]: Generated 4 completions
+(VSCode) 2024-07-04 15:29:36.998 [INFO]: provideInlineCompletionItems request succeeded (435.38ms)
+(VSCode) 2024-07-04 15:29:38.148 [INFO]: Completion request was cancelled by token (560.69ms)
+(VSCode) 2024-07-04 15:29:38.542 [INFO]: Completion request was cancelled by token (342.59ms)
+(VSCode) 2024-07-04 15:29:40.543 [INFO]: Completion request was cancelled by token (578.93ms)
+(VSCode) 2024-07-04 15:30:17.723 [INFO]: Completion request succeeded (364.69ms)
+(VSCode) 2024-07-04 15:30:17.727 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:30:17.728 [INFO]: provideInlineCompletionItems request succeeded (371.88ms)
+(VSCode) 2024-07-04 15:30:19.261 [INFO]: Completion request succeeded (962.72ms)
+(VSCode) 2024-07-04 15:30:19.264 [INFO]: Generated 5 completions
+(VSCode) 2024-07-04 15:30:19.272 [INFO]: provideInlineCompletionItems request succeeded (974.74ms)
+(VSCode) 2024-07-04 15:30:21.878 [INFO]: Completion request was cancelled by token (925.9ms)
+(VSCode) 2024-07-04 15:30:22.385 [INFO]: Completion request was cancelled by token (455.63ms)
+(VSCode) 2024-07-04 15:30:22.571 [INFO]: Completion request was cancelled by token (135.65ms)
+(VSCode) 2024-07-04 15:30:22.929 [INFO]: Completion request was cancelled by token (305.77ms)
+(VSCode) 2024-07-04 15:30:26.636 [INFO]: Completion request succeeded (541.92ms)
+(VSCode) 2024-07-04 15:30:26.640 [INFO]: Generated 5 completions
+(VSCode) 2024-07-04 15:30:26.648 [INFO]: provideInlineCompletionItems request succeeded (555.46ms)
+(VSCode) 2024-07-04 15:30:27.381 [INFO]: Completion request succeeded (553.03ms)
+(VSCode) 2024-07-04 15:30:27.383 [INFO]: Generated 6 completions
+(VSCode) 2024-07-04 15:30:27.391 [INFO]: provideInlineCompletionItems request succeeded (564.35ms)
+(VSCode) 2024-07-04 15:30:27.683 [INFO]: Completion request was cancelled by token (247.52ms)
+(VSCode) 2024-07-04 15:30:27.733 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:30:28.603 [INFO]: Completion request succeeded (16.93ms)
+(VSCode) 2024-07-04 15:30:28.606 [INFO]: Generated 6 completions
+(VSCode) 2024-07-04 15:30:28.615 [INFO]: provideInlineCompletionItems request succeeded (30.53ms)
+(VSCode) 2024-07-04 15:30:43.750 [INFO]: Completion request was cancelled by token (300.73ms)
+(VSCode) 2024-07-04 15:30:44.057 [INFO]: Completion request was cancelled by token (253.83ms)
+(VSCode) 2024-07-04 15:30:44.111 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:30:44.820 [INFO]: Completion request succeeded (386.29ms)
+(VSCode) 2024-07-04 15:30:44.821 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:30:44.821 [INFO]: provideInlineCompletionItems request succeeded (389.23ms)
+(VSCode) 2024-07-04 15:31:12.955 [INFO]: Completion request succeeded (753.9ms)
+(VSCode) 2024-07-04 15:31:12.958 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:31:12.958 [INFO]: provideInlineCompletionItems request succeeded (759.39ms)
+(VSCode) 2024-07-04 15:33:49.078 [INFO]: Completion request was cancelled by token (328.6ms)
+(VSCode) 2024-07-04 15:33:49.276 [INFO]: Completion request was cancelled by token (147.94ms)
+(VSCode) 2024-07-04 15:33:49.827 [INFO]: Completion request was cancelled by token (368.32ms)
+(VSCode) 2024-07-04 15:33:50.027 [INFO]: Completion request was cancelled by token (148.42ms)
+(VSCode) 2024-07-04 15:33:50.227 [INFO]: Completion request was cancelled by token (119.04ms)
+(VSCode) 2024-07-04 15:33:50.513 [INFO]: Completion request was cancelled by token (232.63ms)
+(VSCode) 2024-07-04 15:33:51.183 [INFO]: Completion request was cancelled by token (620.81ms)
+(VSCode) 2024-07-04 15:34:01.689 [INFO]: Completion request was cancelled by token (146.23ms)
+(VSCode) 2024-07-04 15:34:01.813 [INFO]: Completion request was cancelled by token (74.14ms)
+(VSCode) 2024-07-04 15:34:02.236 [INFO]: Completion request succeeded (370.64ms)
+(VSCode) 2024-07-04 15:34:02.238 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:34:02.238 [INFO]: provideInlineCompletionItems request succeeded (375.36ms)
+(VSCode) 2024-07-04 15:34:02.732 [INFO]: Completion request was cancelled by token (226.19ms)
+(VSCode) 2024-07-04 15:34:03.455 [INFO]: Completion request was cancelled by token (672.47ms)
+(VSCode) 2024-07-04 15:34:17.134 [INFO]: Completion request succeeded (362.93ms)
+(VSCode) 2024-07-04 15:34:17.136 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:34:17.137 [INFO]: provideInlineCompletionItems request succeeded (367.3ms)
+(VSCode) 2024-07-04 15:36:28.531 [INFO]: Completion request was cancelled by token (204.7ms)
+(VSCode) 2024-07-04 15:36:29.386 [INFO]: Completion request succeeded (798.27ms)
+(VSCode) 2024-07-04 15:36:29.389 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:36:29.392 [INFO]: provideInlineCompletionItems request succeeded (805.13ms)
+(VSCode) 2024-07-04 15:36:31.790 [INFO]: Completion request was cancelled by token (237.82ms)
+(VSCode) 2024-07-04 15:36:33.228 [INFO]: Completion request was cancelled by token (386.15ms)
+(VSCode) 2024-07-04 15:36:33.862 [INFO]: Completion request was cancelled by token (574.21ms)
+(VSCode) 2024-07-04 15:36:45.154 [INFO]: Completion request was cancelled by token (201.22ms)
+(VSCode) 2024-07-04 15:36:45.500 [INFO]: Completion request was cancelled by token (297.89ms)
+(VSCode) 2024-07-04 15:36:45.920 [INFO]: Completion request was cancelled by token (366.52ms)
+(VSCode) 2024-07-04 15:36:46.856 [INFO]: Completion request succeeded (885.81ms)
+(VSCode) 2024-07-04 15:36:46.858 [INFO]: Generated 3 completions
+(VSCode) 2024-07-04 15:36:46.863 [INFO]: provideInlineCompletionItems request succeeded (894.31ms)
+(VSCode) 2024-07-04 15:39:02.238 [INFO]: Completion request was cancelled by token (147.62ms)
+(VSCode) 2024-07-04 15:39:02.672 [INFO]: Completion request was cancelled by token (118.02ms)
+(VSCode) 2024-07-04 15:39:02.833 [INFO]: Completion request was cancelled by token (110.23ms)
+(VSCode) 2024-07-04 15:39:03.007 [INFO]: Completion request was cancelled by token (124.15ms)
+(VSCode) 2024-07-04 15:39:03.208 [INFO]: Completion request was cancelled by token (148.64ms)
+(VSCode) 2024-07-04 15:39:03.389 [INFO]: Completion request was cancelled by token (131.13ms)
+(VSCode) 2024-07-04 15:39:03.623 [INFO]: Completion request was cancelled by token (182.75ms)
+(VSCode) 2024-07-04 15:39:03.715 [INFO]: Completion request was cancelled by token (39.68ms)
+(VSCode) 2024-07-04 15:39:03.950 [INFO]: Completion request was cancelled by token (184.32ms)
+(VSCode) 2024-07-04 15:39:04.006 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:39:04.188 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:39:04.366 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:39:04.979 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:39:05.261 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:39:05.466 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:39:05.597 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:39:06.253 [INFO]: Completion request was cancelled by token (229.54ms)
+(VSCode) 2024-07-04 15:39:06.508 [INFO]: Completion request was cancelled by token (201.86ms)
+(VSCode) 2024-07-04 15:39:06.704 [INFO]: Completion request was cancelled by token (147.71ms)
+(VSCode) 2024-07-04 15:39:06.900 [INFO]: Completion request was cancelled by token (146.21ms)
+(VSCode) 2024-07-04 15:39:07.104 [INFO]: Completion request was cancelled by token (154.23ms)
+(VSCode) 2024-07-04 15:39:07.236 [INFO]: Completion request was cancelled by token (80.45ms)
+(VSCode) 2024-07-04 15:39:07.454 [INFO]: Completion request was cancelled by token (168.76ms)
+(VSCode) 2024-07-04 15:39:07.900 [INFO]: Completion request was cancelled by token (394.05ms)
+(VSCode) 2024-07-04 15:39:08.307 [INFO]: Completion request was cancelled by token (357.38ms)
+(VSCode) 2024-07-04 15:39:08.571 [INFO]: Completion request was cancelled by token (214.1ms)
+(VSCode) 2024-07-04 15:39:08.702 [INFO]: Completion request was cancelled by token (81.12ms)
+(VSCode) 2024-07-04 15:39:09.185 [INFO]: Completion request was cancelled by token (431.29ms)
+(VSCode) 2024-07-04 15:40:42.167 [INFO]: Completion request was cancelled by token (510.42ms)
+(VSCode) 2024-07-04 15:40:42.955 [INFO]: Completion request succeeded (736.84ms)
+(VSCode) 2024-07-04 15:40:42.959 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:40:42.960 [INFO]: provideInlineCompletionItems request succeeded (742.65ms)
+(VSCode) 2024-07-04 15:40:50.921 [INFO]: Completion request was cancelled by token (143.55ms)
+(VSCode) 2024-07-04 15:40:52.052 [INFO]: Completion request was cancelled by token (114.62ms)
+(VSCode) 2024-07-04 15:40:52.248 [INFO]: Completion request was cancelled by token (146.32ms)
+(VSCode) 2024-07-04 15:40:52.441 [INFO]: Completion request was cancelled by token (72.94ms)
+(VSCode) 2024-07-04 15:40:52.860 [INFO]: Completion request was cancelled by token (368.84ms)
+(VSCode) 2024-07-04 15:40:53.048 [INFO]: Completion request was cancelled by token (138.72ms)
+(VSCode) 2024-07-04 15:40:53.209 [INFO]: Completion request was cancelled by token (111.17ms)
+(VSCode) 2024-07-04 15:40:53.352 [INFO]: Completion request was cancelled by token (93.11ms)
+(VSCode) 2024-07-04 15:40:53.436 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:53.657 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:53.786 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:53.924 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:54.056 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:54.265 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:54.405 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:54.611 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:40:55.237 [INFO]: Completion request succeeded (432.86ms)
+(VSCode) 2024-07-04 15:40:55.240 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:40:55.243 [INFO]: provideInlineCompletionItems request succeeded (440.15ms)
+(VSCode) 2024-07-04 15:40:56.874 [INFO]: Completion request succeeded (376.09ms)
+(VSCode) 2024-07-04 15:40:56.876 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:40:56.876 [INFO]: provideInlineCompletionItems request succeeded (380.13ms)
+(VSCode) 2024-07-04 15:43:12.197 [INFO]: Completion request was cancelled by token (268.56ms)
+(VSCode) 2024-07-04 15:43:12.483 [INFO]: Completion request was cancelled by token (235.4ms)
+(VSCode) 2024-07-04 15:43:12.533 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:12.633 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:12.701 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:12.952 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:13.142 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:17.347 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:17.848 [INFO]: Completion request was cancelled by token (178.76ms)
+(VSCode) 2024-07-04 15:43:18.105 [INFO]: Completion request was cancelled by token (203.72ms)
+(VSCode) 2024-07-04 15:43:18.474 [INFO]: Completion request was cancelled by token (318.12ms)
+(VSCode) 2024-07-04 15:43:18.961 [INFO]: Completion request was cancelled by token (444ms)
+(VSCode) 2024-07-04 15:43:51.184 [INFO]: Completion request was cancelled by token (282.23ms)
+(VSCode) 2024-07-04 15:43:52.744 [INFO]: Completion request was cancelled by token (240.02ms)
+(VSCode) 2024-07-04 15:43:52.859 [INFO]: Completion request was cancelled by token (64.69ms)
+(VSCode) 2024-07-04 15:43:53.070 [INFO]: Completion request was cancelled by token (160.19ms)
+(VSCode) 2024-07-04 15:43:53.144 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:53.252 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:53.384 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:53.523 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:53.657 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:54.492 [INFO]: Completion request was cancelled by token (197.09ms)
+(VSCode) 2024-07-04 15:43:56.271 [INFO]: Completion request was cancelled by token (6.11ms)
+(VSCode) 2024-07-04 15:43:56.554 [INFO]: Completion request was cancelled by token (277.68ms)
+(VSCode) 2024-07-04 15:43:57.394 [INFO]: Completion request was cancelled by token (130.44ms)
+(VSCode) 2024-07-04 15:43:57.644 [INFO]: Completion request was cancelled by token (199.68ms)
+(VSCode) 2024-07-04 15:43:57.707 [INFO]: Completion request was cancelled by token (11.81ms)
+(VSCode) 2024-07-04 15:43:57.871 [INFO]: Completion request was cancelled by token (113.46ms)
+(VSCode) 2024-07-04 15:43:57.953 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:43:58.460 [INFO]: Completion request was cancelled by token (14.68ms)
+(VSCode) 2024-07-04 15:43:58.942 [INFO]: Completion request was cancelled by token (31.17ms)
+(VSCode) 2024-07-04 15:43:59.166 [INFO]: Completion request was cancelled by token (169.97ms)
+(VSCode) 2024-07-04 15:44:00.466 [INFO]: Completion request was cancelled by token (288.29ms)
+(VSCode) 2024-07-04 15:44:01.892 [INFO]: Completion request was cancelled by token (102.38ms)
+(VSCode) 2024-07-04 15:44:02.059 [INFO]: Completion request was cancelled by token (116.57ms)
+(VSCode) 2024-07-04 15:44:02.111 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:44:02.171 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:44:02.443 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:44:02.761 [INFO]: Completion request was cancelled by token (85.28ms)
+(VSCode) 2024-07-04 15:44:03.304 [INFO]: Completion request was cancelled by token (63.93ms)
+(VSCode) 2024-07-04 15:44:03.591 [INFO]: Completion request was cancelled by token (233.18ms)
+(VSCode) 2024-07-04 15:44:05.078 [INFO]: Completion request succeeded (415.47ms)
+(VSCode) 2024-07-04 15:44:05.080 [INFO]: Generated 5 completions
+(VSCode) 2024-07-04 15:44:05.093 [INFO]: provideInlineCompletionItems request succeeded (432.57ms)
+(VSCode) 2024-07-04 15:44:06.052 [INFO]: Completion request was cancelled by token (830.45ms)
+E0704 15:44:06.060931 29323 interceptor.go:40] /exa.language_server_pb.LanguageServerService/AcceptCompletion: previous state not found for completion id b1f34f42-e646-4ce5-bb97-2291f788c50c
+(VSCode) 2024-07-04 15:44:06.067 [ERROR]: [unknown] previous state not found for completion id b1f34f42-e646-4ce5-bb97-2291f788c50c
+(VSCode) 2024-07-04 15:44:06.880 [INFO]: Completion request succeeded (748.3ms)
+(VSCode) 2024-07-04 15:44:06.883 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:44:06.884 [INFO]: provideInlineCompletionItems request succeeded (754.86ms)
+(VSCode) 2024-07-04 15:44:08.063 [INFO]: Completion request was cancelled by token (235.32ms)
+(VSCode) 2024-07-04 15:44:08.419 [INFO]: Completion request was cancelled by token (303.35ms)
+(VSCode) 2024-07-04 15:44:08.704 [INFO]: Completion request was cancelled by token (234.62ms)
+(VSCode) 2024-07-04 15:44:08.754 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:44:09.208 [INFO]: Completion request was cancelled by token (90.41ms)
+(VSCode) 2024-07-04 15:44:09.490 [INFO]: Completion request was cancelled by token (229.22ms)
+(VSCode) 2024-07-04 15:44:09.715 [INFO]: Completion request was cancelled by token (157.7ms)
+(VSCode) 2024-07-04 15:44:09.988 [INFO]: Completion request was cancelled by token (222.42ms)
+(VSCode) 2024-07-04 15:44:10.039 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 15:45:29.800 [INFO]: Completion request was cancelled by token (147.03ms)
+(VSCode) 2024-07-04 15:45:30.312 [INFO]: Completion request was cancelled by token (164.95ms)
+(VSCode) 2024-07-04 15:45:30.496 [INFO]: Completion request was cancelled by token (132.83ms)
+(VSCode) 2024-07-04 15:45:30.656 [INFO]: Completion request was cancelled by token (108.51ms)
+(VSCode) 2024-07-04 15:45:31.214 [INFO]: Completion request succeeded (505.5ms)
+(VSCode) 2024-07-04 15:45:31.217 [INFO]: Generated 1 completion
+(VSCode) 2024-07-04 15:45:31.219 [INFO]: provideInlineCompletionItems request succeeded (514.47ms)
+(VSCode) 2024-07-04 15:48:13.315 [INFO]: Completion request was cancelled by token (134.05ms)
+(VSCode) 2024-07-04 15:48:14.206 [INFO]: Completion request succeeded (777.12ms)
+(VSCode) 2024-07-04 15:48:14.208 [INFO]: No completions were generated
+(VSCode) 2024-07-04 15:48:14.209 [INFO]: provideInlineCompletionItems request succeeded (780.69ms)
+I0704 15:53:59.244736 29323 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 108eeb25-5edf-401f-bf40-d8ab496d046c}
+(VSCode) 2024-07-04 16:02:28.236 [INFO]: Completion request succeeded (687.59ms)
+(VSCode) 2024-07-04 16:02:28.239 [INFO]: Generated 2 completions
+(VSCode) 2024-07-04 16:02:28.240 [INFO]: provideInlineCompletionItems request succeeded (693.16ms)
+(VSCode) 2024-07-04 16:02:32.036 [INFO]: Completion request succeeded (447.87ms)
+(VSCode) 2024-07-04 16:02:32.038 [INFO]: No completions were generated
+(VSCode) 2024-07-04 16:02:32.038 [INFO]: provideInlineCompletionItems request succeeded (450.97ms)
+(VSCode) 2024-07-04 16:05:45.215 [INFO]: Completion request was cancelled by token (142.44ms)
+(VSCode) 2024-07-04 16:05:45.410 [INFO]: Completion request was cancelled by token (107.51ms)
+(VSCode) 2024-07-04 16:05:45.579 [INFO]: Completion request was cancelled by token (117.5ms)
+(VSCode) 2024-07-04 16:05:45.739 [INFO]: Completion request was cancelled by token (106.89ms)
+(VSCode) 2024-07-04 16:05:46.043 [INFO]: Completion request was cancelled by token (253.54ms)
+(VSCode) 2024-07-04 16:05:46.403 [INFO]: Completion request was cancelled by token (302.52ms)
+(VSCode) 2024-07-04 16:05:46.459 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 16:05:56.847 [INFO]: Completion request was cancelled by token (117.01ms)
+(VSCode) 2024-07-04 16:05:57.607 [INFO]: Completion request succeeded (688.44ms)
+(VSCode) 2024-07-04 16:05:57.610 [INFO]: Generated 2 completions
+(VSCode) 2024-07-04 16:05:57.611 [INFO]: provideInlineCompletionItems request succeeded (693.23ms)
+(VSCode) 2024-07-04 16:06:10.322 [INFO]: Completion request was cancelled by token (140.65ms)
+(VSCode) 2024-07-04 16:06:10.579 [INFO]: Completion request was cancelled by token (70.98ms)
+(VSCode) 2024-07-04 16:06:10.744 [INFO]: Completion request was cancelled by token (114.68ms)
+(VSCode) 2024-07-04 16:06:10.983 [INFO]: Completion request was cancelled by token (187.43ms)
+(VSCode) 2024-07-04 16:06:11.195 [INFO]: Completion request was cancelled by token (161.02ms)
+(VSCode) 2024-07-04 16:06:11.504 [INFO]: Completion request was cancelled by token (255.14ms)
+(VSCode) 2024-07-04 16:06:11.721 [INFO]: Completion request was cancelled by token (163.86ms)
+(VSCode) 2024-07-04 16:06:12.384 [INFO]: Completion request was cancelled by token (612.64ms)
+(VSCode) 2024-07-04 16:09:45.340 [INFO]: Completion request succeeded (651.51ms)
+(VSCode) 2024-07-04 16:09:45.342 [INFO]: Generated 2 completions
+(VSCode) 2024-07-04 16:09:45.345 [INFO]: provideInlineCompletionItems request succeeded (659.35ms)
+(VSCode) 2024-07-04 16:09:47.196 [INFO]: Completion request succeeded (544.14ms)
+(VSCode) 2024-07-04 16:09:47.199 [INFO]: Generated 3 completions
+(VSCode) 2024-07-04 16:09:47.204 [INFO]: provideInlineCompletionItems request succeeded (555.79ms)
+(VSCode) 2024-07-04 16:09:50.194 [INFO]: Completion request succeeded (382.32ms)
+(VSCode) 2024-07-04 16:09:50.195 [INFO]: No completions were generated
+(VSCode) 2024-07-04 16:09:50.196 [INFO]: provideInlineCompletionItems request succeeded (387.6ms)
+I0704 16:15:59.244625 29323 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 108eeb25-5edf-401f-bf40-d8ab496d046c}
+(VSCode) 2024-07-04 16:52:27.946 [INFO]: Completion request was cancelled by token (218.3ms)
+(VSCode) 2024-07-04 16:52:28.041 [INFO]: Completion request was cancelled by token (43.41ms)
+(VSCode) 2024-07-04 16:52:28.092 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 16:52:28.276 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 16:52:28.494 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 16:52:28.614 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 16:52:29.230 [INFO]: Completion request was cancelled by token (114.25ms)
+(VSCode) 2024-07-04 16:52:29.423 [INFO]: Completion request was cancelled by token (140.93ms)
+(VSCode) 2024-07-04 16:52:29.564 [INFO]: Completion request was cancelled by token (91.22ms)
+(VSCode) 2024-07-04 16:52:29.687 [INFO]: Completion request was cancelled by token (71.18ms)
+(VSCode) 2024-07-04 16:52:29.864 [INFO]: Completion request was cancelled by token (125.75ms)
+(VSCode) 2024-07-04 16:52:30.333 [INFO]: Completion request was cancelled by token (417.12ms)
+(VSCode) 2024-07-04 16:52:30.449 [INFO]: Completion request was cancelled by token (63.3ms)
+(VSCode) 2024-07-04 16:52:30.587 [INFO]: Completion request was cancelled by token (87.41ms)
+(VSCode) 2024-07-04 16:52:30.800 [INFO]: Completion request was cancelled by token (165.6ms)
+(VSCode) 2024-07-04 16:52:31.128 [INFO]: Completion request was cancelled by token (278.41ms)
+(VSCode) 2024-07-04 16:52:31.719 [INFO]: Completion request was cancelled by token (538.31ms)
+(VSCode) 2024-07-04 16:52:39.984 [INFO]: Completion request was cancelled by token (180.6ms)
+(VSCode) 2024-07-04 16:52:40.035 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-04 16:53:03.074 [INFO]: Completion request was cancelled by token (157.74ms)
+(VSCode) 2024-07-04 16:54:16.078 [INFO]: Disposing language server process
+(VSCode) 2024-07-04 16:54:16.078 [INFO]: Deleting manager directory: /tmp/fc5eec99-cec0-44f4-83fe-76c7e3951c83/codeium/manager
+(VSCode) 2024-07-04 16:54:16.080 [INFO]: Successfully disposed language server
+W0704 16:54:16.078537 29310 main.go:116] Language server manager got signal terminated, shutting down

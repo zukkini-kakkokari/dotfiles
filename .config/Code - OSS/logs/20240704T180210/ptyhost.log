@@ -1,0 +1,6 @@
+2024-07-04 18:02:12.924 [info] Revived process, old id defef718bd443305de66f8d653288dff-1 -> new id 1
+2024-07-04 18:02:13.054 [info] Expanding terminal instance, old id defef718bd443305de66f8d653288dff-1 -> new id 1
+2024-07-04 18:02:13.259 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-07-04 18:02:13.259 [info] Persistent process reconnection "1"
+2024-07-04 18:02:13.265 [warning] Shell integration cannot be enabled for executable "/bin/nu" and args undefined
+2024-07-04 18:02:13.298 [info] Persistent process "1": Replaying 5040 chars and 1 size events

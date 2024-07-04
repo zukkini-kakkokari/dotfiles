@@ -1,0 +1,13 @@
+(VSCode) 2024-07-04 15:13:44.812 [INFO]: No proxy settings found
+(VSCode) 2024-07-04 15:13:46.418 [INFO]: Creating manager directory: /tmp/183a18ff-472c-4aef-8c3c-e2bb20ab0206/codeium/manager
+(VSCode) 2024-07-04 15:13:46.971 [INFO]: Using cached LS with valid crc32: /home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/6cdf138621c60b5ad2a4202883779040e4f63a40/language_server_linux_x64
+(VSCode) 2024-07-04 15:13:46.979 [INFO]: Language server started
+I0704 15:13:47.152756 29032 main.go:605] Starting language server manager with pid 29032
+I0704 15:13:47.152905 29032 main.go:112] Manager acquired its lock file /tmp/183a18ff-472c-4aef-8c3c-e2bb20ab0206/codeium/manager/locks/manager.lock
+I0704 15:13:47.153720 29032 main.go:250] Waiting for random port file in /tmp/183a18ff-472c-4aef-8c3c-e2bb20ab0206/codeium/manager/child_random_port_1720095227153054958_1593627003770953154 to be created
+I0704 15:13:47.321092 29046 main.go:599] Starting language server process with pid 29046
+I0704 15:13:47.321172 29046 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0704 15:13:47.321363 29046 server.go:163] Language server listening on random port at 43779
+I0704 15:13:47.321444 29046 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0704 15:13:47.321470 29046 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0704 15:13:47.321507 29046 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions

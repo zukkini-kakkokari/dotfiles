@@ -1,0 +1,93 @@
+2024-07-04 15:13:54.069 [info] Started local extension host with pid 29188.
+2024-07-04 15:13:57.831 [info] [perf] Render performance baseline is 208ms
+2024-07-04 15:24:01.068 [error] [Extension Host] error executing command "dance.select.to.jump": command 'workbench.action.quickOpenNavigateNextInRecentFiles' not found
+2024-07-04 15:24:08.030 [error] [Extension Host] error executing command "dance.select.to.jump": command 'workbench.action.quickOpenNavigateNextInRecentFiles' not found
+2024-07-04 15:30:33.905 [error] [Extension Host] Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at assert (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/utils/errors.js:10:23)
+	at Cursor.previous (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:619:29)
+	at Recorder.lastEntry (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:69:21)
+	at Recorder._record (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:81:39)
+	at Recorder.recordCommand (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:248:14)
+	at CommandDescriptor.invoke (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/commands/index.js:73:32)
+	at async Extension.runPromiseSafely (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/extension.js:285:20)
+	at async h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200468)
+2024-07-04 15:30:33.906 [error] [Extension Host] error executing command "dance.select.right.jump": internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+2024-07-04 15:33:55.169 [error] [Extension Host] error executing command "dance.select.to.jump": command 'workbench.action.quickOpenPreviousRecentlyUsedEditor && editor.action.acceptSelectedSuggestion' not found
+2024-07-04 15:34:10.717 [error] [Extension Host] error executing command "dance.select.to.jump": command 'workbench.action.quickOpenPreviousRecentlyUsedEditor;editor.action.acceptSelectedSuggestion' not found
+2024-07-04 15:34:18.087 [error] [Extension Host] error executing command "dance.select.to.jump": command 'workbench.action.quickOpenPreviousRecentlyUsedEditor; editor.action.acceptSelectedSuggestion' not found
+2024-07-04 15:37:49.611 [error] [Extension Host] error executing command "dance.select.to.jump": command 'workbench.action.multiCommand.execute' not found
+2024-07-04 15:38:59.955 [error] [Extension Host] Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at assert (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/utils/errors.js:10:23)
+	at Cursor.previous (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:619:29)
+	at Recorder.lastEntry (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:69:21)
+	at Recorder._record (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:81:39)
+	at Recorder.recordCommand (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:248:14)
+	at /home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/api/run.js:281:34
+	at async Context.runAsync (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/api/context.js:138:20)
+	at async CommandDescriptor.invoke (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/commands/index.js:62:22)
+	at async Extension.runPromiseSafely (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/extension.js:285:20)
+	at async h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:200468)
+2024-07-04 15:38:59.956 [error] [Extension Host] error executing command "dance.select.up.jump": internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+2024-07-04 15:40:59.873 [error] command 'editor.action.acceptSelectedSuggestion' not found: Error: command 'editor.action.acceptSelectedSuggestion' not found
+    at v.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23867)
+    at v.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23796)
+2024-07-04 15:41:04.620 [error] command 'editor.action.acceptSelectedSuggestion' not found: Error: command 'editor.action.acceptSelectedSuggestion' not found
+    at v.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23867)
+    at v.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23796)
+2024-07-04 15:41:05.861 [error] command 'editor.action.acceptSelectedSuggestion' not found: Error: command 'editor.action.acceptSelectedSuggestion' not found
+    at v.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23867)
+    at v.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23796)
+2024-07-04 15:44:49.003 [error] command 'editor.action.acceptSelectedSuggestion' not found: Error: command 'editor.action.acceptSelectedSuggestion' not found
+    at v.n (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23867)
+    at v.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1637:23796)
+2024-07-04 16:10:29.129 [error] [Extension Host] error executing command "dance.select.to.jump": command 'goto-previous-buffer' not found
+2024-07-04 16:53:36.996 [error] [Extension Host] Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at assert (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/utils/errors.js:10:23)
+	at Cursor.previous (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:619:29)
+	at Recorder.lastEntry (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:69:21)
+	at Recorder._record (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:81:39)
+	at Recorder._recordExternalSelectionChange (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:396:14)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:20722)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at p.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:155:33337)
+	at E.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:5970)
+	at E.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:5736)
+	at E.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:4762)
+	at E.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3589)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:2282)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:8481)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6631)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-04 16:53:36.998 [error] [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).: Error: [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:163:20749)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at p.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:155:33337)
+	at E.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:5970)
+	at E.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:5736)
+	at E.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:4762)
+	at E.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:3589)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:2282)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:8481)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:176:6631)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-04 16:54:16.178 [info] Started local extension host with pid 33803.

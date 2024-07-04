@@ -1,0 +1,123 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "e",
+        "command": "-dance.seek.wordEnd.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "w",
+        "command": "-dance.seek.word.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "w",
+        "command": "dance.seek.word.backward.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "b",
+        "command": "-dance.seek.word.backward.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "w",
+        "command": "dance.seek.word.backward",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "b",
+        "command": "-dance.seek.word.backward",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "e",
+        "command": "-dance.seek.wordEnd",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "e",
+        "command": "dance.seek.word.ws.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "shift+w",
+        "command": "-dance.seek.word.ws.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "shift+e",
+        "command": "-dance.seek.wordEnd.ws",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "e",
+        "command": "dance.seek.word",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "w",
+        "command": "-dance.seek.word",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "shift+j",
+        "command": "-dance.edit.join",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "shift+j",
+        "command": "-dance.edit.join",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "-dance.edit.join.select",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "shift+k",
+        "command": "dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "shift+k",
+        "command": "dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'insert'"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'insert'"
+    },
+    {
+        "key": "shift+k",
+        "command": "dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'insert'"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-dance.select.vertically",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    }
+]

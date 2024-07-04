@@ -16,7 +16,7 @@
  ;; If there is more than one, they won't work right.
  '(electric-pair-pairs '((34 . 34) (8216 . 8217) (8220 . 8221) (123 . 125)))
  '(package-selected-packages
-	 '(puni lsp-mode company-quickhelp company web-mode emmet-mode org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless rainbow-mode rainbow-delimiters beacon vertico meow))
+	 '(biomejs-format puni lsp-mode company-quickhelp company web-mode emmet-mode org-modern org modus-themes racket-mode cider clojure-mode consult corfu marginalia orderless rainbow-mode rainbow-delimiters beacon vertico meow))
  '(safe-local-variable-values
 	 '((cider-clojure-cli-parameters . "-A:fig")
 		 (cider-clojure-cli-global-options . "-A:fig")
@@ -98,7 +98,9 @@
   (setq web-mode-markup-indent-offset 2)
 	(setq web-mode-css-indent-offset 2)
 )
-(add-hook 'web-mode-hook  'my-web-mode-hook)
+(add-hook 'web-mode-hook 'my-web-mode-hook)
+;; (add-hook 'web-mode-hook 'biomejs-format-mode) ;; format code on save
+
 
 ;; COMPLETION SNIPPET
 ;;

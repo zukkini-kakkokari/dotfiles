@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "e",
+        "command": "-dance.seek.wordEnd.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "w",
+        "command": "-dance.seek.word.extend",
+        "when": "editorTextFocus && dance.mode == 'visual'"
+    },
+    {
+        "key": "w",
+        "command": "-dance.seek.word",
+        "when": "editorTextFocus && dance.mode == 'normal'"
+    }
+]

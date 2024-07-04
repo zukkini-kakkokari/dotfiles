@@ -1,0 +1,19 @@
+2024-07-04 14:59:32.117 [info] Extension host with pid 27731 started
+2024-07-04 14:59:32.117 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/be652389774f61ca956f853fd6853924.
+2024-07-04 14:59:32.312 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-04 14:59:32.344 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-04 14:59:32.387 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-04 14:59:32.798 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-04 14:59:32.801 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-04 14:59:32.972 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-04 14:59:33.015 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-04 14:59:33.115 [info] Eager extensions activated
+2024-07-04 14:59:33.179 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 14:59:33.183 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 14:59:33.194 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-04 14:59:48.015 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-04 14:59:48.015 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model1)
+2024-07-04 15:05:49.006 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-07-04 15:05:49.799 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-07-04 15:12:51.735 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-04 15:12:51.763 [info] Extension host with pid 27731 exiting with code 0
