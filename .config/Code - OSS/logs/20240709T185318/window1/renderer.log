@@ -1,0 +1,18 @@
+2024-07-09 18:53:20.986 [info] Started local extension host with pid 1631.
+2024-07-09 18:53:24.339 [info] [perf] Render performance baseline is 161ms
+2024-07-09 19:04:01.822 [error] [Extension Host] Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at assert (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/utils/errors.js:10:23)
+	at Cursor.previous (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:619:29)
+	at Recorder.lastEntry (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:69:21)
+	at Recorder._record (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:81:39)
+	at Recorder.recordCommand (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:248:14)
+	at /home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/api/run.js:281:34
+	at async Context.runAsync (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/api/context.js:138:20)
+	at async CommandDescriptor.invoke (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/commands/index.js:62:22)
+	at async Extension.runPromiseSafely (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/extension.js:285:20)
+	at async f.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204392)
+2024-07-09 19:04:01.823 [error] [Extension Host] error executing command "dance.select.up.jump": internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+2024-07-09 19:39:22.190 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

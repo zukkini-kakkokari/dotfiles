@@ -1,0 +1,57 @@
+2024-07-09 20:07:00.938 [info] Started local extension host with pid 6570.
+2024-07-09 20:07:04.111 [info] [perf] Render performance baseline is 148ms
+2024-07-09 20:13:39.324 [error] [Extension Host] line 1:32 token recognition error at: '`'
+2024-07-09 20:13:39.352 [error] [Extension Host] line 13:2 token recognition error at: '`'
+2024-07-09 20:13:39.354 [error] [Extension Host] line 1:32 token recognition error at: '`'
+2024-07-09 20:13:39.354 [error] [Extension Host] line 13:2 token recognition error at: '`'
+2024-07-09 20:13:41.777 [error] [Extension Host] line 12:2 token recognition error at: '`'
+2024-07-09 20:13:41.909 [error] [Extension Host] line 12:2 token recognition error at: '`'
+2024-07-09 22:50:10.591 [error] [Extension Host] Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at assert (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/utils/errors.js:10:23)
+	at Cursor.previous (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:619:29)
+	at Recorder.lastEntry (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:69:21)
+	at Recorder._record (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:81:39)
+	at Recorder._recordExternalSelectionChange (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:396:14)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:20994)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at a.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:33300)
+	at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6765)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-09 22:50:10.592 [error] [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).: Error: [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:21021)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at a.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:33300)
+	at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6765)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)

@@ -1,0 +1,170 @@
+(VSCode) 2024-07-08 21:04:17.933 [INFO]: No proxy settings found
+(VSCode) 2024-07-08 21:04:19.245 [INFO]: Creating manager directory: /tmp/e92440db-aec4-449f-a88b-ca8e3f2fd0de/codeium/manager
+(VSCode) 2024-07-08 21:04:19.249 [INFO]: ea9a89028334feda7d7ab8900d5f1d58e2f7c361 not found, downloading language server
+(VSCode) 2024-07-08 21:04:19.253 [INFO]: No proxy settings found
+(VSCode) 2024-07-08 21:04:26.926 [INFO]: Language server started
+2024/07/08 21:04:27 maxprocs: Leaving GOMAXPROCS=12: CPU quota undefined
+I0708 21:04:27.107296  5250 main.go:494] Setting GOMAXPROCS to 12
+I0708 21:04:27.107476  5250 main.go:629] Starting language server manager with pid 5250
+I0708 21:04:27.107594  5250 main.go:117] Manager acquired its lock file /tmp/e92440db-aec4-449f-a88b-ca8e3f2fd0de/codeium/manager/locks/manager.lock
+I0708 21:04:27.108230  5250 main.go:256] Waiting for random port file in /tmp/e92440db-aec4-449f-a88b-ca8e3f2fd0de/codeium/manager/child_random_port_1720461867107763403_4268546329334493639 to be created
+2024/07/08 21:04:27 maxprocs: Leaving GOMAXPROCS=12: CPU quota undefined
+I0708 21:04:27.292301  5266 main.go:494] Setting GOMAXPROCS to 4
+I0708 21:04:27.292547  5266 main.go:623] Starting language server process with pid 5266
+I0708 21:04:27.292592  5266 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0708 21:04:27.292803  5266 server.go:163] Language server listening on random port at 33037
+I0708 21:04:27.292915  5266 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0708 21:04:27.292948  5266 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0708 21:04:27.292990  5266 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0708 21:04:27.815254  5266 unleash.go:90] Initializing Unleash
+I0708 21:04:28.241467  5266 unleash.go:110] Successfully initialized Unleash
+E0708 21:04:28.260815  5266 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0708 21:04:28.261449  5266 server.go:355] Successfully created API server client
+I0708 21:04:28.312248  5266 server.go:364] Successfully initialized tokenizer
+I0708 21:04:28.459821  5266 server.go:473] Local search is enabled, will index local files.
+I0708 21:04:28.459860  5266 server.go:477] Using 3 indexer workers
+I0708 21:04:28.460077  5266 search_provider.go:208] Using database at /home/zukkini/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0708 21:04:28.469203  5266 search_provider.go:222] Successfully created embedding search database in 9ms
+I0708 21:04:28.469559  5266 indexer.go:214] Using 4 embed workers
+I0708 21:04:28.469610  5266 search_provider.go:251] Successfully created and started indexer
+I0708 21:04:28.469656  5266 search_provider.go:277] Successfully created embedding search provider
+I0708 21:04:28.469677  5266 server.go:517] Successfully created exact search provider
+I0708 21:04:28.476847  5266 server.go:547] Successfully created completion provider
+I0708 21:04:28.477142  5266 server.go:596] Child process attempting to acquire lock file /tmp/e92440db-aec4-449f-a88b-ca8e3f2fd0de/codeium/manager/locks/child_lock_1720461867107810337_459688409897914292
+I0708 21:04:28.477199  5266 server.go:604] Child process acquired lock file /tmp/e92440db-aec4-449f-a88b-ca8e3f2fd0de/codeium/manager/locks/child_lock_1720461867107810337_459688409897914292
+I0708 21:04:28.484628  5266 server.go:183] LSP listening on random port at 41903
+I0708 21:04:28.485039  5266 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:40287
+41903
+I0708 21:04:28.514331  5250 main.go:292] Language server manager found random server port 33037
+I0708 21:04:28.514369  5250 main.go:293] Language server manager found random lsp port 41903
+I0708 21:04:28.514388  5250 main.go:300] Language server manager attempting to connect to language server at 127.0.0.1:33037
+I0708 21:04:28.537310  5250 main.go:171] Fixing language server port at 33037
+I0708 21:04:28.537336  5250 main.go:351] Language server manager successfully connected to new language server at 127.0.0.1:33037
+(VSCode) 2024-07-08 21:04:28.636 [INFO]: Found language server running on port 33037
+(VSCode) 2024-07-08 21:04:28.669 [INFO]: Downloaded binary: /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0708 21:04:28.689747  5266 rpcs_miscellaneous.go:131] Ripgrep available at /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0708 21:04:28.690901  5266 utils.go:182] Analyzing workspace files for /home/zukkini/Downloads/examples/
+I0708 21:04:28.693806  5266 utils.go:242] Done analyzing workspace files for /home/zukkini/Downloads/examples/
+I0708 21:04:28.693822  5266 lsp.go:208] Found 193 files in workspace /home/zukkini/Downloads/examples/
+I0708 21:04:28.695222  5266 lsp.go:232] Adding workspace listener for [0xc0002ec0e0]
+I0708 21:04:28.695255  5266 indexing_listener.go:202] Add workspace event with uid 1 for workspace /home/zukkini/Downloads/examples/
+I0708 21:04:28.834178  5266 rpcs_miscellaneous.go:325] University version is up to date.
+I0708 21:04:29.620709  5266 lazy_model.go:30] Successfully created faiss index
+I0708 21:04:31.727250  5266 indexing_listener.go:242] Done enqueue workspace with uid 1
+(VSCode) 2024-07-08 21:04:59.127 [INFO]: Completion request was cancelled by token (118.97ms)
+(VSCode) 2024-07-08 21:04:59.197 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:04:59.299 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:00.178 [INFO]: Completion request was cancelled by token (59.92ms)
+(VSCode) 2024-07-08 21:05:00.224 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:01.239 [INFO]: Completion request was cancelled by token (280.93ms)
+(VSCode) 2024-07-08 21:05:06.183 [INFO]: Completion request was cancelled by token (21.59ms)
+(VSCode) 2024-07-08 21:05:06.279 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:06.492 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:07.391 [INFO]: Completion request succeeded (414.48ms)
+(VSCode) 2024-07-08 21:05:07.394 [INFO]: No completions were generated
+(VSCode) 2024-07-08 21:05:07.395 [INFO]: provideInlineCompletionItems request succeeded (419.62ms)
+(VSCode) 2024-07-08 21:05:08.159 [INFO]: Completion request was cancelled by token (141.74ms)
+(VSCode) 2024-07-08 21:05:08.384 [INFO]: Completion request was cancelled by token (172.62ms)
+(VSCode) 2024-07-08 21:05:08.605 [INFO]: Completion request was cancelled by token (173.54ms)
+(VSCode) 2024-07-08 21:05:08.723 [INFO]: Completion request was cancelled by token (64.36ms)
+(VSCode) 2024-07-08 21:05:08.791 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:08.950 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:09.170 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:09.889 [INFO]: Completion request was cancelled by token (153.08ms)
+(VSCode) 2024-07-08 21:05:11.603 [INFO]: Completion request was cancelled by token (26.55ms)
+(VSCode) 2024-07-08 21:05:11.666 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:11.767 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:11.915 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:12.012 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:05:12.408 [INFO]: Completion request was cancelled by token (157.09ms)
+(VSCode) 2024-07-08 21:05:13.358 [INFO]: Completion request was cancelled by token (329.42ms)
+W0708 21:06:50.116691  5266 chat_token_limit.go:46] error converting token count to int: experiment key CHAT_TOKENS_SOFT_LIMIT does not have variant payload
+W0708 21:06:52.358791  5266 chat_token_limit.go:46] error converting token count to int: experiment key CHAT_TOKENS_SOFT_LIMIT does not have variant payload
+I0708 21:06:54.187188  5266 api.go:349] Handle set draft query: ""
+I0708 21:06:59.915635  5266 api.go:349] Handle set draft query: ""
+I0708 21:07:58.493507  5266 api.go:349] Handle set draft query: ""
+I0708 21:09:28.677733  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:09:28.678089  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":157147176,"heap_inuse":185851904,"heap_released":56041472,"heap_sys":275316736,"total_alloc":3959193592,"stack_inuse":1507328,"sys":298898760,"num_goroutine":53},"proc":{"virt_size":2743020,"pss":549202}}
+(VSCode) 2024-07-08 21:10:16.321 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:10:16.453 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:10:16.684 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-08 21:10:17.541 [INFO]: Completion request succeeded (356.17ms)
+(VSCode) 2024-07-08 21:10:17.543 [INFO]: No completions were generated
+(VSCode) 2024-07-08 21:10:17.544 [INFO]: provideInlineCompletionItems request succeeded (360.25ms)
+I0708 21:14:28.903081  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:14:28.903231  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":100238912,"heap_inuse":153395200,"heap_released":103038976,"heap_sys":275349504,"total_alloc":5224320256,"stack_inuse":1474560,"sys":298898760,"num_goroutine":52},"proc":{"virt_size":2743020,"pss":506494}}
+I0708 21:15:28.261253  5266 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 fd5a8612-968d-45d2-821a-22ca883e3fdf}
+I0708 21:19:28.605013  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:19:28.605175  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":171075384,"heap_inuse":190881792,"heap_released":59342848,"heap_sys":275316736,"total_alloc":6483643928,"stack_inuse":1507328,"sys":298898760,"num_goroutine":54},"proc":{"virt_size":2743020,"pss":549239}}
+I0708 21:24:28.810554  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:24:28.810708  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":138703960,"heap_inuse":181338112,"heap_released":40009728,"heap_sys":275349504,"total_alloc":9991530120,"stack_inuse":1474560,"sys":298898760,"num_goroutine":52},"proc":{"virt_size":2743020,"pss":570891}}
+I0708 21:29:28.517720  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:29:28.517899  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":105973608,"heap_inuse":159432704,"heap_released":98123776,"heap_sys":275316736,"total_alloc":10018886064,"stack_inuse":1507328,"sys":298898760,"num_goroutine":52},"proc":{"virt_size":2743020,"pss":518782}}
+I0708 21:32:28.261770  5266 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 fd5a8612-968d-45d2-821a-22ca883e3fdf}
+I0708 21:34:28.724432  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:34:28.724572  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":109058656,"heap_inuse":160243712,"heap_released":98123776,"heap_sys":275316736,"total_alloc":10044357832,"stack_inuse":1507328,"sys":298898760,"num_goroutine":48},"proc":{"virt_size":2743020,"pss":616282}}
+I0708 21:39:28.924049  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:39:28.924178  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":130198616,"heap_inuse":183861248,"heap_released":24690688,"heap_sys":275480576,"total_alloc":14870590616,"stack_inuse":1343488,"sys":298898760,"num_goroutine":60},"proc":{"virt_size":2743020,"pss":608362}}
+I0708 21:42:28.261630  5266 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 fd5a8612-968d-45d2-821a-22ca883e3fdf}
+I0708 21:44:28.653343  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:44:28.653501  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":167700952,"heap_inuse":191643648,"heap_released":57655296,"heap_sys":296550400,"total_alloc":19711939840,"stack_inuse":1245184,"sys":319870280,"num_goroutine":46},"proc":{"virt_size":2743020,"pss":597198}}
+I0708 21:49:28.838590  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:49:28.838734  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":101981704,"heap_inuse":162021376,"heap_released":114089984,"heap_sys":296419328,"total_alloc":19832418904,"stack_inuse":1376256,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":542090}}
+I0708 21:54:28.523748  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:54:28.523869  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":106946208,"heap_inuse":163717120,"heap_released":114089984,"heap_sys":296386560,"total_alloc":19857641632,"stack_inuse":1409024,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":542094}}
+I0708 21:59:28.770721  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 21:59:28.770807  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":101893416,"heap_inuse":161841152,"heap_released":114089984,"heap_sys":296452096,"total_alloc":19882915592,"stack_inuse":1343488,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":542092}}
+I0708 22:04:28.493707  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:04:28.493787  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":106879216,"heap_inuse":163643392,"heap_released":114089984,"heap_sys":296419328,"total_alloc":19908143248,"stack_inuse":1376256,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":542092}}
+I0708 22:09:28.725335  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:09:28.725424  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":101835992,"heap_inuse":161816576,"heap_released":114089984,"heap_sys":296419328,"total_alloc":19933412976,"stack_inuse":1376256,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":542094}}
+I0708 22:14:28.952940  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:14:28.953119  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":108673584,"heap_inuse":166584320,"heap_released":100589568,"heap_sys":296550400,"total_alloc":21161181600,"stack_inuse":1245184,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":559174}}
+I0708 22:19:28.661642  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:19:28.661793  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":161326216,"heap_inuse":185761792,"heap_released":55705600,"heap_sys":296517632,"total_alloc":21831511496,"stack_inuse":1277952,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":604530}}
+I0708 22:24:28.901888  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:24:28.902044  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":165833272,"heap_inuse":195182592,"heap_released":61292544,"heap_sys":296452096,"total_alloc":23318830184,"stack_inuse":1343488,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":600810}}
+I0708 22:29:28.638429  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:29:28.638574  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":110776200,"heap_inuse":160391168,"heap_released":119316480,"heap_sys":296452096,"total_alloc":23348337072,"stack_inuse":1343488,"sys":319870280,"num_goroutine":42},"proc":{"virt_size":2743020,"pss":544146}}
+(VSCode) 2024-07-08 22:34:21.403 [INFO]: Completion request was cancelled by token (113.89ms)
+(VSCode) 2024-07-08 22:34:21.713 [INFO]: Completion request was cancelled by token (251.18ms)
+(VSCode) 2024-07-08 22:34:22.153 [INFO]: Completion request succeeded (387.86ms)
+(VSCode) 2024-07-08 22:34:22.157 [INFO]: Generated 1 completion
+(VSCode) 2024-07-08 22:34:22.160 [INFO]: provideInlineCompletionItems request succeeded (395.14ms)
+(VSCode) 2024-07-08 22:34:27.486 [INFO]: Completion request succeeded (10.23ms)
+(VSCode) 2024-07-08 22:34:27.487 [INFO]: Generated 1 completion
+(VSCode) 2024-07-08 22:34:27.488 [INFO]: provideInlineCompletionItems request succeeded (13.53ms)
+(VSCode) 2024-07-08 22:34:27.964 [INFO]: Completion request succeeded (364.15ms)
+(VSCode) 2024-07-08 22:34:27.966 [INFO]: No completions were generated
+(VSCode) 2024-07-08 22:34:27.967 [INFO]: provideInlineCompletionItems request succeeded (368.16ms)
+I0708 22:34:28.838345  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:34:28.838509  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":169125720,"heap_inuse":207462400,"heap_released":40968192,"heap_sys":296452096,"total_alloc":23914484056,"stack_inuse":1343488,"sys":319870280,"num_goroutine":49},"proc":{"virt_size":2743020,"pss":616718}}
+(VSCode) 2024-07-08 22:34:35.471 [INFO]: Completion request was cancelled by token (146.1ms)
+(VSCode) 2024-07-08 22:34:35.942 [INFO]: Completion request was cancelled by token (415.92ms)
+(VSCode) 2024-07-08 22:34:36.486 [INFO]: Completion request succeeded (493.49ms)
+(VSCode) 2024-07-08 22:34:36.487 [INFO]: No completions were generated
+(VSCode) 2024-07-08 22:34:36.488 [INFO]: provideInlineCompletionItems request succeeded (495.22ms)
+(VSCode) 2024-07-08 22:34:37.132 [INFO]: Completion request was cancelled by token (203.2ms)
+(VSCode) 2024-07-08 22:34:38.309 [INFO]: Completion request succeeded (373.49ms)
+(VSCode) 2024-07-08 22:34:38.311 [INFO]: Generated 1 completion
+(VSCode) 2024-07-08 22:34:38.312 [INFO]: provideInlineCompletionItems request succeeded (377.46ms)
+(VSCode) 2024-07-08 22:34:39.167 [INFO]: Completion request was cancelled by token (529.32ms)
+(VSCode) 2024-07-08 22:34:39.646 [INFO]: Completion request was cancelled by token (427.58ms)
+(VSCode) 2024-07-08 22:34:46.418 [INFO]: Completion request was cancelled by token (84.89ms)
+(VSCode) 2024-07-08 22:34:46.484 [INFO]: Completion request succeeded (14ms)
+(VSCode) 2024-07-08 22:34:46.485 [INFO]: Generated 1 completion
+(VSCode) 2024-07-08 22:34:46.486 [INFO]: provideInlineCompletionItems request succeeded (16.78ms)
+(VSCode) 2024-07-08 22:34:48.053 [INFO]: Completion request succeeded (364.83ms)
+(VSCode) 2024-07-08 22:34:48.054 [INFO]: No completions were generated
+(VSCode) 2024-07-08 22:34:48.055 [INFO]: provideInlineCompletionItems request succeeded (368.2ms)
+I0708 22:39:28.554394  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:39:28.554540  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":106289864,"heap_inuse":156082176,"heap_released":103710720,"heap_sys":304807936,"total_alloc":24240203624,"stack_inuse":1376256,"sys":328258888,"num_goroutine":51},"proc":{"virt_size":2743020,"pss":563566}}
+I0708 22:40:28.261829  5266 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 fd5a8612-968d-45d2-821a-22ca883e3fdf}
+I0708 22:44:28.764168  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:44:28.764322  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":135989400,"heap_inuse":162791424,"heap_released":88588288,"heap_sys":304873472,"total_alloc":25182768936,"stack_inuse":1310720,"sys":328258888,"num_goroutine":51},"proc":{"virt_size":2743020,"pss":578354}}
+I0708 22:49:28.975385  5266 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1956}  total_item_count:1956  quantized:true}}
+I0708 22:49:28.975533  5266 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":104134016,"heap_inuse":147357696,"heap_released":144228352,"heap_sys":304873472,"total_alloc":25208499280,"stack_inuse":1310720,"sys":328258888,"num_goroutine":51},"proc":{"virt_size":2743020,"pss":524018}}
+(VSCode) 2024-07-08 22:54:16.419 [INFO]: Disposing language server process
+(VSCode) 2024-07-08 22:54:16.419 [INFO]: Deleting manager directory: /tmp/e92440db-aec4-449f-a88b-ca8e3f2fd0de/codeium/manager
+(VSCode) 2024-07-08 22:54:16.420 [INFO]: Successfully disposed language server
+W0708 22:54:16.419532  5250 main.go:121] Language server manager got signal terminated, shutting down

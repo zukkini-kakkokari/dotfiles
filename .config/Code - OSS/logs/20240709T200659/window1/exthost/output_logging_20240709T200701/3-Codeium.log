@@ -1,0 +1,346 @@
+(VSCode) 2024-07-09 20:07:03.302 [INFO]: No proxy settings found
+(VSCode) 2024-07-09 20:07:04.569 [INFO]: Creating manager directory: /tmp/1d3b832c-2d3d-404f-bcd9-ac9b22dcd176/codeium/manager
+(VSCode) 2024-07-09 20:07:05.180 [INFO]: Using cached LS with valid crc32: /home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.80/dist/ea9a89028334feda7d7ab8900d5f1d58e2f7c361/language_server_linux_x64
+(VSCode) 2024-07-09 20:07:05.188 [INFO]: Language server started
+2024/07/09 20:07:05 maxprocs: Leaving GOMAXPROCS=12: CPU quota undefined
+I0709 20:07:05.364379  6707 main.go:494] Setting GOMAXPROCS to 12
+I0709 20:07:05.364545  6707 main.go:629] Starting language server manager with pid 6707
+I0709 20:07:05.364641  6707 main.go:117] Manager acquired its lock file /tmp/1d3b832c-2d3d-404f-bcd9-ac9b22dcd176/codeium/manager/locks/manager.lock
+I0709 20:07:05.365244  6707 main.go:256] Waiting for random port file in /tmp/1d3b832c-2d3d-404f-bcd9-ac9b22dcd176/codeium/manager/child_random_port_1720544825364770481_3305773301560629739 to be created
+2024/07/09 20:07:05 maxprocs: Leaving GOMAXPROCS=12: CPU quota undefined
+I0709 20:07:05.539525  6722 main.go:494] Setting GOMAXPROCS to 4
+I0709 20:07:05.539830  6722 main.go:623] Starting language server process with pid 6722
+I0709 20:07:05.539863  6722 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0709 20:07:05.540016  6722 server.go:163] Language server listening on random port at 44559
+I0709 20:07:05.540120  6722 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0709 20:07:05.540154  6722 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0709 20:07:05.540187  6722 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0709 20:07:06.032678  6722 unleash.go:90] Initializing Unleash
+I0709 20:07:06.472713  6722 unleash.go:110] Successfully initialized Unleash
+E0709 20:07:06.499287  6722 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0709 20:07:06.500030  6722 server.go:355] Successfully created API server client
+I0709 20:07:06.566762  6722 server.go:364] Successfully initialized tokenizer
+I0709 20:07:06.677557  6722 server.go:473] Local search is enabled, will index local files.
+I0709 20:07:06.677595  6722 server.go:477] Using 3 indexer workers
+I0709 20:07:06.677639  6722 search_provider.go:208] Using database at /home/zukkini/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0709 20:07:06.684826  6722 search_provider.go:222] Successfully created embedding search database in 7ms
+I0709 20:07:06.685176  6722 indexer.go:214] Using 4 embed workers
+I0709 20:07:06.685217  6722 search_provider.go:251] Successfully created and started indexer
+I0709 20:07:06.685246  6722 search_provider.go:277] Successfully created embedding search provider
+I0709 20:07:06.685259  6722 server.go:517] Successfully created exact search provider
+I0709 20:07:06.696043  6722 server.go:547] Successfully created completion provider
+I0709 20:07:06.696215  6722 server.go:596] Child process attempting to acquire lock file /tmp/1d3b832c-2d3d-404f-bcd9-ac9b22dcd176/codeium/manager/locks/child_lock_1720544825364809800_3100483783432113458
+I0709 20:07:06.696276  6722 server.go:604] Child process acquired lock file /tmp/1d3b832c-2d3d-404f-bcd9-ac9b22dcd176/codeium/manager/locks/child_lock_1720544825364809800_3100483783432113458
+I0709 20:07:06.703315  6722 server.go:183] LSP listening on random port at 39005
+I0709 20:07:06.703759  6722 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:37437
+39005
+I0709 20:07:06.772255  6707 main.go:292] Language server manager found random server port 44559
+I0709 20:07:06.772330  6707 main.go:293] Language server manager found random lsp port 39005
+I0709 20:07:06.772411  6707 main.go:300] Language server manager attempting to connect to language server at 127.0.0.1:44559
+I0709 20:07:06.817736  6707 main.go:171] Fixing language server port at 44559
+I0709 20:07:06.817788  6707 main.go:351] Language server manager successfully connected to new language server at 127.0.0.1:44559
+(VSCode) 2024-07-09 20:07:06.896 [INFO]: Found language server running on port 44559
+(VSCode) 2024-07-09 20:07:06.909 [INFO]: Downloaded binary: /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0709 20:07:06.927784  6722 utils.go:182] Analyzing workspace files for /home/zukkini/Downloads/examples/
+I0709 20:07:06.927943  6722 rpcs_miscellaneous.go:131] Ripgrep available at /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0709 20:07:06.931050  6722 utils.go:242] Done analyzing workspace files for /home/zukkini/Downloads/examples/
+I0709 20:07:06.931071  6722 lsp.go:208] Found 193 files in workspace /home/zukkini/Downloads/examples/
+I0709 20:07:06.932561  6722 lsp.go:232] Adding workspace listener for [0xc000439d50]
+I0709 20:07:06.932586  6722 indexing_listener.go:202] Add workspace event with uid 1 for workspace /home/zukkini/Downloads/examples/
+I0709 20:07:06.936746  6722 lazy_model.go:30] Successfully created faiss index
+I0709 20:07:07.038913  6722 rpcs_miscellaneous.go:325] University version is up to date.
+I0709 20:07:07.122126  6722 indexing_listener.go:242] Done enqueue workspace with uid 1
+(VSCode) 2024-07-09 20:07:07.883 [INFO]: Completion request was cancelled by token (334.55ms)
+(VSCode) 2024-07-09 20:07:08.426 [INFO]: Completion request was cancelled by token (492.66ms)
+(VSCode) 2024-07-09 20:07:08.810 [INFO]: Completion request was cancelled by token (332.81ms)
+(VSCode) 2024-07-09 20:07:09.290 [INFO]: Completion request was cancelled by token (429.82ms)
+(VSCode) 2024-07-09 20:07:09.920 [INFO]: Completion request succeeded (577.7ms)
+(VSCode) 2024-07-09 20:07:09.929 [INFO]: Generated 4 completions
+(VSCode) 2024-07-09 20:07:09.934 [INFO]: provideInlineCompletionItems request succeeded (592.57ms)
+(VSCode) 2024-07-09 20:07:10.288 [INFO]: Completion request was cancelled by token (135.93ms)
+(VSCode) 2024-07-09 20:07:10.797 [INFO]: Completion request was cancelled by token (364.83ms)
+(VSCode) 2024-07-09 20:07:10.993 [INFO]: Completion request was cancelled by token (144.24ms)
+(VSCode) 2024-07-09 20:07:11.130 [INFO]: Completion request was cancelled by token (86.16ms)
+(VSCode) 2024-07-09 20:07:11.302 [INFO]: Completion request was cancelled by token (119.22ms)
+(VSCode) 2024-07-09 20:07:11.469 [INFO]: Completion request was cancelled by token (114.8ms)
+(VSCode) 2024-07-09 20:07:11.628 [INFO]: Completion request was cancelled by token (107.94ms)
+(VSCode) 2024-07-09 20:07:12.083 [INFO]: Completion request was cancelled by token (403.96ms)
+(VSCode) 2024-07-09 20:07:12.418 [INFO]: Completion request was cancelled by token (285.57ms)
+(VSCode) 2024-07-09 20:07:13.015 [INFO]: Completion request was cancelled by token (546.89ms)
+I0709 20:12:06.835447  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:12:06.835837  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":97329984,"heap_inuse":135061504,"heap_released":74268672,"heap_sys":224854016,"total_alloc":1140787296,"stack_inuse":1638400,"sys":245881144,"num_goroutine":51},"proc":{"virt_size":2728024,"pss":480677}}
+(VSCode) 2024-07-09 20:12:50.145 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:50.241 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:50.507 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:50.607 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:50.707 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:51.044 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:53.140 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:53.896 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:54.668 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:55.372 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:55.669 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:12:59.855 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:00.185 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:00.274 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:00.870 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:01.018 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:01.162 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:01.298 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:01.425 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:01.726 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:01.872 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:01.998 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:02.291 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:02.731 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:02.952 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:03.164 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:03.524 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:03.699 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:03.827 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:04.028 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:04.915 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:05.049 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:05.277 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:05.465 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:06.042 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:06.475 [INFO]: Codeium is not enabled for the current document.
+I0709 20:13:06.499544  6722 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 738e4dbb-9843-4702-b350-550e86223dd7}
+(VSCode) 2024-07-09 20:13:06.689 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:06.983 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:07.062 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:07.355 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:12.191 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:12.301 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:12.546 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:12.690 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:12.816 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:15.909 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:16.365 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:18.783 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:22.075 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:25.043 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:26.559 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:26.854 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:27.394 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:27.625 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:29.888 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:30.041 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:30.245 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:30.388 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:30.549 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:30.684 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:30.821 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:13:31.248 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:26.635 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:29.550 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:29.877 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:32.074 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:35.980 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:36.470 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:36.754 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:37.141 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:37.456 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:37.534 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:37.704 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:37.876 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:39.561 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:14:40.283 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:02.751 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:02.817 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:03.268 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:03.466 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:03.923 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:04.227 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:07.618 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:08.117 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:08.204 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:08.370 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-09 20:15:08.530 [INFO]: Codeium is not enabled for the current document.
+I0709 20:17:06.833134  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:17:06.833275  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":117205184,"heap_inuse":145891328,"heap_released":38133760,"heap_sys":229277696,"total_alloc":3537878832,"stack_inuse":1409024,"sys":250206520,"num_goroutine":51},"proc":{"virt_size":2728216,"pss":521501}}
+I0709 20:22:07.048262  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:22:07.048415  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":92987648,"heap_inuse":133087232,"heap_released":78700544,"heap_sys":229277696,"total_alloc":3563372400,"stack_inuse":1409024,"sys":250206520,"num_goroutine":51},"proc":{"virt_size":2728216,"pss":481889}}
+I0709 20:27:06.803483  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:27:06.803605  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98091456,"heap_inuse":136044544,"heap_released":78700544,"heap_sys":229244928,"total_alloc":3588856864,"stack_inuse":1441792,"sys":250206520,"num_goroutine":51},"proc":{"virt_size":2728216,"pss":481890}}
+I0709 20:32:06.990663  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:32:06.990822  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":92950728,"heap_inuse":133021696,"heap_released":78700544,"heap_sys":229277696,"total_alloc":3614201600,"stack_inuse":1409024,"sys":250206520,"num_goroutine":51},"proc":{"virt_size":2728216,"pss":481914}}
+I0709 20:37:06.733996  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:37:06.734149  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":97991048,"heap_inuse":135962624,"heap_released":78700544,"heap_sys":229343232,"total_alloc":3639735288,"stack_inuse":1343488,"sys":250206520,"num_goroutine":43},"proc":{"virt_size":2728216,"pss":481918}}
+I0709 20:42:06.942647  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:42:06.942747  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":92571744,"heap_inuse":132751360,"heap_released":78962688,"heap_sys":229343232,"total_alloc":3665022424,"stack_inuse":1343488,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":481690}}
+I0709 20:47:07.148979  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:47:07.149136  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":97604024,"heap_inuse":135602176,"heap_released":76972032,"heap_sys":229310464,"total_alloc":3692713424,"stack_inuse":1376256,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":483638}}
+I0709 20:52:06.880176  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:52:06.880333  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":92505552,"heap_inuse":132718592,"heap_released":79069184,"heap_sys":229277696,"total_alloc":3717934840,"stack_inuse":1409024,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":481590}}
+I0709 20:57:07.111668  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 20:57:07.111928  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":97544576,"heap_inuse":135577600,"heap_released":79069184,"heap_sys":229310464,"total_alloc":3743195432,"stack_inuse":1376256,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":490202}}
+I0709 21:02:06.814534  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:02:06.814743  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":92451832,"heap_inuse":132685824,"heap_released":79069184,"heap_sys":229310464,"total_alloc":3768420888,"stack_inuse":1376256,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":562826}}
+I0709 21:07:07.027599  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:07:07.027681  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":97487136,"heap_inuse":135512064,"heap_released":79069184,"heap_sys":229310464,"total_alloc":3793688824,"stack_inuse":1376256,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":564258}}
+I0709 21:12:06.765367  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:12:06.765516  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":92390000,"heap_inuse":132702208,"heap_released":79069184,"heap_sys":229310464,"total_alloc":3818941536,"stack_inuse":1376256,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":564262}}
+I0709 21:17:06.989831  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:17:06.989985  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":97430272,"heap_inuse":135512064,"heap_released":79069184,"heap_sys":229343232,"total_alloc":3844199216,"stack_inuse":1343488,"sys":250206520,"num_goroutine":39},"proc":{"virt_size":2728216,"pss":564262}}
+I0709 21:22:06.726991  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:22:06.727073  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":92333288,"heap_inuse":132595712,"heap_released":79126528,"heap_sys":229343232,"total_alloc":3870460520,"stack_inuse":1343488,"sys":250206520,"num_goroutine":41},"proc":{"virt_size":2728216,"pss":563557}}
+I0709 21:27:06.973212  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:27:06.973353  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":109614576,"heap_inuse":147292160,"heap_released":32440320,"heap_sys":229376000,"total_alloc":4562797712,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":544010}}
+I0709 21:32:07.187385  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:32:07.187462  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98278408,"heap_inuse":137519104,"heap_released":74317824,"heap_sys":229376000,"total_alloc":4588086456,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":503113}}
+I0709 21:37:06.894073  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:37:06.894155  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103263968,"heap_inuse":140476416,"heap_released":74317824,"heap_sys":229376000,"total_alloc":4613301680,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":503113}}
+I0709 21:42:07.134256  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:42:07.134409  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98201472,"heap_inuse":137445376,"heap_released":74448896,"heap_sys":229376000,"total_alloc":4638569504,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":502986}}
+I0709 21:47:06.826691  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:47:06.826836  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103189632,"heap_inuse":140427264,"heap_released":74375168,"heap_sys":229376000,"total_alloc":4664601512,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":503062}}
+I0709 21:52:07.041564  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:52:07.041722  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98125928,"heap_inuse":137396224,"heap_released":71794688,"heap_sys":229376000,"total_alloc":4693909824,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":503534}}
+I0709 21:57:06.760005  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 21:57:06.760090  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103132816,"heap_inuse":140369920,"heap_released":74481664,"heap_sys":229376000,"total_alloc":4719148704,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":500909}}
+I0709 22:02:06.979251  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:02:06.979409  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98069648,"heap_inuse":137371648,"heap_released":74481664,"heap_sys":229376000,"total_alloc":4744435232,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":500909}}
+I0709 22:07:07.179629  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:07:07.179791  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103098168,"heap_inuse":140320768,"heap_released":73154560,"heap_sys":229376000,"total_alloc":4771308792,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":502205}}
+I0709 22:12:06.929245  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:12:06.929404  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":183058096,"heap_inuse":192028672,"heap_released":4300800,"heap_sys":229376000,"total_alloc":5727064600,"stack_inuse":1310720,"sys":250272056,"num_goroutine":41},"proc":{"virt_size":2728280,"pss":564362}}
+I0709 22:17:07.168107  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:17:07.168259  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103656776,"heap_inuse":146825216,"heap_released":84606976,"heap_sys":241926144,"total_alloc":6819323040,"stack_inuse":1343488,"sys":263248184,"num_goroutine":41},"proc":{"virt_size":2728664,"pss":503970}}
+I0709 22:22:06.894593  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:22:06.894672  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98505672,"heap_inuse":143581184,"heap_released":84606976,"heap_sys":241926144,"total_alloc":6844553600,"stack_inuse":1343488,"sys":263248184,"num_goroutine":41},"proc":{"virt_size":2728664,"pss":503969}}
+I0709 22:27:07.103490  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:27:07.103575  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103712320,"heap_inuse":146399232,"heap_released":84606976,"heap_sys":241926144,"total_alloc":6869989672,"stack_inuse":1343488,"sys":263248184,"num_goroutine":41},"proc":{"virt_size":2728664,"pss":503969}}
+I0709 22:32:06.844099  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:32:06.844253  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98439376,"heap_inuse":143556608,"heap_released":84606976,"heap_sys":241958912,"total_alloc":6895222032,"stack_inuse":1310720,"sys":263248184,"num_goroutine":41},"proc":{"virt_size":2728664,"pss":503973}}
+I0709 22:37:07.058517  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:37:07.058652  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103473424,"heap_inuse":146399232,"heap_released":84606976,"heap_sys":241958912,"total_alloc":6920488816,"stack_inuse":1310720,"sys":263248184,"num_goroutine":41},"proc":{"virt_size":2728664,"pss":503973}}
+I0709 22:42:06.796255  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:42:06.796338  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":98381392,"heap_inuse":143523840,"heap_released":84606976,"heap_sys":241958912,"total_alloc":6945722864,"stack_inuse":1310720,"sys":263248184,"num_goroutine":41},"proc":{"virt_size":2728664,"pss":503973}}
+I0709 22:47:07.026603  6722 rpcs_miscellaneous.go:98] Local indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM  workspace:"/home/zukkini/Downloads/examples"  item_count:1958}  total_item_count:1958  quantized:true}}
+I0709 22:47:07.026684  6722 rpcs_miscellaneous.go:99] Memory stats: {"runtime":{"alloc":103415152,"heap_inuse":146350080,"heap_released":84606976,"heap_sys":241958912,"total_alloc":6970995944,"stack_inuse":1310720,"sys":263248184,"num_goroutine":41},"proc":{"virt_size":2728664,"pss":503975}}
+(VSCode) 2024-07-09 22:50:15.239 [INFO]: Completion request was cancelled by token (155.73ms)
+(VSCode) 2024-07-09 22:50:15.290 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-09 22:50:15.423 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-09 22:50:15.811 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-09 22:50:15.931 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-09 22:50:16.162 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-09 22:50:16.660 [INFO]: Completion request was cancelled by token (359.5ms)
+(VSCode) 2024-07-09 22:50:16.815 [INFO]: Completion request was cancelled by token (103.75ms)
+(VSCode) 2024-07-09 22:50:17.071 [INFO]: Completion request was cancelled by token (203.94ms)
+(VSCode) 2024-07-09 22:50:17.538 [INFO]: Completion request was cancelled by token (415.59ms)
+(VSCode) 2024-07-09 22:50:17.906 [INFO]: Completion request was cancelled by token (319.5ms)
+(VSCode) 2024-07-09 22:50:18.043 [INFO]: Completion request was cancelled by token (90.78ms)
+(VSCode) 2024-07-09 22:50:18.187 [INFO]: Completion request was cancelled by token (93.75ms)
+(VSCode) 2024-07-09 22:50:18.617 [INFO]: Completion request was cancelled by token (378.2ms)
+(VSCode) 2024-07-09 22:50:18.742 [INFO]: Completion request was cancelled by token (73.08ms)
+(VSCode) 2024-07-09 22:50:18.877 [INFO]: Completion request was cancelled by token (83.12ms)
+(VSCode) 2024-07-09 22:50:19.028 [INFO]: Completion request was cancelled by token (100.59ms)
+(VSCode) 2024-07-09 22:50:19.157 [INFO]: Completion request was cancelled by token (76.42ms)
+(VSCode) 2024-07-09 22:50:19.296 [INFO]: Completion request was cancelled by token (87.06ms)
+(VSCode) 2024-07-09 22:50:19.403 [INFO]: Completion request was cancelled by token (58.01ms)
+(VSCode) 2024-07-09 22:50:19.810 [INFO]: Completion request was cancelled by token (355.73ms)
+(VSCode) 2024-07-09 22:50:20.368 [INFO]: Completion request was cancelled by token (505.85ms)
+(VSCode) 2024-07-09 22:50:20.568 [INFO]: Completion request was cancelled by token (142.88ms)
+(VSCode) 2024-07-09 22:50:20.807 [INFO]: Completion request was cancelled by token (189.04ms)
+(VSCode) 2024-07-09 22:50:21.078 [INFO]: Completion request was cancelled by token (218.98ms)
+(VSCode) 2024-07-09 22:50:21.723 [INFO]: Completion request was cancelled by token (590.07ms)
+(VSCode) 2024-07-09 22:50:21.871 [INFO]: Completion request was cancelled by token (101.06ms)
+(VSCode) 2024-07-09 22:50:22.016 [INFO]: Completion request was cancelled by token (93.53ms)
+(VSCode) 2024-07-09 22:50:22.867 [INFO]: Completion request succeeded (801.11ms)
+(VSCode) 2024-07-09 22:50:22.872 [INFO]: Generated 4 completions
+(VSCode) 2024-07-09 22:50:22.875 [INFO]: provideInlineCompletionItems request succeeded (810.47ms)
+(VSCode) 2024-07-09 22:50:23.494 [INFO]: Completion request was cancelled by token (174.13ms)
+(VSCode) 2024-07-09 22:50:23.672 [INFO]: Completion request was cancelled by token (125.61ms)
+(VSCode) 2024-07-09 22:50:23.773 [INFO]: Completion request was cancelled by token (50.13ms)
+(VSCode) 2024-07-09 22:50:23.938 [INFO]: Completion request was cancelled by token (114.07ms)
+(VSCode) 2024-07-09 22:50:24.487 [INFO]: Completion request was cancelled by token (495.39ms)
+(VSCode) 2024-07-09 22:50:24.704 [INFO]: Completion request was cancelled by token (165.21ms)
+(VSCode) 2024-07-09 22:50:26.595 [INFO]: Completion request was cancelled by token (1843.68ms)
+(VSCode) 2024-07-09 22:50:26.858 [INFO]: Completion request was cancelled by token (209.69ms)
+(VSCode) 2024-07-09 22:50:27.049 [INFO]: Completion request was cancelled by token (138.73ms)
+(VSCode) 2024-07-09 22:50:27.121 [INFO]: Completion request was cancelled by token (23.27ms)
+(VSCode) 2024-07-09 22:50:27.954 [INFO]: Completion request was cancelled by token (780.24ms)
+(VSCode) 2024-07-09 22:50:28.258 [INFO]: Completion request was cancelled by token (255.95ms)
+(VSCode) 2024-07-09 22:50:28.462 [INFO]: Completion request was cancelled by token (150.21ms)
+(VSCode) 2024-07-09 22:50:31.506 [INFO]: Completion request succeeded (2990.58ms)
+(VSCode) 2024-07-09 22:50:31.514 [INFO]: No completions were generated
+(VSCode) 2024-07-09 22:50:31.515 [INFO]: provideInlineCompletionItems request succeeded (2999.63ms)
+(VSCode) 2024-07-09 22:50:33.757 [INFO]: Completion request was cancelled by token (140.2ms)
+(VSCode) 2024-07-09 22:50:36.558 [INFO]: Completion request succeeded (2750.84ms)
+(VSCode) 2024-07-09 22:50:36.565 [INFO]: No completions were generated
+(VSCode) 2024-07-09 22:50:36.566 [INFO]: provideInlineCompletionItems request succeeded (2759.18ms)
+(VSCode) 2024-07-09 22:50:37.361 [INFO]: Completion request was cancelled by token (301.62ms)
+(VSCode) 2024-07-09 22:50:38.268 [INFO]: Completion request was cancelled by token (855.54ms)
+(VSCode) 2024-07-09 22:50:38.459 [INFO]: Completion request was cancelled by token (140.97ms)
+(VSCode) 2024-07-09 22:50:38.745 [INFO]: Completion request was cancelled by token (234.44ms)
+(VSCode) 2024-07-09 22:50:39.089 [INFO]: Completion request was cancelled by token (292.99ms)
+(VSCode) 2024-07-09 22:50:39.305 [INFO]: Completion request was cancelled by token (164.23ms)
+(VSCode) 2024-07-09 22:50:39.500 [INFO]: Completion request was cancelled by token (144.04ms)
+(VSCode) 2024-07-09 22:50:39.572 [INFO]: Completion request was cancelled by token (19.12ms)
+(VSCode) 2024-07-09 22:50:39.801 [INFO]: Completion request was cancelled by token (177.41ms)
+(VSCode) 2024-07-09 22:50:39.949 [INFO]: Completion request was cancelled by token (98.26ms)
+(VSCode) 2024-07-09 22:50:40.151 [INFO]: Completion request was cancelled by token (150.37ms)
+(VSCode) 2024-07-09 22:50:40.668 [INFO]: Completion request was cancelled by token (465.35ms)
+(VSCode) 2024-07-09 22:50:40.872 [INFO]: Completion request was cancelled by token (151.22ms)
+(VSCode) 2024-07-09 22:50:41.000 [INFO]: Completion request was cancelled by token (77.06ms)
+(VSCode) 2024-07-09 22:50:41.143 [INFO]: Completion request was cancelled by token (92.5ms)
+(VSCode) 2024-07-09 22:50:41.316 [INFO]: Completion request was cancelled by token (121.35ms)
+(VSCode) 2024-07-09 22:50:41.559 [INFO]: Completion request was cancelled by token (189.6ms)
+(VSCode) 2024-07-09 22:50:42.045 [INFO]: Completion request was cancelled by token (434.3ms)
+(VSCode) 2024-07-09 22:50:42.287 [INFO]: Completion request was cancelled by token (190.49ms)
+(VSCode) 2024-07-09 22:50:42.465 [INFO]: Completion request was cancelled by token (126.91ms)
+(VSCode) 2024-07-09 22:50:42.565 [INFO]: Completion request was cancelled by token (48.83ms)
+(VSCode) 2024-07-09 22:50:42.684 [INFO]: Completion request was cancelled by token (67.68ms)
+(VSCode) 2024-07-09 22:50:43.120 [INFO]: Completion request succeeded (383.47ms)
+(VSCode) 2024-07-09 22:50:43.123 [INFO]: No completions were generated
+(VSCode) 2024-07-09 22:50:43.123 [INFO]: provideInlineCompletionItems request succeeded (388.22ms)
+(VSCode) 2024-07-09 22:50:43.476 [INFO]: Completion request was cancelled by token (138.71ms)
+(VSCode) 2024-07-09 22:50:43.999 [INFO]: Completion request was cancelled by token (471.86ms)
+(VSCode) 2024-07-09 22:50:44.101 [INFO]: Completion request was cancelled by token (51.54ms)
+(VSCode) 2024-07-09 22:50:44.254 [INFO]: Completion request was cancelled by token (101.27ms)
+(VSCode) 2024-07-09 22:50:44.363 [INFO]: Completion request was cancelled by token (61.12ms)
+(VSCode) 2024-07-09 22:50:44.833 [INFO]: Completion request was cancelled by token (418.07ms)
+(VSCode) 2024-07-09 22:50:45.073 [INFO]: Completion request was cancelled by token (187.89ms)
+(VSCode) 2024-07-09 22:50:45.721 [INFO]: Completion request was cancelled by token (597.23ms)
+(VSCode) 2024-07-09 22:50:45.846 [INFO]: Completion request was cancelled by token (72.6ms)
+(VSCode) 2024-07-09 22:50:46.444 [INFO]: Completion request was cancelled by token (546.02ms)
+(VSCode) 2024-07-09 22:50:46.612 [INFO]: Completion request was cancelled by token (115.22ms)
+(VSCode) 2024-07-09 22:50:46.723 [INFO]: Completion request was cancelled by token (59.46ms)
+(VSCode) 2024-07-09 22:50:46.870 [INFO]: Completion request was cancelled by token (95.27ms)
+(VSCode) 2024-07-09 22:50:46.999 [INFO]: Completion request was cancelled by token (76.66ms)
+(VSCode) 2024-07-09 22:50:47.218 [INFO]: Completion request was cancelled by token (167.68ms)
+(VSCode) 2024-07-09 22:50:47.440 [INFO]: Completion request was cancelled by token (174.44ms)
+(VSCode) 2024-07-09 22:50:47.536 [INFO]: Completion request was cancelled by token (44.28ms)
+(VSCode) 2024-07-09 22:50:47.686 [INFO]: Completion request was cancelled by token (99.25ms)
+(VSCode) 2024-07-09 22:50:47.849 [INFO]: Completion request was cancelled by token (111.69ms)
+(VSCode) 2024-07-09 22:50:47.948 [INFO]: Completion request was cancelled by token (46.62ms)
+(VSCode) 2024-07-09 22:50:48.049 [INFO]: Completion request was cancelled by token (48.97ms)
+(VSCode) 2024-07-09 22:50:48.264 [INFO]: Completion request was cancelled by token (162.59ms)
+(VSCode) 2024-07-09 22:50:48.409 [INFO]: Completion request was cancelled by token (93.58ms)
+(VSCode) 2024-07-09 22:50:49.435 [INFO]: Completion request was cancelled by token (974.8ms)
+(VSCode) 2024-07-09 22:50:49.721 [INFO]: Completion request was cancelled by token (233.29ms)
+(VSCode) 2024-07-09 22:50:50.161 [INFO]: Completion request was cancelled by token (392.17ms)
+(VSCode) 2024-07-09 22:50:50.514 [INFO]: Completion request was cancelled by token (301.41ms)
+(VSCode) 2024-07-09 22:50:50.850 [INFO]: Completion request was cancelled by token (283.66ms)
+(VSCode) 2024-07-09 22:50:51.813 [INFO]: Completion request was cancelled by token (913.62ms)
+(VSCode) 2024-07-09 22:50:52.086 [INFO]: Completion request was cancelled by token (223.66ms)
+(VSCode) 2024-07-09 22:50:52.343 [INFO]: Completion request was cancelled by token (206.41ms)
+(VSCode) 2024-07-09 22:50:52.481 [INFO]: Completion request was cancelled by token (87.44ms)
+(VSCode) 2024-07-09 22:50:52.832 [INFO]: Completion request was cancelled by token (299.91ms)
+(VSCode) 2024-07-09 22:50:53.212 [INFO]: Completion request was cancelled by token (326.94ms)
+(VSCode) 2024-07-09 22:50:53.517 [INFO]: Completion request was cancelled by token (254.85ms)
+(VSCode) 2024-07-09 22:50:54.002 [INFO]: Completion request was cancelled by token (432.71ms)
+(VSCode) 2024-07-09 22:50:54.406 [INFO]: Completion request was cancelled by token (352.49ms)
+(VSCode) 2024-07-09 22:50:54.726 [INFO]: Completion request was cancelled by token (268.4ms)
+(VSCode) 2024-07-09 22:50:54.947 [INFO]: Completion request was cancelled by token (168.61ms)
+(VSCode) 2024-07-09 22:50:55.222 [INFO]: Completion request was cancelled by token (221.73ms)
+(VSCode) 2024-07-09 22:50:55.463 [INFO]: Completion request was cancelled by token (189.26ms)
+(VSCode) 2024-07-09 22:50:55.573 [INFO]: Completion request was cancelled by token (59.29ms)
+(VSCode) 2024-07-09 22:50:56.049 [INFO]: Completion request was cancelled by token (425.55ms)
+(VSCode) 2024-07-09 22:51:05.501 [INFO]: Completion request was cancelled by token (30.71ms)
+(VSCode) 2024-07-09 22:51:05.552 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-07-09 22:51:25.408 [INFO]: Disposing language server process
+(VSCode) 2024-07-09 22:51:25.408 [INFO]: Deleting manager directory: /tmp/1d3b832c-2d3d-404f-bcd9-ac9b22dcd176/codeium/manager
+(VSCode) 2024-07-09 22:51:25.409 [INFO]: Successfully disposed language server
+W0709 22:51:25.408346  6707 main.go:121] Language server manager got signal terminated, shutting down

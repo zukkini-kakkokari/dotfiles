@@ -1,0 +1,6 @@
+2024-07-09 19:43:20.822 [info] Started local extension host with pid 3977.
+2024-07-09 19:43:24.000 [info] [perf] Render performance baseline is 175ms
+2024-07-09 20:02:20.496 [info] Started local extension host with pid 5550.
+2024-07-09 20:02:24.420 [error] Cannot uninstall 'Shader languages support for VS Code' extension. 'glsl-literal' extension depends on this.: Error: Cannot uninstall 'Shader languages support for VS Code' extension. 'glsl-literal' extension depends on this.
+    at V.Q (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:76634)
+    at V.P (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:75800)

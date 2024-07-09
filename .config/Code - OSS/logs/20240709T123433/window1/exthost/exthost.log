@@ -1,0 +1,18 @@
+2024-07-09 12:34:36.147 [info] Extension host with pid 11127 started
+2024-07-09 12:34:36.147 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/7abd69e5419f1f5d00e0deeff3865a7b.
+2024-07-09 12:34:36.343 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-09 12:34:36.407 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-09 12:34:36.445 [info] ExtensionService#_doActivateExtension biomejs.biome, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-09 12:34:37.308 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-09 12:34:37.311 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-09 12:34:37.313 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-09 12:34:37.441 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-09 12:34:37.471 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-09 12:34:37.590 [info] Eager extensions activated
+2024-07-09 12:34:37.637 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 12:34:37.639 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 12:34:37.649 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 13:27:52.809 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-09 13:27:52.813 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-09 13:28:25.404 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-09 13:28:25.445 [info] Extension host with pid 11127 exiting with code 0

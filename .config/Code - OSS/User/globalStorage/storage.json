@@ -5,7 +5,8 @@
             "file:///home/zukkini/.vscode-oss/extensions/jasew.vscode-helix-emulation-0.6.2-universal": "__default__profile__",
             "file:///home/zukkini/train": "__default__profile__",
             "file:///home/zukkini/test": "__default__profile__",
-            "file:///home/zukkini/train/sprout-scribble": "__default__profile__"
+            "file:///home/zukkini/train/sprout-scribble": "__default__profile__",
+            "file:///home/zukkini/Downloads/examples": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -17,7 +18,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/zukkini/train/sprout-scribble"
+                "folderUri": "file:///home/zukkini/Downloads/examples"
             }
         ],
         "emptyWindows": []
@@ -60,8 +61,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -70,12 +70,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/zukkini/train/sprout-scribble",
-                                        "path": "/home/zukkini/train/sprout-scribble",
+                                        "external": "file:///home/zukkini/Downloads/examples",
+                                        "path": "/home/zukkini/Downloads/examples",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/train/sprout-scribble"
+                                    "label": "~/Downloads/examples"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -835,8 +835,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1156,7 +1155,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1740,15 +1740,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 0,
-            "sideBarWidth": 191,
+            "sideBarWidth": 237,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/zukkini/train/sprout-scribble",
-            "backupPath": "/home/zukkini/.config/Code - OSS/Backups/11b59b5e11095c78683604e590f0ae70",
+            "folder": "file:///home/zukkini/Downloads/examples",
+            "backupPath": "/home/zukkini/.config/Code - OSS/Backups/47b6f6fec3027ed3bae56e828271c8ca",
             "uiState": {
                 "mode": 1,
                 "x": 0,

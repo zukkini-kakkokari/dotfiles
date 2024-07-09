@@ -1,0 +1,9 @@
+2024-07-09 20:07:01.333 [info] Deleted uninstalled extension from disk boyswan.glsl-literal /home/zukkini/.vscode-oss/extensions/boyswan.glsl-literal-1.0.6
+2024-07-09 20:07:01.455 [info] Deleted uninstalled extension from disk slevesque.shader /home/zukkini/.vscode-oss/extensions/slevesque.shader-1.1.5
+2024-07-09 20:07:01.471 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/slevesque.shader-1.1.5.4944ccb3.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/slevesque.shader-1.1.5.4944ccb3.vsctmp'
+    at h.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)

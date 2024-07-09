@@ -1,0 +1,56 @@
+(VSCode) 2024-07-09 20:02:22.328 [INFO]: No proxy settings found
+(VSCode) 2024-07-09 20:02:23.495 [INFO]: Creating manager directory: /tmp/f1397577-004e-4e53-bab8-b83eb5e96efe/codeium/manager
+(VSCode) 2024-07-09 20:02:24.024 [INFO]: Using cached LS with valid crc32: /home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.80/dist/ea9a89028334feda7d7ab8900d5f1d58e2f7c361/language_server_linux_x64
+(VSCode) 2024-07-09 20:02:24.031 [INFO]: Language server started
+2024/07/09 20:02:24 maxprocs: Leaving GOMAXPROCS=12: CPU quota undefined
+I0709 20:02:24.204610  5673 main.go:494] Setting GOMAXPROCS to 12
+I0709 20:02:24.204770  5673 main.go:629] Starting language server manager with pid 5673
+I0709 20:02:24.204862  5673 main.go:117] Manager acquired its lock file /tmp/f1397577-004e-4e53-bab8-b83eb5e96efe/codeium/manager/locks/manager.lock
+I0709 20:02:24.205461  5673 main.go:256] Waiting for random port file in /tmp/f1397577-004e-4e53-bab8-b83eb5e96efe/codeium/manager/child_random_port_1720544544204985490_7727448372881697918 to be created
+2024/07/09 20:02:24 maxprocs: Leaving GOMAXPROCS=12: CPU quota undefined
+I0709 20:02:24.377456  5687 main.go:494] Setting GOMAXPROCS to 4
+I0709 20:02:24.377688  5687 main.go:623] Starting language server process with pid 5687
+I0709 20:02:24.377727  5687 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0709 20:02:24.377911  5687 server.go:163] Language server listening on random port at 45471
+I0709 20:02:24.378006  5687 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0709 20:02:24.378035  5687 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0709 20:02:24.378064  5687 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0709 20:02:24.880945  5687 unleash.go:90] Initializing Unleash
+I0709 20:02:25.323154  5687 unleash.go:110] Successfully initialized Unleash
+E0709 20:02:25.354929  5687 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0709 20:02:25.355335  5687 server.go:355] Successfully created API server client
+I0709 20:02:25.396519  5687 server.go:364] Successfully initialized tokenizer
+I0709 20:02:25.503919  5687 server.go:473] Local search is enabled, will index local files.
+I0709 20:02:25.503956  5687 server.go:477] Using 3 indexer workers
+I0709 20:02:25.504000  5687 search_provider.go:208] Using database at /home/zukkini/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0709 20:02:25.512491  5687 search_provider.go:222] Successfully created embedding search database in 8ms
+I0709 20:02:25.512800  5687 indexer.go:214] Using 4 embed workers
+I0709 20:02:25.512837  5687 search_provider.go:251] Successfully created and started indexer
+I0709 20:02:25.512866  5687 search_provider.go:277] Successfully created embedding search provider
+I0709 20:02:25.512878  5687 server.go:517] Successfully created exact search provider
+I0709 20:02:25.528320  5687 server.go:547] Successfully created completion provider
+I0709 20:02:25.528534  5687 server.go:596] Child process attempting to acquire lock file /tmp/f1397577-004e-4e53-bab8-b83eb5e96efe/codeium/manager/locks/child_lock_1720544544205031798_947462859572179978
+I0709 20:02:25.528664  5687 server.go:604] Child process acquired lock file /tmp/f1397577-004e-4e53-bab8-b83eb5e96efe/codeium/manager/locks/child_lock_1720544544205031798_947462859572179978
+I0709 20:02:25.540732  5687 server.go:183] LSP listening on random port at 35255
+I0709 20:02:25.541183  5687 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:36525
+35255
+I0709 20:02:25.611577  5673 main.go:292] Language server manager found random server port 45471
+I0709 20:02:25.611650  5673 main.go:293] Language server manager found random lsp port 35255
+I0709 20:02:25.611699  5673 main.go:300] Language server manager attempting to connect to language server at 127.0.0.1:45471
+I0709 20:02:25.642702  5673 main.go:171] Fixing language server port at 45471
+I0709 20:02:25.642751  5673 main.go:351] Language server manager successfully connected to new language server at 127.0.0.1:45471
+(VSCode) 2024-07-09 20:02:25.742 [INFO]: Found language server running on port 45471
+(VSCode) 2024-07-09 20:02:25.756 [INFO]: Downloaded binary: /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0709 20:02:25.768127  5687 utils.go:182] Analyzing workspace files for /home/zukkini/Downloads/examples/
+I0709 20:02:25.768325  5687 rpcs_miscellaneous.go:131] Ripgrep available at /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0709 20:02:25.774849  5687 utils.go:242] Done analyzing workspace files for /home/zukkini/Downloads/examples/
+I0709 20:02:25.774892  5687 lsp.go:208] Found 193 files in workspace /home/zukkini/Downloads/examples/
+I0709 20:02:25.778400  5687 lsp.go:232] Adding workspace listener for [0xc00035a3f0]
+I0709 20:02:25.778490  5687 indexing_listener.go:202] Add workspace event with uid 1 for workspace /home/zukkini/Downloads/examples/
+I0709 20:02:25.782965  5687 lazy_model.go:30] Successfully created faiss index
+I0709 20:02:25.909496  5687 rpcs_miscellaneous.go:325] University version is up to date.
+I0709 20:02:25.945560  5687 indexing_listener.go:242] Done enqueue workspace with uid 1
+(VSCode) 2024-07-09 20:02:41.498 [INFO]: Disposing language server process
+(VSCode) 2024-07-09 20:02:41.498 [INFO]: Deleting manager directory: /tmp/f1397577-004e-4e53-bab8-b83eb5e96efe/codeium/manager
+(VSCode) 2024-07-09 20:02:41.499 [INFO]: Successfully disposed language server
+W0709 20:02:41.498711  5673 main.go:121] Language server manager got signal terminated, shutting down

@@ -1,0 +1,33 @@
+2024-07-09 18:53:21.642 [info] Extension host with pid 1631 started
+2024-07-09 18:53:21.642 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/7abd69e5419f1f5d00e0deeff3865a7b.
+2024-07-09 18:53:21.846 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-09 18:53:21.860 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-09 18:53:21.913 [info] ExtensionService#_doActivateExtension biomejs.biome, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-09 18:53:22.811 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-09 18:53:22.814 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-09 18:53:22.817 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-09 18:53:22.969 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-09 18:53:23.013 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-09 18:53:23.098 [info] Eager extensions activated
+2024-07-09 18:53:23.170 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 18:53:23.172 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 18:53:23.181 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 19:40:13.213 [info] ExtensionService#_doActivateExtension slevesque.shader, startup: false, activationEvent: '*', root cause: dtoplak.vscode-glsllint
+2024-07-09 19:40:14.078 [info] ExtensionService#_doActivateExtension dtoplak.vscode-glsllint, startup: false, activationEvent: '*'
+2024-07-09 19:43:16.825 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-09 19:43:16.847 [error] An error occurred when deactivating the subscriptions for extension 'dtoplak.vscode-glsllint':
+2024-07-09 19:43:16.853 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at t.GLSLLintingProvider.dispose (/home/zukkini/.vscode-oss/extensions/dtoplak.vscode-glsllint-1.9.0/dist/extension.js:2:222658)
+	at d (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:10039)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7915
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:7902)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:8175)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:10617)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6809)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-09 19:43:16.862 [info] Extension host with pid 1631 exiting with code 0

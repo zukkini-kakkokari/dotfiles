@@ -1,0 +1,23 @@
+2024-07-08 21:04:15.877 [info] Started local extension host with pid 5192.
+2024-07-08 21:04:19.787 [info] [perf] Render performance baseline is 159ms
+2024-07-08 21:04:58.897 [error] [Extension Host] error executing command "dance.edit.replaceCharacters": calling EditorState.setMode in a mode change handler is forbidden
+2024-07-08 21:04:58.901 [error] [Extension Host] error executing command "dance.edit.replaceCharacters": calling EditorState.setMode in a mode change handler is forbidden
+2024-07-08 22:11:22.480 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (/usr/lib/code/out/vs/code/electron-main/main.js:48:5381)
+    at b.s (/usr/lib/code/out/vs/code/electron-main/main.js:46:5468)
+    at b.q (/usr/lib/code/out/vs/code/electron-main/main.js:46:4923)
+    at E.value (/usr/lib/code/out/vs/code/electron-main/main.js:46:4232)
+    at i.B (/usr/lib/code/out/vs/code/electron-main/main.js:41:750)
+    at i.C (/usr/lib/code/out/vs/code/electron-main/main.js:41:824)
+    at i.fire (/usr/lib/code/out/vs/code/electron-main/main.js:41:1043)
+    at E.value (/usr/lib/code/out/vs/code/electron-main/main.js:36:29432)
+    at i.B (/usr/lib/code/out/vs/code/electron-main/main.js:41:750)
+    at i.fire (/usr/lib/code/out/vs/code/electron-main/main.js:41:972)
+    at E.value (/usr/lib/code/out/vs/code/electron-main/main.js:36:29635)
+    at i.B (/usr/lib/code/out/vs/code/electron-main/main.js:41:750)
+    at i.fire (/usr/lib/code/out/vs/code/electron-main/main.js:41:972)
+    at $e (/usr/lib/code/out/vs/code/electron-main/main.js:36:32048)
+    at IpcMainImpl.a (/usr/lib/code/out/vs/code/electron-main/main.js:48:19577)
+    at IpcMainImpl.emit (node:events:514:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78003)
+    at WebContents.emit (node:events:514:28)

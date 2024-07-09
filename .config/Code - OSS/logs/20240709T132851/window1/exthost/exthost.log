@@ -1,0 +1,87 @@
+2024-07-09 13:28:53.848 [info] Extension host with pid 14861 started
+2024-07-09 13:28:53.848 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/7abd69e5419f1f5d00e0deeff3865a7b.
+2024-07-09 13:28:54.078 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-09 13:28:54.086 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-09 13:28:54.129 [info] ExtensionService#_doActivateExtension biomejs.biome, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-09 13:28:55.094 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-09 13:28:55.108 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-09 13:28:55.110 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-09 13:28:55.215 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-09 13:28:55.257 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-09 13:28:55.366 [info] Eager extensions activated
+2024-07-09 13:28:55.414 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 13:28:55.416 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 13:28:55.426 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-09 13:29:23.571 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-09 13:29:23.575 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-09 13:29:33.384 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-07-09 13:29:35.522 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 13:29:35.522 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model4)
+2024-07-09 13:29:42.614 [warning] TextEditor is closed/disposed
+2024-07-09 13:29:42.689 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 13:29:42.689 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model6)
+2024-07-09 13:29:44.390 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 13:29:44.390 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-07-09 14:35:48.899 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 14:35:48.899 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2024-07-09 14:46:28.745 [error] Error: [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:21021)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at a.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:33300)
+	at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6765)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-09 15:15:26.093 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-09 15:15:26.097 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-09 15:15:26.564 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-07-09 15:15:30.100 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 15:15:30.100 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model10)
+2024-07-09 16:36:45.394 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 16:36:45.395 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model8)
+2024-07-09 16:46:10.872 [error] Error: [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:21021)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at a.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:33300)
+	at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6765)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-09 17:04:59.598 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 17:04:59.598 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model11)
+2024-07-09 17:23:16.759 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 17:23:16.759 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:4,$model12)
+2024-07-09 17:23:56.519 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 17:23:56.519 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:6,$model14)
+2024-07-09 17:58:18.633 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-09 17:58:18.633 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:8,$model16)
+2024-07-09 18:15:19.936 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-09 18:15:19.986 [info] Extension host with pid 14861 exiting with code 0

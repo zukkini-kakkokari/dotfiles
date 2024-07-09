@@ -1,0 +1,65 @@
+(VSCode) 2024-07-08 18:21:38.066 [INFO]: No proxy settings found
+(VSCode) 2024-07-08 18:21:39.745 [INFO]: Creating manager directory: /tmp/58803289-9b1f-4cee-bc6c-2ecdd5b8e69d/codeium/manager
+(VSCode) 2024-07-08 18:21:40.432 [INFO]: Using cached LS with valid crc32: /home/zukkini/.vscode-oss/extensions/codeium.codeium-1.8.73-universal/dist/6cdf138621c60b5ad2a4202883779040e4f63a40/language_server_linux_x64
+(VSCode) 2024-07-08 18:21:40.439 [INFO]: Language server started
+I0708 18:21:40.615217 78537 main.go:605] Starting language server manager with pid 78537
+I0708 18:21:40.615358 78537 main.go:112] Manager acquired its lock file /tmp/58803289-9b1f-4cee-bc6c-2ecdd5b8e69d/codeium/manager/locks/manager.lock
+I0708 18:21:40.616015 78537 main.go:250] Waiting for random port file in /tmp/58803289-9b1f-4cee-bc6c-2ecdd5b8e69d/codeium/manager/child_random_port_1720452100615478352_6691774661029266562 to be created
+I0708 18:21:40.789453 78551 main.go:599] Starting language server process with pid 78551
+I0708 18:21:40.789530 78551 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0708 18:21:40.789698 78551 server.go:163] Language server listening on random port at 35545
+I0708 18:21:40.789796 78551 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0708 18:21:40.789841 78551 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0708 18:21:40.789881 78551 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0708 18:21:41.260126 78551 unleash.go:90] Initializing Unleash
+I0708 18:21:41.684553 78551 unleash.go:110] Successfully initialized Unleash
+E0708 18:21:41.696008 78551 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0708 18:21:42.127002 78551 server.go:355] Successfully created API server client
+I0708 18:21:42.167671 78551 server.go:364] Successfully initialized tokenizer
+I0708 18:21:42.277203 78551 server.go:473] Local search is enabled, will index local files.
+I0708 18:21:42.277255 78551 server.go:477] Using 3 indexer workers
+I0708 18:21:42.277487 78551 search_provider.go:201] Using database at /home/zukkini/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0708 18:21:42.286169 78551 search_provider.go:215] Successfully created embedding search database in 8ms
+I0708 18:21:42.286548 78551 indexer.go:225] Using 12 embed workers
+I0708 18:21:42.286594 78551 search_provider.go:240] Successfully created and started indexer
+I0708 18:21:42.286634 78551 search_provider.go:266] Successfully created embedding search provider
+I0708 18:21:42.286659 78551 server.go:516] Successfully created exact search provider
+E0708 18:21:42.288292 78551 code_tracker_manager.go:275] <nil>
+E0708 18:21:42.288523 78551 code_tracker_manager.go:275] <nil>
+E0708 18:21:42.290383 78551 code_tracker_manager.go:275] <nil>
+I0708 18:21:42.294568 78551 server.go:546] Successfully created completion provider
+I0708 18:21:42.294912 78551 server.go:595] Child process attempting to acquire lock file /tmp/58803289-9b1f-4cee-bc6c-2ecdd5b8e69d/codeium/manager/locks/child_lock_1720452100615521166_3120693902034310515
+I0708 18:21:42.294969 78551 server.go:603] Child process acquired lock file /tmp/58803289-9b1f-4cee-bc6c-2ecdd5b8e69d/codeium/manager/locks/child_lock_1720452100615521166_3120693902034310515
+I0708 18:21:42.300223 78551 server.go:183] LSP listening on random port at 41687
+I0708 18:21:42.300927 78551 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:45709
+41687
+I0708 18:21:42.322173 78537 main.go:286] Language server manager found random server port 35545
+I0708 18:21:42.322209 78537 main.go:287] Language server manager found random lsp port 41687
+I0708 18:21:42.322228 78537 main.go:294] Language server manager attempting to connect to language server at 127.0.0.1:35545
+I0708 18:21:42.347752 78537 main.go:165] Fixing language server port at 35545
+I0708 18:21:42.347789 78537 main.go:345] Language server manager successfully connected to new language server at 127.0.0.1:35545
+(VSCode) 2024-07-08 18:21:42.348 [INFO]: Found language server running on port 35545
+(VSCode) 2024-07-08 18:21:42.355 [INFO]: Downloaded binary: /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0708 18:21:42.367109 78551 rpcs_miscellaneous.go:118] Ripgrep available at /home/zukkini/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0708 18:21:43.536239 78551 rpcs_miscellaneous.go:312] University version is up to date.
+(VSCode) 2024-07-08 18:21:47.291 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:47.740 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:48.177 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:48.280 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:48.411 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:48.580 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:48.688 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:48.775 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:48.951 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:49.064 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:49.162 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:49.250 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:21:49.365 [INFO]: Codeium is not enabled for the current document.
+I0708 18:27:41.697265 78551 client_manager.go:248] Pruning inactive client for {9c55f776-276f-4d12-a5f4-563459f1a824 0eea3a2c-4dfc-4a2e-8bf5-59b0769d1d36}
+(VSCode) 2024-07-08 18:28:57.743 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:28:58.075 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:28:58.307 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:28:58.539 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:28:58.619 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:28:58.700 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-07-08 18:28:58.898 [INFO]: Codeium is not enabled for the current document.

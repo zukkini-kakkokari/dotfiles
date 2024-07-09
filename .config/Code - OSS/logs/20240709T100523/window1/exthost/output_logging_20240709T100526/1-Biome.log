@@ -1,0 +1,9 @@
+Could not resolve Biome in the dependencies of workspace folder: /home/zukkini/Downloads/examples
+Searching for Biome in PATH
+Biome found in PATH: /usr/bin/biome
+Biome binary found at /usr/bin/biome
+Executing Biome from: /usr/bin/biome
+[cli-stdout] data 46
+[cli] exit 0
+Connecting to "/home/zukkini/.cache/biome/biome-socket-0.0.0" ...
+[Info  - 10:05:29 AM] Server initialized with PID: 1496

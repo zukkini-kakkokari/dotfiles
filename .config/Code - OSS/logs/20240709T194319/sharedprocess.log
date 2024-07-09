@@ -1,0 +1,30 @@
+2024-07-09 20:00:36.928 [info] Getting Manifest... boyswan.glsl-literal
+2024-07-09 20:00:36.949 [info] Installing extension: boyswan.glsl-literal {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json","path":"/home/zukkini/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.0","date":"2024-07-03T20:40:42.797Z"}}
+2024-07-09 20:00:37.307 [info] Getting Manifest... slevesque.shader
+2024-07-09 20:00:37.990 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-09 20:00:37.990 [info] Extension signature verification is not done: boyswan.glsl-literal
+2024-07-09 20:00:38.018 [info] Extracted extension to file:///home/zukkini/.vscode-oss/extensions/boyswan.glsl-literal-1.0.6: boyswan.glsl-literal
+2024-07-09 20:00:38.023 [info] Renamed to /home/zukkini/.vscode-oss/extensions/boyswan.glsl-literal-1.0.6
+2024-07-09 20:00:38.058 [info] Extension installed successfully: boyswan.glsl-literal vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-09 20:00:38.123 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp'
+    at h.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)
+2024-07-09 20:02:18.609 [info] Uninstalling extension from the profile: dtoplak.vscode-glsllint@1.9.0 vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-09 20:02:18.664 [info] Marked extension as uninstalled dtoplak.vscode-glsllint-1.9.0
+2024-07-09 20:02:18.730 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zukkini/.vscode-oss/extensions/extensions.json.vsctmp'
+    at h.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)
+2024-07-09 20:02:18.842 [info] Successfully uninstalled extension from the profile dtoplak.vscode-glsllint@1.9.0 vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-09 20:02:24.372 [info] Uninstalling extension from the profile: slevesque.shader@1.1.5 vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json
+2024-07-09 20:02:24.381 [error] Failed to uninstall extension from the profile: slevesque.shader@1.1.5 vscode-userdata:/home/zukkini/.vscode-oss/extensions/extensions.json Cannot uninstall 'Shader languages support for VS Code' extension. 'glsl-literal' extension depends on this.
