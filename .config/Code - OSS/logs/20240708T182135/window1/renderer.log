@@ -1,3 +1,0 @@
-2024-07-08 18:21:36.953 [info] Started local extension host with pid 78503.
-2024-07-08 18:21:40.108 [info] [perf] Render performance baseline is 175ms
-2024-07-08 18:28:54.708 [error] [Extension Host] error executing command "dance.seek.included": no selections remain

@@ -1,0 +1,29 @@
+2024-07-12 14:38:23.969 [info] Extension host with pid 39183 started
+2024-07-12 14:38:23.969 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/7abd69e5419f1f5d00e0deeff3865a7b.
+2024-07-12 14:38:24.263 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-12 14:38:24.273 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-12 14:38:24.316 [info] ExtensionService#_doActivateExtension biomejs.biome, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-12 14:38:25.136 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-12 14:38:25.140 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-12 14:38:25.143 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-12 14:38:25.305 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-12 14:38:25.349 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-12 14:38:25.421 [info] Eager extensions activated
+2024-07-12 14:38:25.486 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-12 14:38:25.490 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-12 14:38:25.502 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-12 14:39:52.655 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-07-12 14:39:58.285 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-12 14:39:58.285 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model2)
+2024-07-12 14:40:06.028 [warning] TextEditor is closed/disposed
+2024-07-12 14:40:06.106 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-12 14:40:06.106 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model3)
+2024-07-12 14:42:13.704 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-12 14:42:13.705 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model4)
+2024-07-12 14:42:33.440 [warning] TextEditor is closed/disposed
+2024-07-12 14:42:33.510 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-12 14:42:33.510 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-07-12 18:25:00.151 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-12 18:25:00.151 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model6)
+2024-07-12 18:43:14.282 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-12 18:43:14.315 [info] Extension host with pid 39183 exiting with code 0

@@ -1,0 +1,12 @@
+2024-07-12 19:44:10.929 [info] Started local extension host with pid 4221.
+2024-07-12 19:44:14.173 [info] [perf] Render performance baseline is 163ms
+2024-07-12 21:58:25.161 [error] [Extension Host] Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at assert (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/utils/errors.js:10:23)
+	at Cursor.previous (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:619:29)
+	at Recorder.lastEntry (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:69:21)
+	at Recorder._record (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:81:39)
+	at Recorder.recordCommand (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/recorder.js:248:14)
+	at CommandDescriptor.invoke (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/commands/index.js:73:32)
+	at async Extension.runPromiseSafely (/home/zukkini/.vscode-oss/extensions/silverquark.dancehelix-0.5.16/out/src/state/extension.js:285:20)
+	at async f.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:204392)
+2024-07-12 21:58:25.162 [error] [Extension Host] error executing command "dance.select.vertically": internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).

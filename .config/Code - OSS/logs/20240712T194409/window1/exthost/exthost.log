@@ -1,0 +1,21 @@
+2024-07-12 19:44:11.540 [info] Extension host with pid 4221 started
+2024-07-12 19:44:11.540 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/7abd69e5419f1f5d00e0deeff3865a7b.
+2024-07-12 19:44:11.836 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-12 19:44:11.844 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-12 19:44:11.849 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-12 19:44:11.879 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-12 19:44:11.912 [info] ExtensionService#_doActivateExtension biomejs.biome, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-12 19:44:12.737 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-12 19:44:12.740 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-12 19:44:12.742 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-12 19:44:12.873 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-12 19:44:12.911 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-12 19:44:13.004 [info] Eager extensions activated
+2024-07-12 19:44:13.053 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-12 19:44:13.054 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-12 19:44:13.063 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-12 19:58:55.104 [warning] TextEditor is closed/disposed
+2024-07-12 19:58:55.111 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-12 19:58:55.112 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model1)
+2024-07-12 22:54:52.784 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-12 22:54:52.818 [info] Extension host with pid 4221 exiting with code 0

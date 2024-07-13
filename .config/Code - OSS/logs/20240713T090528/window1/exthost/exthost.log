@@ -1,0 +1,78 @@
+2024-07-13 09:05:31.768 [info] Extension host with pid 2023 started
+2024-07-13 09:05:31.769 [info] Skipping acquiring lock for /home/zukkini/.config/Code - OSS/User/workspaceStorage/7abd69e5419f1f5d00e0deeff3865a7b.
+2024-07-13 09:05:32.037 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-13 09:05:32.049 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-13 09:05:32.092 [info] ExtensionService#_doActivateExtension biomejs.biome, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-13 09:05:32.951 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-13 09:05:32.955 [info] ExtensionService#_doActivateExtension serafeim.goto-previous-buffer, startup: true, activationEvent: '*'
+2024-07-13 09:05:32.958 [info] ExtensionService#_doActivateExtension silverquark.dancehelix, startup: true, activationEvent: '*'
+2024-07-13 09:05:33.145 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-13 09:05:33.192 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-13 09:05:33.284 [info] Eager extensions activated
+2024-07-13 09:05:33.330 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 09:05:33.333 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 09:05:33.344 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 09:28:37.898 [error] Error: [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:21021)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at a.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:33300)
+	at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6765)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-13 09:40:49.503 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-07-13 09:42:27.832 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 09:42:27.832 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model4)
+2024-07-13 09:42:58.046 [error] Error: [ExtensionListenerError] Extension 'silverquark.dancehelix' FAILED to handle event: Error: internal assertion failed; please report this error on https://github.com/71/dance/issues. its stacktrace is available in the developer console (Command Palette > Open Developer Tools).
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:21021)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at a.$acceptEditorPropertiesChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:33300)
+	at S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:177:6765)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:488:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-07-13 09:49:26.653 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 09:49:26.653 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model6)
+2024-07-13 09:52:48.499 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-13 09:52:48.507 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-13 09:54:46.360 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 09:54:46.360 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model17)
+2024-07-13 09:54:49.226 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 09:54:49.226 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model15)
+2024-07-13 09:59:54.588 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 09:59:54.588 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model30)
+2024-07-13 09:59:59.702 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 09:59:59.702 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model16)
+2024-07-13 10:00:00.376 [warning] TextEditor is closed/disposed
+2024-07-13 10:00:00.446 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 10:00:00.447 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model14)
+2024-07-13 10:03:38.146 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-07-13 10:03:38.147 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model7)
